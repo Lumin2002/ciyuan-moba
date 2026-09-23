@@ -21,9 +21,11 @@ APK → ZIP 解包 → 识别 "MP:" 自定义封装 → 定位原生库中的密
 | 次元大作战（2017） | `com.emagroup.mbzw2.emagroup` | 2.16 / 201602 | 217.1 MiB | 6,185 | 165 | `apk_analysis/ciyuan_2017/` |
 | 300大作战（2018） | `com.jumpw.mobile300` | 1.33 / 1303 | 443.8 MiB | 19,283 | 546 | `apk_analysis/game300_2018/` |
 
-年份取自原始 APK 文件名，不是对发行日期的独立考证。三包同为 **Snake 自研 3D 引擎 + Cocos2d-x 2D/UI 层 + Lua 5.1 / LuaJIT 2.0.1 + FMOD** 架构（引擎身份见[引擎与平台身份](apk_analysis/引擎与平台身份.md)），主入口类都是 `Tombird`，核心原生库为 `libtombird.so`（2016）与 `libgame.so`（2017 / 2018）。
+年份取自原始 APK 文件名，**是构建时间而非产品首发时间**。三包同为 **Snake 自研 3D 引擎 + Cocos2d-x 2D/UI 层 + Lua 5.1 / LuaJIT 2.0.1 + FMOD** 架构（引擎身份见[引擎与平台身份](apk_analysis/引擎与平台身份.md)），主入口类都是 `Tombird`，核心原生库为 `libtombird.so`（2016）与 `libgame.so`（2017 / 2018）。
 
 **产品线关系**：《魔霸之王》(2016) 与《次元大作战》(2017) 是同一条产品线的两代——后者的包名 `com.emagroup.mbzw2.emagroup` 中 `mbzw2` 即"魔霸之王2"，二者由**亿马联盟（EMA，上海）**发行，主入口类同为 `Tombird`，资源也高度重合（1,704 个文件内容完全相同）。《300大作战》(2018) 则是 Jumpw 的产品，仅在引擎与资源上沿袭。三包签名证书互不相同。
+
+这条产品线关系还有一条**官网级的外部证据**（见[网络存档检索](apk_analysis/网络存档检索.md)）：`www.kingofmoba.com` **同一个域名依次挂过三代产品名**——至 2016-06 是《魔霸之王》官网，**2016-08 换成《魔霸之王2》**，**2016-11 起改名《次元大作战》**并一直用到 2019-10。这与包名里的 `mbzw2` 完全咬合，也说明"次元大作战"这个名字从 2016-11 就在用。该站首页的安卓下载按钮指向官方包 `download.emagroup.cn/cydzz/packages/CY_emagroup.apk`（`CY` = 次元），同目录另有渠道包 `CY_wmagroup.apk`——**两个包 Wayback 都只记录到 404，未能抓到**。
 
 发行链的更多内部证据——EMA SDK 的两代演进、`kom → moba02 → ciyuan` 的 CDN 代号链，以及三包共用的 Jumpw 账号/支付接入层——整理在 **[亿马联盟（EMA）发行链与 SDK](apk_analysis/emagroup发行链与SDK.md)**。
 

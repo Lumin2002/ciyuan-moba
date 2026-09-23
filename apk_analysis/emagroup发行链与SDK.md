@@ -376,6 +376,8 @@ http://testactivity.jumpwgame.com/activeusermanager.html?serviceCode=30020001&co
 | `payment.ddmoba.com` | 2016 developerInfo.xml（OAuth）、libtombird.so | 支付 / OAuth 重定向 |
 | `payment2.ddmoba.com` | 2017 `config.lua`（`g_auUrl`，pro） | 活动管理器 |
 | `payment.kingofmoba.com` | 2017 `activity_ui.lua:1302` | 活动管理器（另一域） |
+| **`www.kingofmoba.com`** | Wayback（2016-01 ~ 2019-10，50 个首页快照） | **官网**。同一域名依次挂过《魔霸之王》(≤2016-06) → **《魔霸之王2》(2016-08)** → **《次元大作战》(2016-11 起至 2019-10)**；favicon 为 `ema.ico` |
+| **`download.emagroup.cn/cydzz/packages/`** | Wayback CDX（404） | **官方安卓包**：`CY_emagroup.apk`（2019-10-29）、`CY_wmagroup.apk`（2017-11 ~ 2019-09，24 次尝试）——**均未被抓取** |
 | `120.92.63.244` | 2017 `config.lua`（注释 `--test`） | 活动管理器测试环境 |
 | `300hero.jumpw.com` | **三包原生库** | Jumpw 账号体系 |
 | `testactivity.jumpwgame.com` | **三包原生库** | Jumpw 账号 / 激活接口 |
