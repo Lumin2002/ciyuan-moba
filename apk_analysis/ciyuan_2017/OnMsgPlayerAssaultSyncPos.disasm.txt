@@ -1,0 +1,75 @@
+
+_ZN13GameDuplicate25OnMsgPlayerAssaultSyncPosEP3Msg vaddr=0x2a2760 size=292
+002a2760  push     {r4, r5, r6, r7, r8, fp, lr} 
+002a2764  vpush    {d8} 
+002a2768  add      fp, sp, #0x20 
+002a276c  sub      sp, sp, #0xc 
+002a2770  mov      r7, r1 
+002a2774  ldrb     ip, [r1, #5] 
+002a2778  ldrb     r2, [r1, #6] 
+002a277c  ldrb     r3, [r1, #4] 
+002a2780  ldrb     r1, [r1, #7] 
+002a2784  orr      r3, r3, ip, lsl #8 
+002a2788  orr      r3, r3, r2, lsl #16 
+002a278c  orr      r1, r3, r1, lsl #24 
+002a2790  bl       #0x2a20ac _ZNK13GameDuplicate13GetPlayerByIDEj
+002a2794  ldrb     r1, [r7, #0x11] 
+002a2798  ldrb     r3, [r7, #0xf] 
+002a279c  ldrb     ip, [r7, #0xe] 
+002a27a0  ldrb     r8, [r7, #0xc] 
+002a27a4  ldrb     r5, [r7, #0x16] 
+002a27a8  ldrb     r6, [r7, #0x14] 
+002a27ac  mov      r4, r0 
+002a27b0  ldrb     r0, [r7, #0x10] 
+002a27b4  ldrb     r2, [r4, #0x560] 
+002a27b8  orr      r3, r3, r0, lsl #8 
+002a27bc  cmp      r2, #0 
+002a27c0  ldrb     r2, [r7, #0x12] 
+002a27c4  orr      r3, r3, r1, lsl #16 
+002a27c8  ldrb     r1, [r7, #0xd] 
+002a27cc  ldrb     r0, [r7, #0x15] 
+002a27d0  orr      r3, r3, r2, lsl #24 
+002a27d4  orr      ip, r1, ip, lsl #8 
+002a27d8  ldrb     r2, [r7, #0xb] 
+002a27dc  orr      r5, r0, r5, lsl #8 
+002a27e0  ldrb     r1, [r7, #0x13] 
+002a27e4  orr      r2, r2, r8, lsl #8 
+002a27e8  orr      r6, r1, r6, lsl #8 
+002a27ec  beq      #0x2a27fc 
+002a27f0  sub      sp, fp, #0x20 
+002a27f4  vpop     {d8} 
+002a27f8  pop      {r4, r5, r6, r7, r8, fp, pc} 
+002a27fc  sxth     ip, ip 
+002a2800  sxth     r2, r2 
+002a2804  vmov     s13, ip 
+002a2808  vcvt.f32.s32 s14, s13 
+002a280c  vmov     s13, r2 
+002a2810  vldr     s16, [pc, #0x68] 
+002a2814  add      r0, r4, #0x400 
+002a2818  mov      r1, r4 
+002a281c  str      r3, [sp] 
+002a2820  add      r0, r0, #8 
+002a2824  sxth     r6, r6 
+002a2828  sxth     r5, r5 
+002a282c  vcvt.f32.s32 s15, s13 
+002a2830  vmul.f32 s13, s14, s16 
+002a2834  vmul.f32 s14, s15, s16 
+002a2838  vmov     r2, s13 
+002a283c  vmov     r3, s14 
+002a2840  bl       #0x2b82f8 _ZN9CMoveCtrl16VerifyAssaultPosEP10GamePlayerfff
+002a2844  vmov     s15, r6 
+002a2848  vmov     s13, r5 
+002a284c  vcvt.f32.s32 s14, s15 
+002a2850  vcvt.f32.s32 s15, s13 
+002a2854  vmul.f32 s13, s14, s16 
+002a2858  vmul.f32 s14, s15, s16 
+002a285c  vmov     r0, s13 
+002a2860  vmov     r1, s14 
+002a2864  bl       #0x256e38 
+002a2868  mov      r1, r0 
+002a286c  mov      r0, r4 
+002a2870  sub      sp, fp, #0x20 
+002a2874  vpop     {d8} 
+002a2878  pop      {r4, r5, r6, r7, r8, fp, lr} 
+002a287c  b        #0x2cc59c _ZN10GamePlayer12SetTargetDirEf
+002a2880  stclo    p7, c13, [r3], #-0x28 
