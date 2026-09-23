@@ -1,0 +1,153 @@
+
+Script_HeroRepository_GetHeroSkillDescription vaddr=0x26afb0 size=624
+0026afb0  push     {r4, r5, r6, r7, r8, sl, fp, lr} 
+0026afb4  add      fp, sp, #0x1c 
+0026afb8  sub      sp, sp, #0x18 
+0026afbc  mov      r2, #0 
+0026afc0  mov      r3, #0 
+0026afc4  mov      r1, #1 
+0026afc8  mov      r5, r0 
+0026afcc  bl       #0x353cd4 _ZN5snake20LuaGetNumberArgumentEP9lua_Stateid
+0026afd0  mov      r3, #0 
+0026afd4  mov      r2, #0 
+0026afd8  ldr      r4, [pc, #0x228] 
+0026afdc  add      r4, pc, r4 
+0026afe0  vmov     d7, r0, r1 
+0026afe4  vcvt.u32.f64 s15, d7 
+0026afe8  mov      r0, r5 
+0026afec  mov      r1, #2 
+0026aff0  vmov     r6, s15 
+0026aff4  bl       #0x353cd4 _ZN5snake20LuaGetNumberArgumentEP9lua_Stateid
+0026aff8  ldr      r3, [pc, #0x20c] 
+0026affc  ldr      r7, [r4, r3] 
+0026b000  ldr      sl, [r7] 
+0026b004  ands     sl, sl, #1 
+0026b008  vmov     d7, r0, r1 
+0026b00c  vcvt.u32.f64 s15, d7 
+0026b010  vmov     r8, s15 
+0026b014  beq      #0x26b0bc 
+0026b018  ldr      r3, [pc, #0x1f0] 
+0026b01c  mov      r1, r6 
+0026b020  mov      r2, r8 
+0026b024  ldr      r7, [r4, r3] 
+0026b028  mov      r0, r7 
+0026b02c  bl       #0x2e20fc _ZN16rawSkillLanTable15GetSkillLanInfoEjj
+0026b030  subs     r1, r0, #0 
+0026b034  beq      #0x26b124 
+0026b038  ldr      r3, [r1] 
+0026b03c  sub      r0, fp, #0x28 
+0026b040  ldr      r3, [r3, #0x30] 
+0026b044  blx      r3 
+0026b048  sub      r0, fp, #0x24 
+0026b04c  sub      r1, fp, #0x28 
+0026b050  bl       #0x8b30d0 
+0026b054  sub      r1, fp, #0x24 
+0026b058  sub      r0, fp, #0x20 
+0026b05c  bl       #0x2e2eec _Z10AnsiToUtf8Ss
+0026b060  sub      r0, fp, #0x28 
+0026b064  sub      r1, fp, #0x20 
+0026b068  bl       #0x8b15ec 
+0026b06c  ldr      r2, [pc, #0x1a0] 
+0026b070  ldr      r3, [fp, #-0x20] 
+0026b074  ldr      r4, [r4, r2] 
+0026b078  sub      r0, r3, #0xc 
+0026b07c  cmp      r0, r4 
+0026b080  bne      #0x26b1a8 
+0026b084  ldr      r3, [fp, #-0x24] 
+0026b088  sub      r0, r3, #0xc 
+0026b08c  cmp      r0, r4 
+0026b090  bne      #0x26b16c 
+0026b094  mov      r0, r5 
+0026b098  ldr      r1, [fp, #-0x28] 
+0026b09c  bl       #0x5f6104 lua_pushstring
+0026b0a0  ldr      r3, [fp, #-0x28] 
+0026b0a4  sub      r0, r3, #0xc 
+0026b0a8  cmp      r0, r4 
+0026b0ac  bne      #0x26b12c 
+0026b0b0  mov      r0, #1 
+0026b0b4  sub      sp, fp, #0x1c 
+0026b0b8  pop      {r4, r5, r6, r7, r8, sl, fp, pc} 
+0026b0bc  mov      r0, r7 
+0026b0c0  bl       #0x8c78b4 __cxa_guard_acquire
+0026b0c4  cmp      r0, #0 
+0026b0c8  beq      #0x26b018 
+0026b0cc  ldr      r3, [pc, #0x13c] 
+0026b0d0  mov      r0, r7 
+0026b0d4  ldr      r7, [r4, r3] 
+0026b0d8  add      r3, r7, #4 
+0026b0dc  str      sl, [r7, #4] 
+0026b0e0  str      r3, [r7, #0xc] 
+0026b0e4  str      r3, [r7, #0x10] 
+0026b0e8  str      sl, [r7, #8] 
+0026b0ec  str      sl, [r7, #0x14] 
+0026b0f0  bl       #0x8c799c __cxa_guard_release
+0026b0f4  ldr      r3, [pc, #0x11c] 
+0026b0f8  mov      r0, r7 
+0026b0fc  ldr      r1, [r4, r3] 
+0026b100  ldr      r3, [pc, #0x114] 
+0026b104  ldr      r2, [r4, r3] 
+0026b108  bl       #0x8c5ab4 
+0026b10c  mov      r1, r6 
+0026b110  mov      r0, r7 
+0026b114  mov      r2, r8 
+0026b118  bl       #0x2e20fc _ZN16rawSkillLanTable15GetSkillLanInfoEjj
+0026b11c  subs     r1, r0, #0 
+0026b120  bne      #0x26b038 
+0026b124  mov      r0, r1 
+0026b128  b        #0x26b0b4 
+0026b12c  sub      r3, r3, #4 
+0026b130  mvn      r2, #0 
+0026b134  dmb      sy 
+0026b138  ldrex    r1, [r3] 
+0026b13c  add      ip, r1, r2 
+0026b140  strex    r1, ip, [r3] 
+0026b144  teq      r1, #0 
+0026b148  bne      #0x26b138 
+0026b14c  sub      r1, ip, r2 
+0026b150  dmb      sy 
+0026b154  cmp      r1, #0 
+0026b158  bgt      #0x26b0b0 
+0026b15c  sub      r1, fp, #0x2c 
+0026b160  bl       #0x8b1f30 
+0026b164  mov      r0, #1 
+0026b168  b        #0x26b0b4 
+0026b16c  sub      r3, r3, #4 
+0026b170  mvn      r2, #0 
+0026b174  dmb      sy 
+0026b178  ldrex    r1, [r3] 
+0026b17c  add      ip, r1, r2 
+0026b180  strex    r1, ip, [r3] 
+0026b184  teq      r1, #0 
+0026b188  bne      #0x26b178 
+0026b18c  sub      r1, ip, r2 
+0026b190  dmb      sy 
+0026b194  cmp      r1, #0 
+0026b198  bgt      #0x26b094 
+0026b19c  sub      r1, fp, #0x30 
+0026b1a0  bl       #0x8b1f30 
+0026b1a4  b        #0x26b094 
+0026b1a8  sub      r3, r3, #4 
+0026b1ac  mvn      r2, #0 
+0026b1b0  dmb      sy 
+0026b1b4  ldrex    r1, [r3] 
+0026b1b8  add      ip, r1, r2 
+0026b1bc  strex    r1, ip, [r3] 
+0026b1c0  teq      r1, #0 
+0026b1c4  bne      #0x26b1b4 
+0026b1c8  sub      r1, ip, r2 
+0026b1cc  dmb      sy 
+0026b1d0  cmp      r1, #0 
+0026b1d4  bgt      #0x26b084 
+0026b1d8  sub      r1, fp, #0x34 
+0026b1dc  bl       #0x8b1f30 
+0026b1e0  b        #0x26b084 
+0026b1e4  sub      r0, fp, #0x20 
+0026b1e8  bl       #0x8b1f7c 
+0026b1ec  sub      r0, fp, #0x24 
+0026b1f0  bl       #0x8b1f7c 
+0026b1f4  sub      r0, fp, #0x28 
+0026b1f8  bl       #0x8b1f7c 
+0026b1fc  bl       #0x8c630c __cxa_end_cleanup
+0026b200  b        #0x26b1ec 
+0026b204  b        #0x26b1f4 
+0026b208  addeq    r8, sl, ip, asr #18 

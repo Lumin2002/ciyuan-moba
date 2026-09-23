@@ -217,6 +217,8 @@ python apk_analysis/write_report.py
 - **资源** 57 个文件：30 个技能特效、15 个 UI 立绘、模型 `107.x2`/`107.pkm`、FMOD 语音、技能图标
 - 顺带发现 `SSkill_SkillLevel.StrUseSkillMsg` 在 2050 条记录中**全部是字面量 `"test"`**（开发期占位符，非有效数据）
 
+[`apk_analysis/ciyuan_2017/英雄107_战斗逻辑.md`](apk_analysis/ciyuan_2017/英雄107_战斗逻辑.md) 是她的战斗机制拆解：气体（怒气）资源链、六个被本地化技能的完整机制、子技能链（`StrLevelUpBindSkill` / `NShowLogSkillIndex`）、逐级伤害与冷却，以及**写在描述文本里的伤害系数**——`{~30*00.50}` 即 `0.5 × 物理攻击`，与 `_Lan` 表的 `(0.5AD)` 互相印证（属性 30 的含义同时被客户端 `gamedef.lua` 的 `Attr_PhysicsAttackMax = 30` 独立确认）。
+
 ---
 
 ## 已知限制
