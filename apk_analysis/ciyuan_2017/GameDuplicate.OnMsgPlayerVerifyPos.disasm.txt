@@ -1,0 +1,21 @@
+
+_ZN13GameDuplicate20OnMsgPlayerVerifyPosEP3Msg vaddr=0x2a2714 size=76
+002a2714  push     {r3, r4, fp, lr} 
+002a2718  mov      r4, r1 
+002a271c  ldrb     ip, [r1, #5] 
+002a2720  add      fp, sp, #0xc 
+002a2724  ldrb     r3, [r1, #4] 
+002a2728  ldrb     r2, [r1, #6] 
+002a272c  ldrb     r1, [r1, #7] 
+002a2730  orr      r3, r3, ip, lsl #8 
+002a2734  orr      r3, r3, r2, lsl #16 
+002a2738  orr      r1, r3, r1, lsl #24 
+002a273c  bl       #0x2a20ac _ZNK13GameDuplicate13GetPlayerByIDEj
+002a2740  subs     r3, r0, #0 
+002a2744  popeq    {r3, r4, fp, pc} 
+002a2748  ldr      r3, [r3, #0xbe4] 
+002a274c  tst      r3, #8 
+002a2750  popne    {r3, r4, fp, pc} 
+002a2754  mov      r1, r4 
+002a2758  pop      {r3, r4, fp, lr} 
+002a275c  b        #0x2d0470 _ZN10GamePlayer10ProcessMsgEP3Msg

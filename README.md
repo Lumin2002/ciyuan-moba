@@ -58,11 +58,22 @@ assert len(plain) == int.from_bytes(data[4:8], "little")
 
 每个文件都校验了 zlib 流完整性（`eof` 且无 trailing data）与解压长度是否等于头部声明值。
 
-### 还原之后还有第二层
+### 还原之后还有第二层：protobuf 配置表
 
-`assets/data/conf/*_c.dat` 解出来仍是二进制——它们是 **protobuf 线格式**的数值配置表。而**只有 2018 包附带 50 个 `.proto` 结构定义**（`game300_2018/decoded/assets/data/conf/`），这是反推 2016 / 2017 配置表的唯一钥匙，也是三包之间最关键的不对称。
+`assets/data/conf/*_c.dat` 解出来仍是二进制——它们是 **protobuf 线格式**的数值配置表。只有 2018 包附带 50 个 `.proto` 结构定义。
 
-`inspect_decoded.py` 已用字段号解析出英雄表与本地化字符串表：2016 → 21 条英雄记录，2017 → 35 条，2018 → 43 条。
+**但 2018 的 `.proto` 不能用来解析 2017 的数据。** 客户端原生库里编译进了 protobuf 为每个字段生成的 `k*FieldNumber` 常量，其值就是字段号——即**客户端二进制本身就是一份完整 schema 文档**。`inspect_proto_schema.py` 从 `ciyuan_2017` 的符号表恢复了 **142 个消息 / 1263 个字段号**（0 未解析），并与 2018 的 `.proto` 逐字段交叉验证：
+
+| 结果 | 数量 |
+|---|---:|
+| 共有消息 | 76 |
+| 字段号完全一致 | **815** |
+| 字段号冲突（同名不同号） | **22** |
+| 仅 2017 客户端存在 | 68 |
+
+815 个一致验证了方法正确；而 22 个冲突是真实的版本间重排——**整张 `SItem_Item` 表在 2018 被重新编号**（`strItemName` 23→2、`nItemType` 44→9、`nSell` 48→7…）。若用 2018 的 `.proto` 解析 2017 的 `item_item_c.dat`，字段与数值会系统性错配且**不会报错**。正确做法是使用 2017 自身的字段号（`proto_schema_recovered.json`）。
+
+`inspect_decoded.py` 已解析出英雄表与本地化字符串表：2016 → 21 条英雄记录，2017 → 35 条，2018 → 43 条。
 
 ---
 
@@ -77,7 +88,8 @@ assert len(plain) == int.from_bytes(data[4:8], "little")
 | 3 | `inspect_native.py` | 用 capstone 反汇编原生库指定符号，自动解析 `bl` 目标符号名 | `checkFileCompress.disasm.txt` |
 | 4 | `decode_resources.py` | 从原生库动态定位密钥，复现 `MP:` 解密，全量还原 `assets/`，并做解密后跨包比对 | `decoded/`、`decoded_inventory.json`、`decoded_comparison.json` |
 | 5 | `inspect_decoded.py` | 在还原结果上解析 protobuf（英雄表 / 字符串表）、`version.json`、联网引用；合成图标预览图 | `heroes.json`、`localized_strings.json`、`decoded_network_references.json`、`decoded_findings.json` |
-| 6 | `write_report.py` | 汇总上述 JSON 生成完整中文报告 | [`apk_analysis/分析报告.md`](apk_analysis/分析报告.md) |
+| 6 | `inspect_proto_schema.py` | 从原生库的 `k*FieldNumber` 常量恢复 protobuf schema（字段号），并与 2018 的 `.proto` 交叉验证 | `proto_schema_recovered.json`、`proto_schema_crosscheck.json` |
+| 7 | `write_report.py` | 汇总上述 JSON 生成完整中文报告 | [`apk_analysis/分析报告.md`](apk_analysis/分析报告.md) |
 
 ### 复现步骤
 
@@ -89,6 +101,7 @@ python apk_analysis/analyze_static.py
 python apk_analysis/inspect_native.py ciyuan_2017 checkFileCompress
 python apk_analysis/decode_resources.py
 python apk_analysis/inspect_decoded.py
+python apk_analysis/inspect_proto_schema.py ciyuan_2017
 python apk_analysis/write_report.py
 ```
 
@@ -151,10 +164,26 @@ python apk_analysis/write_report.py
 
 ---
 
+## 专题分析：《次元大作战》2017 战斗核心逻辑
+
+三包中研究重心为 `ciyuan_2017`。战斗系统专题见 **[`apk_analysis/ciyuan_2017/战斗逻辑分析.md`](apk_analysis/ciyuan_2017/战斗逻辑分析.md)**。
+
+结论：**权威服务器状态同步，不是帧同步**。
+
+- 全部 164 个 Lua 文件中 `lockstep` / `predict` / `interpolat` / `rollback` / 逻辑帧号 **0 命中**；`frame` 只出现在 UI 边框和本机时钟 `JScript_GetGameFrameTime()`。
+- 服务端按**视野（AOI）**下发进入/离开视野的实体**完整快照**（`OnMsgPlayerEnterMySight`、`CSnapShot*Data`），帧同步不需要视野管理。
+- 客户端**本地移动先行 + 服务端校正**：`CRoleMoveCtrl::SendAndMove()` 发出意图的同时自己先走；`onMsgPlayerVerifyPos` 反汇编显示服务端下发的 **int16 定点坐标**被还原为浮点后交给 `CMoveCtrl::PushPlayerVerify` 推入本地移动控制器——帧同步下位置天然一致，无需校验。
+- **伤害 100% 在服务端算**：上行只有 `SSkillPreFire`（技能ID/等级/方向/目标），下行是 `SSkillReply`（含每目标 `NHurt`、`NCurHP`、伤害来源明细 `VPackDamageInfo`）。客户端原生库中**没有任何 `CalcDamage`/`CaluHurt` 函数**，只有攻速、移速、移动方向三类计算。
+- 技能配置表只有 `NFormulaID` + 伤害系数，**公式本体在服务端**；`SSkillReply.UFormulaBalanceCounts` 是公式的平衡版本号。
+
+因此：协议与数值配置可完整还原，**权威战斗模拟无法从客户端还原**。客户端连自己的位置都不完全信任，却从不计算自己造成了多少伤害。
+
+---
+
 ## 已知限制
 
 - `decode_resources.py` 的密钥寻址**硬编码于这三个确切文件的地址**（`ciyuan_2017` 的 `libgame.so`），换版本或换包会失效；但同一密钥已验证对另外两包同样有效。
-- 2016 / 2017 包**没有 `.proto`**，配置表字段只能靠字段号与 2018 包对齐推断，跨版本字段漂移未逐表验证。
+- 2016 / 2017 包没有 `.proto`——此问题已由 `inspect_proto_schema.py` 从客户端 `k*FieldNumber` 常量恢复字段号解决；但**只恢复了字段号，字段类型尚未恢复**。
 - `.ccz` 内层的 `.pvr`、`.x2` 模型、`.bank` 音频、`.xmap` 地图**仍是私有 / 未转换格式**，本次没有、也不会把它们伪称为已转换的通用格式。
 - 核心 C++ 逻辑仍是机器码，**未还原为可编译工程**；`libgame.so` 只反汇编了关键函数。
 - 全部工作为**离线静态分析**：没有运行游戏，没有安装到设备，**没有连接包内任何登录 / 支付 / 更新服务器**。报告中出现的域名与 IP 仅作为字符串证据记录，不代表其当前可用。

@@ -1,0 +1,19 @@
+
+_ZN13GameDuplicate15OnMsgSkillReplyEP3Msg vaddr=0x2a268c size=68
+002a268c  push     {r3, r4, fp, lr} 
+002a2690  mov      r4, r1 
+002a2694  ldrb     ip, [r1, #5] 
+002a2698  add      fp, sp, #0xc 
+002a269c  ldrb     r3, [r1, #4] 
+002a26a0  ldrb     r2, [r1, #6] 
+002a26a4  ldrb     r1, [r1, #7] 
+002a26a8  orr      r3, r3, ip, lsl #8 
+002a26ac  orr      r3, r3, r2, lsl #16 
+002a26b0  orr      r1, r3, r1, lsl #24 
+002a26b4  bl       #0x2a20ac _ZNK13GameDuplicate13GetPlayerByIDEj
+002a26b8  ldr      r3, [r0, #0xbe4] 
+002a26bc  tst      r3, #8 
+002a26c0  popne    {r3, r4, fp, pc} 
+002a26c4  mov      r1, r4 
+002a26c8  pop      {r3, r4, fp, lr} 
+002a26cc  b        #0x2d0470 _ZN10GamePlayer10ProcessMsgEP3Msg
