@@ -25,6 +25,8 @@ APK → ZIP 解包 → 识别 "MP:" 自定义封装 → 定位原生库中的密
 
 **产品线关系**：《魔霸之王》(2016) 与《次元大作战》(2017) 是同一条产品线的两代——后者的包名 `com.emagroup.mbzw2.emagroup` 中 `mbzw2` 即"魔霸之王2"，二者由**亿马联盟（EMA，上海）**发行，主入口类同为 `Tombird`，资源也高度重合（1,704 个文件内容完全相同）。《300大作战》(2018) 则是 Jumpw 的产品，仅在引擎与资源上沿袭。三包签名证书互不相同。
 
+发行链的更多内部证据——EMA SDK 的两代演进、`kom → moba02 → ciyuan` 的 CDN 代号链，以及三包共用的 Jumpw 账号/支付接入层——整理在 **[亿马联盟（EMA）发行链与 SDK](apk_analysis/emagroup发行链与SDK.md)**。
+
 ---
 
 ## 核心发现：`MP:` 资源封装格式
@@ -220,6 +222,21 @@ python apk_analysis/write_report.py
 - 顺带发现 `SSkill_SkillLevel.StrUseSkillMsg` 在 2050 条记录中**全部是字面量 `"test"`**（开发期占位符，非有效数据）
 
 [`apk_analysis/ciyuan_2017/英雄107_战斗逻辑.md`](apk_analysis/ciyuan_2017/英雄107_战斗逻辑.md) 是她的战斗机制拆解：气体（怒气）资源链、六个被本地化技能的完整机制、子技能链（`StrLevelUpBindSkill` / `NShowLogSkillIndex`）、逐级伤害与冷却，以及**写在描述文本里的伤害系数**——`{~30*00.50}` 即 `0.5 × 物理攻击`，与 `_Lan` 表的 `(0.5AD)` 互相印证（属性 30 的含义同时被客户端 `gamedef.lua` 的 `Attr_PhysicsAttackMax = 30` 独立确认）。
+
+---
+
+## 专题分析：EMA 发行链与 SDK
+
+[`apk_analysis/emagroup发行链与SDK.md`](apk_analysis/emagroup发行链与SDK.md) 记录了发行方**亿马联盟（EMA）**侧的后端与 SDK 分层。起点是一份公开的 EMA 渠道项目源码（`nick-yangzj/MyMatch1`，Unity/C# 三消练手项目，**不是**目标游戏），它携带了可读的 EMA SDK 包装与配置拉取地址，正好可以给三个 APK 里只能看到字符串的后端做对照。
+
+四条结论：
+
+- **EMA SDK 有两代，且两包各用一代**：2016 是内嵌的 `EmaSDK.java` + `sdk.emagroup.cn/{esdk_api,gather/info,pay,sys}`；2017 换成独立包 `com.emagroup.sdk`（dex 中 `Lcom/emagroup/sdk/` 出现 **251** 次）+ `api.emagroup.cn/ema-platform/*` 的 19 个 REST 端点。2018 则 **EMA 痕迹全部为 0**。
+- **`assets/developerInfo.xml`（2016）恢复了平台侧标识**：`ema_app_id="3"`（即《魔霸之王》在 EMA 平台的编号）、`ema_channel_id="2"`、备用域 `esdk2.emagroup.cn`、OAuth 落点 `payment.ddmoba.com/emaredirect.html`。
+- **CDN 代号链 = 产品线三代自证**：`kom.cdn.emagroup.cn/Android/`（2016）→ `kom.cdn.emagroup.cn/moba02/Android/`（2017）→ 备用 `download.jumpw.com/ciyuan/Android/`。即 `kom`(魔霸之王) → `moba02`(魔霸之王2/次元大作战) → `ciyuan`(次元)。2017 的 `config.lua` 里内购商品号是 `CYDZZ_1000`~`CYDZZ_1006`。
+- **三包共用 Jumpw 账号/支付层**：`300hero.jumpw.com`、`testactivity.jumpwgame.com`、`payment.ddmoba.com/payordercreate.html` 在**三个包的原生库里都有**，且协议中存在 `Sa2gLoginTypeNotJumpw`（"非 Jumpw 登录类型"）消息——账号与支付通道是同一套，比"共享引擎与资源"更进一步。
+
+另外确认了一个**机制性事实**：2017 的 `assets/data/script/tables/serverlist.lua` 只是 CSV 读取器，**包内不含任何服务器 IP**，服务器表由网关在运行期下发（客户端按 `config.lua` 的 `g_nClientServerIndex = 3` 筛选）。所以"从客户端恢复出目标服务器列表"在方法上不可行，而不是我们没找到。
 
 ---
 
