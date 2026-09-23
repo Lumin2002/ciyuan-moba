@@ -13,7 +13,14 @@ import struct, json, sys, csv
 
 ROOT = Path(__file__).resolve().parent
 SLUG = 'ciyuan_2017'
-CONF = ROOT / SLUG / 'decoded' / 'assets' / 'data' / 'conf'
+
+
+def conf_dir(slug=SLUG):
+    """Directory holding the decoded protobuf config tables for a package."""
+    return ROOT / slug / 'decoded' / 'assets' / 'data' / 'conf'
+
+
+CONF = conf_dir(SLUG)  # default package, kept for convenience
 
 
 def varint(b, p):
@@ -169,14 +176,20 @@ def decode_pool(path, schema, element_msg):
 
 
 if __name__ == '__main__':
-    schema = load_schema()
-    targets = sys.argv[1:] or ['logic', 'skill_skilllevel', 'skill_skillbase']
+    argv = sys.argv[1:]
+    slug = SLUG
+    if argv and argv[0].startswith('--slug='):
+        slug = argv[0].split('=', 1)[1]
+        argv = argv[1:]
+    schema = load_schema(slug)
+    conf = conf_dir(slug)
+    targets = argv or ['logic', 'skill_skilllevel', 'skill_skillbase']
     for stem in targets:
-        path = CONF / f'{stem}_c.dat'
+        path = conf / f'{stem}_c.dat'
         if not path.is_file():
             print(f'{stem}: MISSING'); continue
         pool, element = resolve_messages(path, schema)
-        print(f'=== {path.name}  ({path.stat().st_size:,} bytes)'
+        print(f'=== [{slug}] {path.name}  ({path.stat().st_size:,} bytes)'
               f'  -> pool={pool}  element={element}'
               f'  ({len(schema.get(element, {}))} known fields) ===')
         rows = decode_pool(path, schema, element)

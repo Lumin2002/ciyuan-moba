@@ -154,16 +154,17 @@ if __name__ == '__main__':
                     agree += 1
                 else:
                     disagree += 1
-                    diffs.append({'message': msg, 'field_2017': field,
+                    diffs.append({'message': msg, 'field_this_package': field,
                                   'field_2018': hit[0],
-                                  'ciyuan_2017': num, 'game300_2018': hit[1]})
+                                  'this_package': num, 'game300_2018': hit[1]})
         print(f"\n  cross-check vs game300_2018 .proto "
               f"({len(both)} shared messages, field names compared case-insensitively)")
-        print(f"    agree={agree}  disagree={disagree}  only-in-2017={only_client}")
+        print(f"    agree={agree}  disagree={disagree}  only-in-{slug}={only_client}")
         for d in diffs[:30]:
-            print(f"    DIFF {d['message']}.{d['field_2017']} vs {d['field_2018']}: "
-                  f"2017={d['ciyuan_2017']} 2018={d['game300_2018']}")
-        (ROOT / 'proto_schema_crosscheck.json').write_text(json.dumps(
-            {'shared_messages': len(both), 'agree': agree, 'disagree': disagree,
-             'only_in_ciyuan_2017': only_client, 'differences': diffs},
+            print(f"    DIFF {d['message']}.{d['field_this_package']} vs {d['field_2018']}: "
+                  f"{slug}={d['this_package']} 2018={d['game300_2018']}")
+        (ROOT / f'proto_schema_crosscheck_{slug}.json').write_text(json.dumps(
+            {'slug': slug, 'shared_messages': len(both), 'agree': agree,
+             'disagree': disagree, 'only_in_this_package': only_client,
+             'differences': diffs},
             ensure_ascii=False, indent=2), encoding='utf-8')

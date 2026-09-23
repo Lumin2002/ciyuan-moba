@@ -1,0 +1,100 @@
+{
+  "slug": "moba_2016",
+  "shared_messages": 74,
+  "agree": 817,
+  "disagree": 13,
+  "only_in_this_package": 63,
+  "differences": [
+    {
+      "message": "SItem_Item",
+      "field_this_package": "NSell",
+      "field_2018": "nSell",
+      "this_package": 48,
+      "game300_2018": 7
+    },
+    {
+      "message": "SItem_Item",
+      "field_this_package": "StrScript",
+      "field_2018": "strScript",
+      "this_package": 47,
+      "game300_2018": 11
+    },
+    {
+      "message": "SItem_Item",
+      "field_this_package": "NPoint",
+      "field_2018": "nPoint",
+      "this_package": 46,
+      "game300_2018": 6
+    },
+    {
+      "message": "SItem_Item",
+      "field_this_package": "NItemType",
+      "field_2018": "nItemType",
+      "this_package": 44,
+      "game300_2018": 9
+    },
+    {
+      "message": "SItem_Item",
+      "field_this_package": "StrIconFile",
+      "field_2018": "strIconFile",
+      "this_package": 26,
+      "game300_2018": 3
+    },
+    {
+      "message": "SItem_Item",
+      "field_this_package": "StrItemName",
+      "field_2018": "strItemName",
+      "this_package": 23,
+      "game300_2018": 2
+    },
+    {
+      "message": "SItem_Item",
+      "field_this_package": "NColdDownTime",
+      "field_2018": "nColdDownTime",
+      "this_package": 22,
+      "game300_2018": 10
+    },
+    {
+      "message": "SItem_Item",
+      "field_this_package": "NDiamond",
+      "field_2018": "nDiamond",
+      "this_package": 7,
+      "game300_2018": 5
+    },
+    {
+      "message": "SItem_Item",
+      "field_this_package": "NGold",
+      "field_2018": "nGold",
+      "this_package": 6,
+      "game300_2018": 4
+    },
+    {
+      "message": "SVIPGroup",
+      "field_this_package": "StrBagID4",
+      "field_2018": "strBagID4",
+      "this_package": 5,
+      "game300_2018": 6
+    },
+    {
+      "message": "SVIPGroup",
+      "field_this_package": "StrBagID3",
+      "field_2018": "strBagID3",
+      "this_package": 4,
+      "game300_2018": 5
+    },
+    {
+      "message": "SVIPGroup",
+      "field_this_package": "StrBagID2",
+      "field_2018": "strBagID2",
+      "this_package": 3,
+      "game300_2018": 4
+    },
+    {
+      "message": "SVIPGroup",
+      "field_this_package": "StrBagID1",
+      "field_2018": "strBagID1",
+      "this_package": 2,
+      "game300_2018": 3
+    }
+  ]
+}

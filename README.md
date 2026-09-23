@@ -88,7 +88,7 @@ assert len(plain) == int.from_bytes(data[4:8], "little")
 | 3 | `inspect_native.py` | 用 capstone 反汇编原生库指定符号，自动解析 `bl` 目标符号名 | `checkFileCompress.disasm.txt` |
 | 4 | `decode_resources.py` | 从原生库动态定位密钥，复现 `MP:` 解密，全量还原 `assets/`，并做解密后跨包比对 | `decoded/`、`decoded_inventory.json`、`decoded_comparison.json` |
 | 5 | `inspect_decoded.py` | 在还原结果上解析 protobuf（英雄表 / 字符串表）、`version.json`、联网引用；合成图标预览图 | `heroes.json`、`localized_strings.json`、`decoded_network_references.json`、`decoded_findings.json` |
-| 6 | `inspect_proto_schema.py` | 从原生库的 `k*FieldNumber` 常量恢复 protobuf schema（字段号），并与 2018 的 `.proto` 交叉验证 | `proto_schema_recovered.json`、`proto_schema_crosscheck.json` |
+| 6 | `inspect_proto_schema.py` | 从原生库的 `k*FieldNumber` 常量恢复 protobuf schema（字段号），并与 2018 的 `.proto` 交叉验证；三个包各跑一次 | `{slug}/proto_schema_recovered.json`、`proto_schema_crosscheck_{slug}.json` |
 | 7 | `decode_config_tables.py` | 用恢复出的 schema 解码 `conf/*_c.dat` 配置表（元素消息名由表名归一化匹配推出） | 终端输出（可选导出 JSON/CSV） |
 | 8 | `analyze_attributes.py` | 从配置表中文标签恢复属性 ID 枚举；审计伤害公式字段的填充情况与战力权重 | `attribute_enum.json`、`damage_inputs.json` |
 | 9 | `write_report.py` | 汇总上述 JSON 生成完整中文报告 | [`apk_analysis/分析报告.md`](apk_analysis/分析报告.md) |
@@ -194,7 +194,17 @@ python apk_analysis/write_report.py
 | `NAttackRate` / `NHitAddons` / `NIfKeepAttack` | 14 / 15 / 32 | **0** |
 | `NDamageType` | 82 | 2050 |
 
-序列化器**显式写入零值**（2050 条中 1674 条含值为 0 的 `NCostMP`），所以字段缺失等于数据里真的没有。全局表 `logic_c.dat`（117 条）全是经济/UI 参数、技能描述只有定性文案、`Script_GetSkillDamageInfo` 的五处引用全被注释——**伤害公式无法从客户端还原**。详见[战斗逻辑分析第四节](apk_analysis/ciyuan_2017/战斗逻辑分析.md)。
+序列化器**显式写入零值**（2050 条中 1674 条含值为 0 的 `NCostMP`），所以字段缺失等于数据里真的没有。全局表 `logic_c.dat`（117 条）全是经济/UI 参数、技能描述只有定性文案、`Script_GetSkillDamageInfo` 的五处引用全被注释——**2017 的伤害公式无法从客户端还原**。
+
+**但对另外两个包做同样审计后有了转折**：`game300_2018` 的 3276 条技能记录**全部填充了** `NFormulaID` 与三个伤害系数，而且它的客户端 Lua 里就有公式本体——`bat_skill_desc_ui.lua` 中按公式 ID 索引的 `damageValueStringFunc` 分发表：
+
+```
+减免前伤害 = NDamageCoefficientFirstSecond + floor(攻击力 × NDamageCoefficientFirst × 0.01)
+```
+
+即 `First` = 物理攻击百分比系数、`FirstS` = 魔法强度百分比系数、`FirstSecond` = 固定基数，公式 ID 决定用物攻/魔攻/两者以及伤害类型（物理/魔法/真实/回复）。2016 与 2017 则完全没有这些字段。详见 **[伤害公式还原](apk_analysis/伤害公式还原.md)**。
+
+仍未找到的是**护甲减免曲线**——三个包的客户端里都只有 UI 文案与属性显示，没有任何减免计算代码。
 
 ### 单英雄档案：107 三笠
 

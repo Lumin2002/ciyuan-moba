@@ -1,161 +1,162 @@
 {
+  "slug": "ciyuan_2017",
   "shared_messages": 76,
   "agree": 815,
   "disagree": 22,
-  "only_in_ciyuan_2017": 68,
+  "only_in_this_package": 68,
   "differences": [
     {
       "message": "SHeroSkin",
-      "field_2017": "UBindItem",
+      "field_this_package": "UBindItem",
       "field_2018": "uBindItem",
-      "ciyuan_2017": 16,
+      "this_package": 16,
       "game300_2018": 21
     },
     {
       "message": "SHeroSkin",
-      "field_2017": "NSkinLevel",
+      "field_this_package": "NSkinLevel",
       "field_2018": "nSkinLevel",
-      "ciyuan_2017": 15,
+      "this_package": 15,
       "game300_2018": 12
     },
     {
       "message": "SHeroSkin",
-      "field_2017": "SChangeVoiceEffect",
+      "field_this_package": "SChangeVoiceEffect",
       "field_2018": "sChangeVoiceEffect",
-      "ciyuan_2017": 14,
+      "this_package": 14,
       "game300_2018": 15
     },
     {
       "message": "SHeroSkin",
-      "field_2017": "SChangeMonsterId",
+      "field_this_package": "SChangeMonsterId",
       "field_2018": "sChangeMonsterID",
-      "ciyuan_2017": 13,
+      "this_package": 13,
       "game300_2018": 23
     },
     {
       "message": "SHeroSkin",
-      "field_2017": "SChangeStatusEffectId",
+      "field_this_package": "SChangeStatusEffectId",
       "field_2018": "sChangeStatusEffectId",
-      "ciyuan_2017": 12,
+      "this_package": 12,
       "game300_2018": 14
     },
     {
       "message": "SHeroSkin",
-      "field_2017": "SChangebulletEffectId",
+      "field_this_package": "SChangebulletEffectId",
       "field_2018": "sChangebulletEffectId",
-      "ciyuan_2017": 11,
+      "this_package": 11,
       "game300_2018": 13
     },
     {
       "message": "SHeroSkin",
-      "field_2017": "SChagenSkillId",
+      "field_this_package": "SChagenSkillId",
       "field_2018": "sChagenSkillId",
-      "ciyuan_2017": 10,
+      "this_package": 10,
       "game300_2018": 11
     },
     {
       "message": "SHeroSkin",
-      "field_2017": "SbIsChangeVoice",
+      "field_this_package": "SbIsChangeVoice",
       "field_2018": "sbIsChangeVoice",
-      "ciyuan_2017": 8,
+      "this_package": 8,
       "game300_2018": 10
     },
     {
       "message": "SItem_Item",
-      "field_2017": "NAthPoint",
+      "field_this_package": "NAthPoint",
       "field_2018": "nAthPoint",
-      "ciyuan_2017": 49,
+      "this_package": 49,
       "game300_2018": 8
     },
     {
       "message": "SItem_Item",
-      "field_2017": "NSell",
+      "field_this_package": "NSell",
       "field_2018": "nSell",
-      "ciyuan_2017": 48,
+      "this_package": 48,
       "game300_2018": 7
     },
     {
       "message": "SItem_Item",
-      "field_2017": "StrScript",
+      "field_this_package": "StrScript",
       "field_2018": "strScript",
-      "ciyuan_2017": 47,
+      "this_package": 47,
       "game300_2018": 11
     },
     {
       "message": "SItem_Item",
-      "field_2017": "NPoint",
+      "field_this_package": "NPoint",
       "field_2018": "nPoint",
-      "ciyuan_2017": 46,
+      "this_package": 46,
       "game300_2018": 6
     },
     {
       "message": "SItem_Item",
-      "field_2017": "NItemType",
+      "field_this_package": "NItemType",
       "field_2018": "nItemType",
-      "ciyuan_2017": 44,
+      "this_package": 44,
       "game300_2018": 9
     },
     {
       "message": "SItem_Item",
-      "field_2017": "StrIconFile",
+      "field_this_package": "StrIconFile",
       "field_2018": "strIconFile",
-      "ciyuan_2017": 26,
+      "this_package": 26,
       "game300_2018": 3
     },
     {
       "message": "SItem_Item",
-      "field_2017": "StrItemName",
+      "field_this_package": "StrItemName",
       "field_2018": "strItemName",
-      "ciyuan_2017": 23,
+      "this_package": 23,
       "game300_2018": 2
     },
     {
       "message": "SItem_Item",
-      "field_2017": "NColdDownTime",
+      "field_this_package": "NColdDownTime",
       "field_2018": "nColdDownTime",
-      "ciyuan_2017": 22,
+      "this_package": 22,
       "game300_2018": 10
     },
     {
       "message": "SItem_Item",
-      "field_2017": "NDiamond",
+      "field_this_package": "NDiamond",
       "field_2018": "nDiamond",
-      "ciyuan_2017": 7,
+      "this_package": 7,
       "game300_2018": 5
     },
     {
       "message": "SItem_Item",
-      "field_2017": "NGold",
+      "field_this_package": "NGold",
       "field_2018": "nGold",
-      "ciyuan_2017": 6,
+      "this_package": 6,
       "game300_2018": 4
     },
     {
       "message": "SVIPGroup",
-      "field_2017": "StrBagID4",
+      "field_this_package": "StrBagID4",
       "field_2018": "strBagID4",
-      "ciyuan_2017": 5,
+      "this_package": 5,
       "game300_2018": 6
     },
     {
       "message": "SVIPGroup",
-      "field_2017": "StrBagID3",
+      "field_this_package": "StrBagID3",
       "field_2018": "strBagID3",
-      "ciyuan_2017": 4,
+      "this_package": 4,
       "game300_2018": 5
     },
     {
       "message": "SVIPGroup",
-      "field_2017": "StrBagID2",
+      "field_this_package": "StrBagID2",
       "field_2018": "strBagID2",
-      "ciyuan_2017": 3,
+      "this_package": 3,
       "game300_2018": 4
     },
     {
       "message": "SVIPGroup",
-      "field_2017": "StrBagID1",
+      "field_this_package": "StrBagID1",
       "field_2018": "strBagID1",
-      "ciyuan_2017": 2,
+      "this_package": 2,
       "game300_2018": 3
     }
   ]
