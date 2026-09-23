@@ -1,0 +1,222 @@
+[
+  {
+    "file": "assets/data/script/dump.lua",
+    "line": 8,
+    "text": "local strFormalSerUrl = \"http://dmp.jumpw.com/clentCancelLog\""
+  },
+  {
+    "file": "assets/data/script/dump.lua",
+    "line": 10,
+    "text": "local strTestSerUrl = \"http://180.168.10.190:8031/dmph/clentCancelLog\""
+  },
+  {
+    "file": "assets/data/script/dump.lua",
+    "line": 13,
+    "text": "-- http://dmp.jumpw.com/clentCancelLog?userAccountID=111&gameID=1&bNormalCancel=0&descrition=MTlz&remark=cs"
+  },
+  {
+    "file": "assets/data/script/game/activity/festival/view.lua",
+    "line": 713,
+    "text": "        local url = \"http://api.jumpw.com/DrawCDK.html\""
+  },
+  {
+    "file": "assets/data/script/game/welfare/welfare_view.lua",
+    "line": 8,
+    "text": "g_auUrl = \"http://activity.jumpw.com/othersactivitymanager.html\""
+  },
+  {
+    "file": "assets/data/script/gamecover.lua",
+    "line": 700,
+    "text": "        local str = \"http://xxxxx.com/GameActivation.html?organization=%d&timestamp=%d000&msg=%s&sign=%s\""
+  },
+  {
+    "file": "assets/data/script/gameindex.lua",
+    "line": 296,
+    "text": "    --C_OpenWebview(\"http://300.jumpw.com/game/html/mobilelancher.html\",400,100,500,400)"
+  },
+  {
+    "file": "assets/data/script/json/json.lua",
+    "line": 5,
+    "text": "-- Homepage: http://json.luaforge.net/"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 5,
+    "text": "-- Homepage: http://json.luaforge.net/"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 20,
+    "text": "--  Lua socket 2.0 (http://www.cs.princeton.edu/~diego/professional/luasocket/)"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 41,
+    "text": "--   local jsolait = json.rpc.proxy('http://jsolait.net/testj.py')"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 70,
+    "text": "--   print(json.rpc.call('http://jsolait.net/testj.py','echo','This string will be returned'))"
+  },
+  {
+    "file": "assets/data/script/json/rpcserver.lua",
+    "line": 6,
+    "text": "-- Homepage: http://json.luaforge.net/"
+  },
+  {
+    "file": "assets/data/script/tables/serverlist.lua",
+    "line": 2,
+    "text": "local m_strTestServerAddr = \"http://180.168.10.190:8029/business/GetGameConfig.html\""
+  },
+  {
+    "file": "assets/data/script/tables/serverlist.lua",
+    "line": 9,
+    "text": "local m_strFormalSerAddr = \"http://api.jumpw.com/GetGameConfig.html\""
+  },
+  {
+    "file": "assets/data/script/tables/serverlist.lua",
+    "line": 28,
+    "text": "http://180.168.10.190:8029/business/GetGameConfig.html?msg={\"gameid\":82,\"gamechannelid\":4 }&sign=e72c2474141715928886d72d092df5ec&time=1527134016&channelid=10003"
+  },
+  {
+    "file": "assets/data/script/tables/serverlist.lua",
+    "line": 72,
+    "text": "    \"Ip\": \"39.107.73.101|39.107.73.57\","
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 6,
+    "text": "\t\toauthLoginServer=\"http://sdk.jumpw.com/sdk/login.jump\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 7,
+    "text": "\t\toauthRegisterServer=\"http://sdk.jumpw.com/sdk/register.jump\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 8,
+    "text": "\t\toauthChkmobileServer=\"http://sdk.jumpw.com/sdk/chkmobile.jump\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 9,
+    "text": "\t\toauthBindmobileServer=\"http://sdk.jumpw.com/sdk/bindmobile.jump\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 10,
+    "text": "\t\toauthUpdatePwdServer=\"http://sdk.jumpw.com/sdk/resetpwd.jump\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 11,
+    "text": "\t\toauthResetPwdCodeServer=\"http://sdk.jumpw.com/sdk/regetpwd.jump\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 12,
+    "text": "\t\toauthResetPwdServer=\"http://sdk.jumpw.com/sdk/validmsgregetpwd.jump\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 13,
+    "text": "\t\toauthWebCashServer=\"http://sdk.jumpw.com/sdk/getwebcash.jump\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 14,
+    "text": "\t\toauthPayServer=\"http://sdk.jumpw.com/sdk/pay.jump\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 15,
+    "text": "\t\toauthQuickRegisterServer=\"http://sdk.jumpw.com/qly/register.jump\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 16,
+    "text": "\t\toauthQuickBindAccountServer=\"http://sdk.jumpw.com/qly/bindaccount.jump\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 17,
+    "text": "\t\toauthVersionUpdateCheck=\"http://dmp.jumpw.com/clientupdate.jsp\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 18,
+    "text": "\t\toauthOverseasPayServer=\"https://passport.jumpw.com/PaymentServlet.do\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 19,
+    "text": "\t\toauthGooglePayNotifyServer=\"https://passport.jumpw.com/googleplaynotify.html\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 20,
+    "text": "\t\toauthAliPayNotifyServer=\"https://passport.jumpw.com/alipaySDK.html?\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 21,
+    "text": "\t\toauthUserCenterSrever=\"http://sdk.jumpw.com/plt/index.j\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 22,
+    "text": "\t\toauthPhoneRegisterServer=\"http://sdk.jumpw.com/sdk/mReg10x\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 23,
+    "text": "\t\toauthPhoneCodeServer=\"http://sdk.jumpw.com/sdk/MeXg2bp\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 24,
+    "text": "\t\toauthPhoneBindGuestServer=\"http://sdk.jumpw.com/sdk/bDk5tYb\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 25,
+    "text": "\t\toauthPhoneResetPwdServer=\"http://sdk.jumpw.com/sdk/mDfwo4d\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 26,
+    "text": "\t\toauthActivationServer=\"http://sdk.jumpw.com/sdk/gAAtc1e\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 27,
+    "text": "\t\tsubmitDpsExtraDataServer=\"http://dmp.jumpw.com/domob/callback.html\""
+  },
+  {
+    "file": "assets/jumpw_developerInfo.xml",
+    "line": 28,
+    "text": "\t\toauthProclamation=\"http://api.jumpw.com/Announcement.html\""
+  },
+  {
+    "file": "assets/u8_developer_config.properties",
+    "line": 17,
+    "text": "developersInfoUrl=http://300m.jumpw.com/config/300m/Android/jump/V1.0/jumpw_developerInfo.xml"
+  },
+  {
+    "file": "assets/u8_developer_config.properties",
+    "line": 18,
+    "text": "spareDevelopersInfoUrl=http://ziyuan.jumpw.com/sdk/300m/Android/jump/V1.0/jumpw_developerInfo.xml"
+  },
+  {
+    "file": "assets/u8_developer_config.properties",
+    "line": 25,
+    "text": "U8SERVER_URL=http://192.168.18.9:8080"
+  },
+  {
+    "file": "assets/version.json",
+    "line": 1,
+    "text": "{\"Url\": \"http://download.jumpw.com/300mobile/Android/\", \"Res\": 447, \"App\": 15}"
+  }
+]

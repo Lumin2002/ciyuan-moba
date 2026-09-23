@@ -1,0 +1,588 @@
+{
+  "id": "ciyuan_2017",
+  "source": "次元大作战【2017年6月】.apk",
+  "size": 227697557,
+  "sha256": "57ac48171d3b15e41607f956b762c2a76b24fdb2b0027476b741bcd43ce5ddbf",
+  "file_count": 6185,
+  "zip_crc": "all entries passed",
+  "manifest": {
+    "android:versionCode": "201602",
+    "android:versionName": "2.16",
+    "package": "com.emagroup.mbzw2.emagroup",
+    "platformBuildVersionCode": "25",
+    "platformBuildVersionName": "7.1.1"
+  },
+  "sdk": {
+    "android:minSdkVersion": "17",
+    "android:targetSdkVersion": "22"
+  },
+  "application": {
+    "android:label": "次元大作战",
+    "android:icon": "@0x7f020068"
+  },
+  "app_labels": [
+    {
+      "value": "次元大作战"
+    }
+  ],
+  "icons": [
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-ldpi-v4/icon.png"
+    },
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-mdpi-v4/icon.png"
+    },
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-hdpi-v4/icon.png"
+    },
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-xhdpi-v4/icon.png"
+    }
+  ],
+  "permissions": [
+    {
+      "android:name": "android.permission.RESTART_PACKAGES"
+    },
+    {
+      "android:name": "android.permission.KILL_BACKGROUND_PROCESSES"
+    },
+    {
+      "android:name": "android.permission.GET_TASKS"
+    },
+    {
+      "android:name": "android.permission.INTERNET"
+    },
+    {
+      "android:name": "android.permission.ACCESS_WIFI_STATE"
+    },
+    {
+      "android:name": "android.permission.ACCESS_NETWORK_STATE"
+    },
+    {
+      "android:name": "android.permission.CHANGE_WIFI_STATE"
+    },
+    {
+      "android:name": "android.permission.WRITE_EXTERNAL_STORAGE"
+    },
+    {
+      "android:name": "android.permission.READ_PHONE_STATE"
+    },
+    {
+      "android:name": "android.permission.MANAGE_ACCOUNTS"
+    },
+    {
+      "android:name": "android.permission.GET_ACCOUNTS"
+    },
+    {
+      "android:name": "android.permission.BLUETOOTH"
+    },
+    {
+      "android:name": "android.permission.BLUETOOTH_ADMIN"
+    },
+    {
+      "android:name": "android.permission.RECEIVE_BOOT_COMPLETED"
+    },
+    {
+      "android:name": "android.permission.VIBRATE"
+    },
+    {
+      "android:name": "android.permission.ACCESS_COARSE_LOCATION"
+    },
+    {
+      "android:name": "getui.permission.GetuiService.com.emagroup.mbzw2.emagroup"
+    },
+    {
+      "android:name": "android.permission.SYSTEM_ALERT_WINDOW"
+    },
+    {
+      "android:name": "android.permission.SYSTEM_OVERLAY_WINDOW"
+    },
+    {
+      "android:name": "android.permission.INTERNET"
+    },
+    {
+      "android:name": "android.permission.CHANGE_WIFI_STATE"
+    },
+    {
+      "android:name": "android.permission.WAKE_LOCK"
+    },
+    {
+      "android:name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+    },
+    {
+      "android:name": "android.permission.READ_LOGS"
+    },
+    {
+      "android:name": "android.permission.ACCESS_FINE_LOCATION"
+    }
+  ],
+  "features": [
+    {
+      "android:glEsVersion": "0x20000"
+    }
+  ],
+  "components": [
+    {
+      "type": "activity",
+      "android:theme": "@0x01030007",
+      "android:label": "次元大作战",
+      "android:name": "cn.emagroup.kom.Tombird",
+      "android:screenOrientation": "0",
+      "android:configChanges": "0x40000dff",
+      "intent_actions": [
+        "android.intent.action.MAIN"
+      ]
+    },
+    {
+      "type": "activity",
+      "android:name": "com.emagroup.sdk.PayMabiActivity",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:name": "com.emagroup.sdk.TrdCardActivity",
+      "android:screenOrientation": "0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:name": "com.emagroup.sdk.WebViewActivity",
+      "android:screenOrientation": "1",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:name": "com.emagroup.sdk.WebViewSimpleActivity",
+      "intent_actions": []
+    },
+    {
+      "type": "service",
+      "android:name": "com.emagroup.sdk.EmaService",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:name": "com.alipay.sdk.app.H5PayActivity",
+      "android:exported": "false",
+      "android:screenOrientation": "3",
+      "android:configChanges": "0xe0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:name": "com.alipay.sdk.auth.AuthActivity",
+      "android:exported": "false",
+      "android:screenOrientation": "3",
+      "android:configChanges": "0xe0",
+      "intent_actions": []
+    },
+    {
+      "type": "receiver",
+      "android:name": "com.emagroup.sdk.PushDemoReceiver",
+      "android:exported": "false",
+      "intent_actions": [
+        "com.igexin.sdk.action.rYPJsOoDYa9868lmxgWyA4"
+      ]
+    },
+    {
+      "type": "service",
+      "android:label": "NotificationCenter",
+      "android:name": "com.igexin.sdk.PushService",
+      "android:exported": "true",
+      "android:process": ":pushservice",
+      "intent_actions": [
+        "com.igexin.sdk.action.service.message"
+      ]
+    },
+    {
+      "type": "service",
+      "android:label": "NotificationCenterUser",
+      "android:name": "com.igexin.sdk.PushServiceUser",
+      "android:exported": "true",
+      "intent_actions": [
+        "com.igexin.sdk.action.user.message"
+      ]
+    },
+    {
+      "type": "receiver",
+      "android:name": "com.igexin.sdk.PushReceiver",
+      "intent_actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.intent.action.USER_PRESENT",
+        "com.igexin.sdk.action.refreshls",
+        "android.intent.action.MEDIA_MOUNTED",
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED"
+      ]
+    },
+    {
+      "type": "receiver",
+      "android:name": "com.igexin.sdk.PushManagerReceiver",
+      "android:exported": "false",
+      "intent_actions": [
+        "com.igexin.sdk.action.pushmanager"
+      ]
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x01030010",
+      "android:name": "com.igexin.sdk.PushActivity",
+      "android:exported": "false",
+      "android:process": ":pushservice",
+      "android:taskAffinity": "com.igexin.sdk.PushActivityTask",
+      "android:excludeFromRecents": "true",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x01030010",
+      "android:name": "com.igexin.sdk.GActivity",
+      "android:exported": "true",
+      "android:process": ":pushservice",
+      "android:taskAffinity": "com.igexin.sdk.PushActivityTask",
+      "android:excludeFromRecents": "true",
+      "intent_actions": []
+    },
+    {
+      "type": "service",
+      "android:name": "com.igexin.download.DownloadService",
+      "android:process": ":pushservice",
+      "intent_actions": []
+    },
+    {
+      "type": "receiver",
+      "android:name": "com.igexin.download.DownloadReceiver",
+      "intent_actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ]
+    },
+    {
+      "type": "provider",
+      "android:name": "com.igexin.download.DownloadProvider",
+      "android:exported": "true",
+      "android:process": ":pushservice",
+      "android:authorities": "downloads.com.emagroup.mbzw2.emagroup",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:name": "com.tencent.tauth.AuthActivity",
+      "android:launchMode": "2",
+      "android:noHistory": "true",
+      "intent_actions": [
+        "android.intent.action.VIEW"
+      ]
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x01030010",
+      "android:name": "com.tencent.connect.common.AssistActivity",
+      "android:configChanges": "0x4a0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:name": "com.sina.weibo.sdk.component.WeiboSdkBrowser",
+      "android:exported": "false",
+      "android:configChanges": "0xa0",
+      "android:windowSoftInputMode": "0x10",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x01030010",
+      "android:name": "com.emagroup.sdk.WeiBoEntryActivity",
+      "android:exported": "true",
+      "intent_actions": [
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+      ]
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x0103000f",
+      "android:name": ".wxapi.WXEntryActivity",
+      "android:exported": "true",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:name": "com.emagroup.sdk.PayTrdActivity",
+      "android:exported": "true",
+      "android:launchMode": "1",
+      "intent_actions": [
+        "android.intent.action.VIEW"
+      ]
+    },
+    {
+      "type": "activity",
+      "android:name": "com.emagroup.sdk.RechargeMabiActivity",
+      "android:exported": "true",
+      "android:launchMode": "1",
+      "intent_actions": [
+        "android.intent.action.VIEW"
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "android:name": "EMA_APP_ID",
+      "android:value": "n20015"
+    },
+    {
+      "android:name": "EMA_CHANNEL_ID",
+      "android:value": "n26"
+    },
+    {
+      "android:name": "EMA_CHANNEL_TAG",
+      "android:value": "n1001"
+    },
+    {
+      "android:name": "EMA_WHICH_ENVI",
+      "android:value": "production"
+    },
+    {
+      "android:name": "PUSH_APPID",
+      "android:value": "rYPJsOoDYa9868lmxgWyA4"
+    },
+    {
+      "android:name": "PUSH_APPKEY",
+      "android:value": "U5LLqz8OWj7LW2zRdBF3bA"
+    },
+    {
+      "android:name": "PUSH_APPSECRET",
+      "android:value": "Z2Hj5Fn43y8xDUuCoyiC73"
+    },
+    {
+      "android:name": "QQ_APP_ID",
+      "android:value": "n1105564847"
+    },
+    {
+      "android:name": "WEI_BO_APP_ID",
+      "android:value": "n4285757031"
+    },
+    {
+      "android:name": "WECHAT_APP_ID",
+      "android:value": "wxad312759ba0cb817"
+    }
+  ],
+  "certificates": [
+    {
+      "file": "KOM.RSA",
+      "subject": "CN=AdamWu,OU=Emagroup,O=Emagroup,L=Shanghai,ST=Shanghai,C=86",
+      "issuer": "CN=AdamWu,OU=Emagroup,O=Emagroup,L=Shanghai,ST=Shanghai,C=86",
+      "sha256": "6b9daf7964287f1862c5cd2f6ac7bfd051b169399dabd67c1414301b84c442f2",
+      "not_before": "2015-08-25 03:20:27+00:00",
+      "not_after": "2040-08-18 03:20:27+00:00",
+      "signature_algorithm": "sha256"
+    }
+  ],
+  "dex": {
+    "classes": 1804,
+    "strings": 17511,
+    "magic": "6465780a30333500",
+    "class_groups": {
+      "com/emagroup/sdk": 247,
+      "com/igexin/push": 213,
+      "com/sina/weibo": 207,
+      "com/tencent/open": 147,
+      "com/anysdk/framework": 119,
+      "com/alipay/sdk": 91,
+      "com/tencent/mm": 75,
+      "com/tencent/wxop": 75,
+      "com/tencent/connect": 73,
+      "com/tencent/stat": 65,
+      "com/alipay/android": 48,
+      "com/tencent/map": 44,
+      "org/cocos2dx/lib": 43,
+      "com/igexin/a": 43,
+      "com/dataeye/c": 33,
+      "com/ta/utdid2": 31,
+      "com/alipay/apmobilesecuritysdk": 30,
+      "com/igexin/sdk": 25,
+      "cn/emagroup/kom": 20,
+      "com/alipay/security": 20,
+      "com/igexin/download": 17,
+      "com/emagroup/mbzw2": 14,
+      "com/alipay/a": 13,
+      "com/anysdk/Util": 13,
+      "com/dataeye/a": 12,
+      "com/alipay/tscenter": 9,
+      "com/tencent/mobileqq": 9,
+      "com/tencent/a": 8,
+      "com/dataeye/b": 6,
+      "com/tencent/tauth": 5,
+      "org/json/alipay": 5,
+      "com/cocos/play": 4,
+      "com/tencent/qqconnect": 4,
+      "com/alipay/mobile": 3,
+      "com/sina/sso": 3,
+      "com/ut/device": 3,
+      "com/dataeye/plugin": 2,
+      "cn/emagroup/sdk": 1,
+      "com/alipay/mobilesecuritysdk": 1,
+      "com/dataeye/ConfigParamsUpdateListener;": 1,
+      "com/dataeye/DCAccount;": 1,
+      "com/dataeye/DCAccountType;": 1,
+      "com/dataeye/DCAgent;": 1,
+      "com/dataeye/DCChannelConfig;": 1,
+      "com/dataeye/DCCocos2dConfigParams;": 1
+    }
+  },
+  "libraries": [
+    {
+      "path": "lib/armeabi/libfmod.so",
+      "size": 1312884,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi/libfmodstudio.so",
+      "size": 1527200,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi/libgame.so",
+      "size": 11661680,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi/libgetuiext2.so",
+      "size": 42240,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi/libNativeCrash.so",
+      "size": 91320,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi/libPluginProtocol.so",
+      "size": 689628,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi/libweibosdkcore.so",
+      "size": 25840,
+      "elf_class": 1,
+      "machine": 40
+    }
+  ],
+  "native_markers": [
+    "cn/emagroup/kom/Tombird",
+    "Lua 5.1",
+    "LuaJIT 2.0.1",
+    "cocos2d-x debug info",
+    "cocos2d-x assert"
+  ],
+  "network_string_count": 130,
+  "resource_wrapping": {
+    "wrapped_by_extension": {
+      ".csv": 14,
+      ".dat": 55,
+      ".txt": 5,
+      ".ini": 639,
+      ".xmap": 2,
+      ".tga": 8,
+      ".bin": 1,
+      ".ccz": 1888,
+      ".x2": 941,
+      ".pkm": 1626,
+      ".xml": 1,
+      ".lua": 164,
+      ".vs": 33,
+      ".ps": 19,
+      ".glsl": 15,
+      ".bank": 194,
+      ".png": 318
+    },
+    "unwrapped_by_extension": {
+      ".ttf": 3,
+      ".xml": 1
+    },
+    "header_samples": {
+      ".csv": {
+        "path": "assets/data/conf/achievement.csv",
+        "header": "4d503a011c3e0100653b39014ab9a0a4"
+      },
+      ".dat": {
+        "path": "assets/data/conf/achievement_c.dat",
+        "header": "4d503a013e680000653b39014ab988a2"
+      },
+      ".txt": {
+        "path": "assets/data/conf/undueword.txt",
+        "header": "4d503a0151c20400653b39014ab94184"
+      },
+      ".ini": {
+        "path": "assets/data/engine.ini",
+        "header": "4d503a01a1010000653b39014ab9a8e9"
+      },
+      ".ttf": {
+        "path": "assets/data/font/ana.ttf",
+        "header": "00010000000e0080000300604f532f32"
+      },
+      ".xml": {
+        "path": "assets/data/inilist.xml",
+        "header": "3c3f786d6c2076657273696f6e3d2231"
+      },
+      ".xmap": {
+        "path": "assets/data/map/arena_fair.xmap",
+        "header": "4d503a0183150c00653b39014ab9a9a4"
+      },
+      ".tga": {
+        "path": "assets/data/map/arena_fair_grassmask.tga",
+        "header": "4d503a0112001000653b39014ab9d8e4"
+      },
+      ".bin": {
+        "path": "assets/data/map/arena_fair_mist.bin",
+        "header": "4d503a0100000002653b39014ab9d9e8"
+      },
+      ".ccz": {
+        "path": "assets/data/map/water0.pvr.ccz",
+        "header": "4d503a0145b90000653b39014ab91163"
+      },
+      ".x2": {
+        "path": "assets/data/model/effect/common/biaoshi/dianjidimian/tx_c_biaoshi_dianji_01.x2",
+        "header": "4d503a017f440000653b39014ab9d8e2"
+      },
+      ".pkm": {
+        "path": "assets/data/model/effect/texture/dian/tx_dian_0001.pkm",
+        "header": "4d503a0110200000653b39014ab9d8fe"
+      },
+      ".lua": {
+        "path": "assets/data/script/achievement_ui.lua",
+        "header": "4d503a011e8b0000653b39014ab9d804"
+      },
+      ".vs": {
+        "path": "assets/data/shader/billboard.vs",
+        "header": "4d503a01d6010000653b39014ab940a8"
+      },
+      ".ps": {
+        "path": "assets/data/shader/character.ps",
+        "header": "4d503a01f7010000653b39014ab9b0a9"
+      },
+      ".glsl": {
+        "path": "assets/data/shader/character_pbr_ps.glsl",
+        "header": "4d503a0193080000653b39014ab9986f"
+      },
+      ".bank": {
+        "path": "assets/data/sound/mobile/101_1voice.bank",
+        "header": "4d503a01809c0900653b39014ab9d944"
+      },
+      ".png": {
+        "path": "assets/data/texture/bloodbar/bloodbar.png",
+        "header": "4d503a013d150000653b39014ab93404"
+      }
+    }
+  },
+  "config": "eLoginType_Spark = 0\neLoginType_Ema = 1\n\ng_nLoginType = eLoginType_Ema\ng_bForceServerList = 0\ng_NeedTutorial = 1\ng_nSDKNew = 1\n\n-- g_auUrl = \"http://120.92.63.244/othersactivitymanager.html\" --test\ng_auUrl = \"http://payment2.ddmoba.com/othersactivitymanager.html\" --pro\n\ng_nClientServerIndex = 3\n\ng_uAckPingInterval = 15000\n\nProductID_IAP_0 = \t\"CYDZZ_1000\" \nProductID_IAP_1 =\t\"CYDZZ_1001\"\nProductID_IAP_2 =\t\"CYDZZ_1002\" \nProductID_IAP_3 =\t\"CYDZZ_1003\"\nProductID_IAP_4 =\t\"CYDZZ_1004\" \nProductID_IAP_5 =\t\"CYDZZ_1005\" \nProductID_IAP_6 =\t\"CYDZZ_1006\" "
+}

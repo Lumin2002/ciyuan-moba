@@ -1,0 +1,822 @@
+[
+  {
+    "url": "http://120.92.63.244/othersactivitymanager.html",
+    "sources": [
+      "assets/config/config.lua"
+    ]
+  },
+  {
+    "url": "http://amp.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://analy.qq.com/cgi-bin/mapp_apptrace",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api.emagroup.cn",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api.weibo.cn/2/client/common_config",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api.weibo.com/oauth2/sms_authorize/send",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api.weibo.com/oauth2/sms_authorize/submit",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://app.sina.cn/appdetail.php?appID=84560",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://appact.qzone.qq.com/appstore_activity_task_pcpush_sdk",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://appsupport.qq.com/cgi-bin/appstage/mstats_batch_report",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://bi.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://c.isdspeed.qq.com/code.cgi",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://c.kp747.com/k.js",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://c.sz.gt.igexin.com/api.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://cf.gdatacube.net/config/update",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://cgi.connect.qq.com/qqconnectopen/openapi/policy_conf",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://cgi.qplus.com/report/report",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://config.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://curl.haxx.se/rfc/cookie_spec.html",
+    "sources": [
+      "lib/armeabi/libgame.so"
+    ]
+  },
+  {
+    "url": "http://d.gt.igexin.com/api.htm",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://dev.api.emagroup.cn",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://download.jumpw.com/ciyuan/Android/",
+    "sources": [
+      "assets/version_copy.json"
+    ]
+  },
+  {
+    "url": "http://fusion.qq.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://fusion.qq.com/cgi-bin",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://fusion.qq.com/cgi-bin/prize_sharing/exchange_prize.cgi",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://fusion.qq.com/cgi-bin/prize_sharing/get_activity_state.cgi",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://fusion.qq.com/cgi-bin/prize_sharing/make_share_url.cgi",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://fusion.qq.com/cgi-bin/prize_sharing/query_unexchange_prize.cgi",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://fusion.qq.com/cgi-bin/qzapps/mapp_getappinfo.cgi",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://fusion.qq.com/cgi-bin/qzapps/mapp_lbs_delete.cgi",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://fusion.qq.com/cgi-bin/qzapps/mapp_lbs_getnear.cgi",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=%1$s&from=%2$s&isOpenAppID=1",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://hydra.alibaba.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://img7.doubanio.com/lpic/s3635685.jpg",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://inc.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://kom.cdn.emagroup.cn/moba02/Android/",
+    "sources": [
+      "assets/version.json"
+    ]
+  },
+  {
+    "url": "http://lbs.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://lbs.map.qq.com/loc?c=1",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://log.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://ls.map.soso.com/deflect?c=1",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://ls.map.soso.com/monitor/monitor.html",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://lstest.map.soso.com/loc?c=1",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://m.alipay.com/?action=h5quit",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://m.weibo.cn/reg/privacyagreement?from=h5&wm=3349",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://m.weibo.cn/reg/privacyagreement?from=h5&wm=3349&lang=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://m.wsq.qq.com/direct?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://mcgw.alipay.com/gateway.do",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://mobilegw-1-64.test.alipay.net/mgw.htm",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://mobilegw.stable.alipay.net/mgw.htm",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://mta.oa.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://mta.qq.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://oauth.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://openmobile.qq.com/oauth2.0/m_authorize?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://openmobile.qq.com/oauth2.0/m_jump_by_version?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://pay.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://pay.anysdk.com/v5/Order/getOrderId/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://pay.anysdk.com/v5/SimsdkPayNotice/SimsdkPayNotice/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://pay.anysdk.com/v5/Unit/get_order_url/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://pay.anysdk.com/v5/Unit/payment_switch/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://pay.anysdk.com/v5/Unit/query_ads/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://payment.ddmoba.com/payordercreate.html?serviceCode=10010007&receivername=%s&amount=%d&orderSource=%s&gameGuid=%d&outsn=%s",
+    "sources": [
+      "lib/armeabi/libgame.so"
+    ]
+  },
+  {
+    "url": "http://payment2.ddmoba.com/othersactivitymanager.html",
+    "sources": [
+      "assets/config/config.lua"
+    ]
+  },
+  {
+    "url": "http://pingma.qq.com:80/mstat/report",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com/open/mobile/brag/sdk_brag.html?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com/open/mobile/invite/sdk_invite.html?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com/open/mobile/jsbridge/demo.htm",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com/open/mobile/login/qzsjump.html?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com/open/mobile/not_support.html?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com/open/mobile/rate/sdk_rate.html?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com/open/mobile/reactive/sdk_reactive.html?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com/open/mobile/request/sdk_request.html?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com/open/mobile/sdk_common/down_qq.htm?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com/open/mobile/sendstory/sdk_sendstory_v1.3.html?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://s.sz.gt.igexin.com/api.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://schemas.android.com/apk/res/android",
+    "sources": [
+      "res/anim/dialog_enter.xml",
+      "res/anim/dialog_exit.xml",
+      "res/layout-land/ema_webview_dialog.xml",
+      "res/layout/dialog_share.xml",
+      "res/layout/ema_alert_dialog.xml",
+      "res/layout/ema_bind_alert_dialog.xml",
+      "res/layout/ema_com_title.xml",
+      "res/layout/ema_dialog_system_busy.xml",
+      "res/layout/ema_floating.xml",
+      "res/layout/ema_login_normal.xml",
+      "res/layout/ema_login_succdialog.xml",
+      "res/layout/ema_option_item.xml",
+      "res/layout/ema_options.xml",
+      "res/layout/ema_pay_0yuanfu_passw.xml",
+      "res/layout/ema_pay_0yuanfu_set_passw.xml",
+      "res/layout/ema_pay_gcard.xml",
+      "res/layout/ema_pay_gcard_grid_item.xml",
+      "res/layout/ema_pay_gcard_list_item.xml",
+      "res/layout/ema_pay_gcard_new.xml",
+      "res/layout/ema_pay_mabi.xml",
+      "res/layout/ema_pay_thrdpay.xml",
+      "res/layout/ema_pay_trd_item.xml",
+      "res/layout/ema_prompt_pay_cancel.xml",
+      "res/layout/ema_prompt_pay_result.xml",
+      "res/layout/ema_recharge_mabi.xml",
+      "res/layout/ema_register.xml",
+      "res/layout/ema_register_by_phone.xml",
+      "res/layout/ema_set_pay_limit.xml",
+      "res/layout/ema_set_pay_limit_enter_passw.xml",
+      "res/layout/ema_set_pay_passw.xml",
+      "res/layout/ema_splash.xml",
+      "res/layout/ema_trd_select_dialog.xml",
+      "res/layout/ema_trd_select_dialog_item.xml",
+      "res/layout/ema_webview.xml",
+      "res/layout/ema_webview_dialog.xml",
+      "res/layout/ema_webview_simple.xml",
+      "res/layout/getui_notification.xml",
+      "res/layout/increment_popup_dialog.xml",
+      "res/layout/plugin_ads.xml",
+      "res/layout/plugin_login.xml",
+      "res/layout/textfield.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.open.amp.igexin.com/api.htm",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.open.inc2.igexin.com/api.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.open.lbs.igexin.com/api.htm",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.open.phone.igexin.com/api.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://service.weibo.com/share/mobilesdk.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://service.weibo.com/share/mobilesdk_uppic.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sh-oauth.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sh-pay.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sim.qudao.info/account/login",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sim.qudao.info/account/logout",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sim.qudao.info/api/pay/exec",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://stat.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://test.api.emagroup.cn",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://testactivity.jumpwgame.com/activeusermanager.html?serviceCode=30020001&codeId=%s&w=%d&h=%d",
+    "sources": [
+      "lib/armeabi/libgame.so"
+    ]
+  },
+  {
+    "url": "http://webpresence.qq.com/getonline?Type=1&",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://weibo.cn/dpool/ttt/h5/regagreement.php?from=h5",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://weibo.cn/dpool/ttt/h5/regagreement.php?from=h5&lang=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://weibo.cn/dpool/ttt/maps.php?xy=%s,%s&amp;size=320x320&amp;offset=%s",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://widget.weibo.com/distribution/socail_comments_sdk.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://widget.weibo.com/invitation/app.php?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://widget.weibo.com/invitation/appinfo.php?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://widget.weibo.com/relationship/followsdk.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://wspeed.qq.com/w.cgi",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://www.apple.com/DTDs/PropertyList-1.0.dtd",
+    "sources": [
+      "lib/armeabi/libgame.so"
+    ]
+  },
+  {
+    "url": "http://www.myapp.com/forward/a/45592?g_f=990935",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://www.openssl.org/support/faq.html",
+    "sources": [
+      "lib/armeabi/libgame.so"
+    ]
+  },
+  {
+    "url": "http://xmlpull.org/v1/doc/features.html#indent-output",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weibo.com/2/friendships/show.json",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weibo.com/2/proxy/darwin/graph/game/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weibo.com/2/proxy/sdk/statistic.json",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weibo.com/2/statuses/repost.json",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weibo.com/2/statuses/update.json",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weibo.com/2/statuses/upload.json",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weibo.com/oauth2/access_token",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weibo.com/oauth2/getaid.json",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://mclient.alipay.com/home/exterfaceAssign.htm?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://mclient.alipay.com/sdkErrorlog.do",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://mobilegw.alipay.com/mgw.htm",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://open.weibo.cn/oauth2/authorize?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://openapi.nonobank.com/h5/yima?openId=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://openapi.nonobank.com/nono-web/creditAuth/isPaymentPasswordExist",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://openapi.nonobank.com/nono-web/creditAuth/updatePaymentPassword",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://openapi.nonobank.com/nono-web/creditAuth/verifyPaymentPassword",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://openapi.nonobank.com/nono-web/creditPayment/isPaymentActivated",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://openapi.nonobank.com/nono-web/creditPayment/pay",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://openmobile.qq.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://openmobile.qq.com/user/user_login_statis",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://openmobile.qq.com/v3/user/get_info",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://platform.lemonade-game.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://staging-platform.lemonade-game.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://testing-platform.lemonade-game.com:8443",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://wap.lemonade-game.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://wappaygw.alipay.com/home/exterfaceAssign.htm?",
+    "sources": [
+      "classes.dex"
+    ]
+  }
+]

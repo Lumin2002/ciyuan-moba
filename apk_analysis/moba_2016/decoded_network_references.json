@@ -1,0 +1,167 @@
+[
+  {
+    "file": "assets/data/script/activity_ui.lua",
+    "line": 628,
+    "text": "            local url = \"http://payment.ddmoba.com/othersactivitymanager.html\""
+  },
+  {
+    "file": "assets/data/script/gamecover.lua",
+    "line": 1083,
+    "text": "\t\t-- local strAuthCodeUrl = string.format(\"http://testactivity.jumpwgame.com/activeusermanager.html?serviceCode=30020001&codeId=%s&w=%d&h=%d\",strScretKey,dw,dh)"
+  },
+  {
+    "file": "assets/data/script/gamecover.lua",
+    "line": 1093,
+    "text": "\t\t-- \tlocal strRegisterUrl = string.format(\"http://testactivity.jumpwgame.com/activeusermanager.html?serviceCode=10010001&fromCid=10161&VerifyCodeStateKey=%s&VerifyCodeKey=%s&NormalAccount=%s&clientPwd=%s&userPwd=%s\",\"\",strNewAuthcode,strNewAccount,strNewPassword,strCodePassword)"
+  },
+  {
+    "file": "assets/data/script/gamedef.lua",
+    "line": 6,
+    "text": "--“http://121.40.19.99/applechargenotify.html\""
+  },
+  {
+    "file": "assets/data/script/gamedef.lua",
+    "line": 7,
+    "text": "g_strReceiptURL = \"http://payment.ddmoba.com/applechargenotify.html\""
+  },
+  {
+    "file": "assets/data/script/gameindex.lua",
+    "line": 218,
+    "text": "\t--C_OpenWebview(\"http://300.jumpw.com/game/html/mobilelancher.html\",400,100,500,400)"
+  },
+  {
+    "file": "assets/data/script/gameindex.lua",
+    "line": 221,
+    "text": "-- \tC_OpenWebview(\"http://300.jumpw.com/game/html/mobilelancher.html\",400,150,500,350)"
+  },
+  {
+    "file": "assets/data/script/hero_repository.lua",
+    "line": 2797,
+    "text": "\t\t\t\t--JLog(\"Step:18.1.1.1\")"
+  },
+  {
+    "file": "assets/data/script/hero_repository.lua",
+    "line": 2799,
+    "text": "\t\t\t\t--JLog(\"Step:18.1.1.2\")"
+  },
+  {
+    "file": "assets/data/script/hero_repository.lua",
+    "line": 2801,
+    "text": "\t\t\t\t--JLog(\"Step:18.1.1.3\")"
+  },
+  {
+    "file": "assets/data/script/hero_repository.lua",
+    "line": 2803,
+    "text": "\t\t\t\t--JLog(\"Step:18.1.1.4\")"
+  },
+  {
+    "file": "assets/data/script/hero_repository.lua",
+    "line": 2805,
+    "text": "\t\t\t\t--JLog(\"Step:18.1.1.5\") "
+  },
+  {
+    "file": "assets/data/script/hero_repository.lua",
+    "line": 2807,
+    "text": "\t\t\t\t\t\t--JLog(\"Step:18.1.1.6\")"
+  },
+  {
+    "file": "assets/data/script/hero_repository.lua",
+    "line": 2811,
+    "text": "\t\t\t\t\t\t--JLog(\"Step:18.1.1.7\")"
+  },
+  {
+    "file": "assets/data/script/hero_repository.lua",
+    "line": 2814,
+    "text": "\t\t\t\t\t--JLog(\"Step:18.1.1.8\")"
+  },
+  {
+    "file": "assets/data/script/hero_repository.lua",
+    "line": 2816,
+    "text": "\t\t\t\t\t\t--JLog(\"Step:18.1.1.9\")"
+  },
+  {
+    "file": "assets/data/script/hero_repository.lua",
+    "line": 2821,
+    "text": "\t\t\t\t--JLog(\"Step:18.1.1.12\")"
+  },
+  {
+    "file": "assets/data/script/json/json.lua",
+    "line": 5,
+    "text": "-- Homepage: http://json.luaforge.net/"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 5,
+    "text": "-- Homepage: http://json.luaforge.net/"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 20,
+    "text": "--  Lua socket 2.0 (http://www.cs.princeton.edu/~diego/professional/luasocket/)"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 41,
+    "text": "--   local jsolait = json.rpc.proxy('http://jsolait.net/testj.py')"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 70,
+    "text": "--   print(json.rpc.call('http://jsolait.net/testj.py','echo','This string will be returned'))"
+  },
+  {
+    "file": "assets/data/script/json/rpcserver.lua",
+    "line": 6,
+    "text": "-- Homepage: http://json.luaforge.net/"
+  },
+  {
+    "file": "assets/data/script/launcher.lua",
+    "line": 179,
+    "text": "        --     local strCheckUrl = string.format(\"http://180.168.10.118:4321/activity/clientupdatestate.html?type=0&version=%s&imeino=%s&timestmp=%f\",g_nLocalResVersion,C_GetDeviceID(),GetTime())"
+  },
+  {
+    "file": "assets/data/script/launcher.lua",
+    "line": 300,
+    "text": "                    --     local strCheckUrl = string.format(\"http://180.168.10.118:4321/activity/clientupdatestate.html?type=1&version=%s&imeino=%s&timestmp=%f&result=1&remark=downloadfail\",g_nLocalResVersion,C_GetDeviceID(),GetTime())"
+  },
+  {
+    "file": "assets/data/script/launcher.lua",
+    "line": 331,
+    "text": "                --     local strCheckUrl = string.format(\"http://180.168.10.118:4321/activity/clientupdatestate.html?type=1&version=%s&imeino=%s&timestmp=%f&result=1&remark=missingorbad\",g_nLocalResVersion,C_GetDeviceID(),GetTime())"
+  },
+  {
+    "file": "assets/data/script/launcher.lua",
+    "line": 353,
+    "text": "            --     local strCheckUrl = string.format(\"http://180.168.10.118:4321/activity/clientupdatestate.html?type=1&version=%s&imeino=%s&timestmp=%f&result=0\",g_nServerResVersion,C_GetDeviceID(),GetTime())"
+  },
+  {
+    "file": "assets/data/script/logic/gameduplicate.lua",
+    "line": 2808,
+    "text": "\t\t\t\t--log(\"2.3.2.1\")"
+  },
+  {
+    "file": "assets/data/script/logic/gameduplicate.lua",
+    "line": 3146,
+    "text": "\t\t-- \t\t--log(\"3.3.2.1\")"
+  },
+  {
+    "file": "assets/data/script/recharge_ui.lua",
+    "line": 96,
+    "text": "\t\t\tlocal strAddress = \t\"http://payment.ddmoba.com/payordercreate.html\""
+  },
+  {
+    "file": "assets/data/script/recharge_ui.lua",
+    "line": 97,
+    "text": "\t\t\t--local strAddress = \t\"http://121.40.19.99/activity/payordercreate.html\""
+  },
+  {
+    "file": "assets/developerInfo.xml",
+    "line": 2,
+    "text": "<developer><channel BDDebugMode=\"false\" BDPlatformType=\"0\" BaiduDKGameAppId=\"6705975\" BaiduDKGameAppKey=\"9oBkz02K0s0jDxPUGN0lhbB1\" BaiduGameAppId=\"6705975\" BaiduGameAppKey=\"9oBkz02K0s0jDxPUGN0lhbB1\" BaiduGameOrientation=\"landscape\" ExchangeRate=\"1\" IAPOnlineBDYouxi_notify_url=\"http://sdk.emagroup.cn/pay/notice/baidugame\" OrderURL=\"http://sdk.emagroup.cn/pay/getorderid\" callback=\"http://sdk.emagroup.cn/pay/notice/baidugame\" ema_app_id=\"3\" ema_app_key=\"96fe75537ee0f8e92237d36a4474d8b7\" ema_channel_id=\"2\" extChannel=\"\" idChannel=\"404\" oauthLoginServer=\"http://payment.ddmoba.com/emaredirect.html\" privateKey=\"96fe75537ee0f8e92237d36a4474d8b7\" standby_domain_name=\"esdk2.emagroup.cn\" /></developer>"
+  },
+  {
+    "file": "assets/version.json",
+    "line": 1,
+    "text": "{\"Res\":63,\"App\":20,\"Url\":\"http://kom.cdn.emagroup.cn/Android/\"}"
+  }
+]

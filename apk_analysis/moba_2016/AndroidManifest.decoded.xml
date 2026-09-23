@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1020" android:versionName="1.20" package="cn.emagroup.kom.baidu">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="18" />
+  <uses-feature android:glEsVersion="0x20000" />
+  <application android:label="@0x7f030000" android:icon="@0x7f020000" android:name="com.baidu.gamesdk.BDGameApplication">
+    <activity android:theme="@0x01030007" android:label="@0x7f030000" android:name="cn.emagroup.kom.Tombird" android:screenOrientation="0" android:configChanges="0x40000dff">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="cn.emagroup.sdk.PayMabiActivity" android:launchMode="2" />
+    <activity android:name="cn.emagroup.sdk.Pay3rdActivity" />
+    <activity android:name="cn.emagroup.sdk.EmaPayThrdActivity" />
+    <activity android:name="cn.emagroup.sdk.EmaWebViewActivity" android:launchMode="2" />
+    <activity android:name="cn.emagroup.sdk.EmaRechargeMabi" />
+    <activity android:name="cn.emagroup.sdk.EmaPaySzfu" />
+    <activity android:name="cn.emagroup.sdk.EmaPayGcard" />
+    <activity android:name="cn.emagroup.sdk.AccountMainActivity" />
+    <meta-data android:name="EMA_APP_ID" android:value="@0x7f030003" />
+    <meta-data android:name="EMA_PRIVATE_KEY" android:value="6d21811db7bf62fed92367714956f52b" />
+    <meta-data android:name="EMA_REDIRECTURL" android:value="http://client.emagroup.cn/index.php/test/oauth/request_receive_authcode" />
+    <meta-data android:name="BDPlatformType" android:value="0" />
+    <meta-data android:name="BDGameVersion" android:value="3.5.2" />
+    <activity android:theme="@0x7f0b0002" android:name="com.baidu.platformsdk.LoginActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="0x4f0" />
+    <activity android:theme="@0x7f0b0002" android:name="com.baidu.platformsdk.AssistActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="0x4f0" />
+    <activity android:theme="@0x7f0b0002" android:name="com.baidu.platformsdk.BindPhoneActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="0x4f0" />
+    <activity android:theme="@0x7f0b0002" android:name="com.baidu.platformsdk.CashierDeskActivity" android:exported="false" android:configChanges="0x4f0" android:windowSoftInputMode="0x20" />
+    <activity android:theme="@0x01030007" android:name="com.baidu.platformsdk.WebActivity" android:exported="false" android:configChanges="0x4f0" android:windowSoftInputMode="0x20" />
+    <activity android:theme="@0x7f0b0002" android:name="com.baidu.platformsdk.ModifyPasswordActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="0x4f0" />
+    <activity android:theme="@0x01030007" android:name="com.baidu.platformsdk.ThirdPartyLoginActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="0x4f0" />
+    <activity android:theme="@0x7f0b0002" android:name="com.baidu.platformsdk.VisitorBindActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="0x4f0" />
+    <activity android:theme="@0x7f0b0002" android:name="com.baidu.platformsdk.BaiduBeanDetailActivity" android:exported="false" android:configChanges="0x4f0" android:windowSoftInputMode="0x20" />
+    <activity android:theme="@0x7f0b0002" android:name="com.baidu.platformsdk.OrderDetailActivity" android:exported="false" android:configChanges="0x4f0" android:windowSoftInputMode="0x20" />
+    <activity android:theme="@0x7f0b0002" android:name="com.baidu.platformsdk.SapiWebActivity" android:exported="false" android:configChanges="0x4f0" android:windowSoftInputMode="0x20" />
+    <activity android:theme="@0x7f0b0002" android:name="com.baidu.platformsdk.SapiLoginProxyActivity" android:exported="false" android:configChanges="0x4f0" android:windowSoftInputMode="0x20" />
+    <service android:name="com.baidu.platformsdk.BDPlatformService" android:exported="false" />
+    <activity android:theme="@0x7f0b0028" android:name="com.baidu.paysdk.login.LoginActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="0x4e0" android:windowSoftInputMode="0x2" />
+    <activity android:theme="@0x7f0b0028" android:name="com.baidu.paysdk.ui.WelcomeActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x2" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.OrderHomeActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x2" android:hardwareAccelerated="false" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.PayResultActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x2" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.PcPwdCheckActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x4" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.PwdCheckActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x4" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.PwdSetActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x4" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.PwdConfirmActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x4" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.PwdSetAndConfirmActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:configChanges="0x4e0" android:windowSoftInputMode="0x4" />
+    <activity android:theme="@0x7f0b0027" android:name="com.baidu.paysdk.ui.PwdPayActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x14" />
+    <activity android:theme="@0x7f0b0027" android:name="com.baidu.paysdk.ui.PwdPaySmsActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x2" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.WebViewActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x2" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.BindCardNoActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x2" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.BindCardDetailActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x24" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.BindCardDetailCredit2Activity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x24" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.BindCardDetailCreditActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x24" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.BindSmsActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x10" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.SelectBindCardActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x2" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.PhonePwdActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x4e0" android:windowSoftInputMode="0x2" />
+    <activity android:theme="@0x7f0b002d" android:name="com.baidu.paysdk.ui.SignChannelListActivity" android:exported="@0x7f070000" android:excludeFromRecents="true" android:configChanges="0x4e0" android:windowSoftInputMode="0x2" android:hardwareAccelerated="false" />
+    <activity android:theme="@0x7f0b0000" android:name="com.baidu.sapi2.utils.LoginProtectAcitivity" android:screenOrientation="1" android:windowSoftInputMode="0x20" />
+    <activity android:name="com.unionpay.uppay.PayActivity" android:excludeFromRecents="true" android:screenOrientation="0" android:configChanges="0xa0" android:windowSoftInputMode="0x10" />
+    <activity android:name="com.alipay.sdk.app.H5PayActivity" android:exported="false" android:screenOrientation="3" android:configChanges="0xe0" />
+    <activity android:name="com.alipay.sdk.auth.AuthActivity" android:exported="false" android:screenOrientation="3" android:configChanges="0xe0" />
+    <activity android:theme="@0x01030010" android:name="com.baidu.platformsdk.pay.channel.qqwallet.QQPayActivity" android:exported="true" android:launchMode="1" android:configChanges="0x4f0">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:scheme="qwalletcn.emagroup.kom.baidu" />
+      </intent-filter>
+    </activity>
+    <activity android:theme="@0x7f0b0018" android:name="com.duoku.platform.ui.DKContainerActivity" android:launchMode="1" android:configChanges="0x4e0" />
+    <service android:name="cn.emagroup.framework.gather.EmaOnLineService" />
+    <service android:name="com.duoku.platform.service.DKSuspensionService" />
+    <receiver android:name="com.duoku.platform.push.MyPushMessageReceiver">
+      <intent-filter>
+        <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+        <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+        <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.baidu.android.pushservice.PushServiceReceiver" android:process=":bdservice_v1">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+        <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+        <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+        <action android:name="android.intent.action.MEDIA_MOUNTED" />
+        <action android:name="android.intent.action.USER_PRESENT" />
+        <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+        <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.baidu.android.pushservice.RegistrationReceiver" android:process=":bdservice_v1">
+      <intent-filter>
+        <action android:name="com.baidu.android.pushservice.action.METHOD" />
+        <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.PACKAGE_REMOVED" />
+        <data android:scheme="package" />
+      </intent-filter>
+    </receiver>
+    <service android:name="com.baidu.android.pushservice.PushService" android:exported="true" android:process=":bdservice_v1">
+      <intent-filter>
+        <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+      </intent-filter>
+    </service>
+    <service android:name="com.baidu.android.pushservice.CommandService" android:exported="true" />
+    <meta-data android:name="PUSH_APPID" android:value="mdMmHMLzea8TwUEnFOvya5" />
+    <meta-data android:name="PUSH_APPKEY" android:value="jK8wy5s3fJ6fVcu7mKM063" />
+    <meta-data android:name="PUSH_APPSECRET" android:value="Mhk9hbyriV6WiiZeF0Gfi5" />
+    <receiver android:name="cn.emagroup.framework.SDK.EmaSDKPushReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="com.igexin.sdk.action.mdMmHMLzea8TwUEnFOvya5" />
+      </intent-filter>
+    </receiver>
+    <service android:label="NotificationCenter" android:name="com.igexin.sdk.PushService" android:exported="true" android:process=":pushservice" />
+    <service android:label="NotificationCenterUser" android:name="com.igexin.sdk.PushServiceUser" android:exported="true" />
+    <receiver android:name="com.igexin.sdk.PushReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+        <action android:name="android.intent.action.USER_PRESENT" />
+        <action android:name="com.igexin.sdk.action.refreshls" />
+        <action android:name="android.intent.action.MEDIA_MOUNTED" />
+        <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+        <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.igexin.sdk.PushManagerReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="com.igexin.sdk.action.pushmanager" />
+      </intent-filter>
+    </receiver>
+    <activity android:theme="@0x01030010" android:name="com.igexin.sdk.PushActivity" android:exported="false" android:process=":pushservice" android:taskAffinity="com.igexin.sdk.PushActivityTask" android:excludeFromRecents="true" />
+    <service android:name="com.igexin.download.DownloadService" android:process=":pushservice" />
+    <receiver android:name="com.igexin.download.DownloadReceiver">
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+      </intent-filter>
+    </receiver>
+    <provider android:name="com.igexin.download.DownloadProvider" android:exported="true" android:process=":pushservice" android:authorities="downloads.cn.emagroup.kom.baidu" />
+    <activity android:theme="@0x01030010" android:name="com.igexin.getuiext.activity.GetuiExtActivity" android:exported="false" android:process=":pushservice" android:taskAffinity="android.task.myServicetask" android:excludeFromRecents="true" android:configChanges="0xb0" />
+    <activity android:theme="@0x01030010" android:name="com.igexin.sdk.GActivity" android:exported="true" android:process=":pushservice" android:taskAffinity="com.igexin.sdk.PushActivityTask" android:excludeFromRecents="true" />
+    <receiver android:name="com.igexin.getuiext.service.PayloadReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4" />
+        <action android:name="com.igexin.sdk.action.mdMmHMLzea8TwUEnFOvya5" />
+      </intent-filter>
+    </receiver>
+    <service android:name="com.igexin.getuiext.service.GetuiExtService" android:process=":pushservice" />
+    <meta-data android:name="ASC_ChannelID" android:value="2" />
+  </application>
+  <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.GET_TASKS" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.SEND_SMS" />
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+  <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="getui.permission.GetuiService.cn.emagroup.kom.baidu" />
+  <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+  <uses-permission android:name="android.permission.READ_SMS" />
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.RECEIVE_SMS" />
+  <uses-permission android:name="android.permission.CALL_PHONE" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+  <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.FLASHLIGHT" />
+  <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+  <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+</manifest>

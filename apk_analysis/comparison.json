@@ -1,0 +1,34 @@
+[
+  {
+    "a": "ciyuan_2017",
+    "b": "game300_2018",
+    "common_asset_paths": 623,
+    "identical_assets": 0,
+    "identical_asset_examples": [],
+    "identical_asset_paths": []
+  },
+  {
+    "a": "ciyuan_2017",
+    "b": "moba_2016",
+    "common_asset_paths": 2427,
+    "identical_assets": 3,
+    "identical_asset_examples": [
+      "assets/data/font/fzcyj.ttf",
+      "assets/getui_popup_bg.9.png",
+      "assets/getui_popup_close.png"
+    ],
+    "identical_asset_paths": [
+      "assets/data/font/fzcyj.ttf",
+      "assets/getui_popup_bg.9.png",
+      "assets/getui_popup_close.png"
+    ]
+  },
+  {
+    "a": "game300_2018",
+    "b": "moba_2016",
+    "common_asset_paths": 342,
+    "identical_assets": 0,
+    "identical_asset_examples": [],
+    "identical_asset_paths": []
+  }
+]

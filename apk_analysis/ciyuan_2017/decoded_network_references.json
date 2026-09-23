@@ -1,0 +1,97 @@
+[
+  {
+    "file": "assets/config/config.lua",
+    "line": 9,
+    "text": "-- g_auUrl = \"http://120.92.63.244/othersactivitymanager.html\" --test"
+  },
+  {
+    "file": "assets/config/config.lua",
+    "line": 10,
+    "text": "g_auUrl = \"http://payment2.ddmoba.com/othersactivitymanager.html\" --pro"
+  },
+  {
+    "file": "assets/data/script/activity_ui.lua",
+    "line": 1302,
+    "text": "                g_auUrl = \"http://payment.kingofmoba.com/othersactivitymanager.html\""
+  },
+  {
+    "file": "assets/data/script/activity_ui.lua",
+    "line": 2167,
+    "text": "            local url = \"http://payment2.ddmoba.com/othersactivitymanager.html?\""
+  },
+  {
+    "file": "assets/data/script/gamedef.lua",
+    "line": 7,
+    "text": "--“http://121.40.19.99/applechargenotify.html\""
+  },
+  {
+    "file": "assets/data/script/gamedef.lua",
+    "line": 8,
+    "text": "g_strReceiptURL = \"http://payment2.ddmoba.com/applechargenotify.html\""
+  },
+  {
+    "file": "assets/data/script/gameindex.lua",
+    "line": 244,
+    "text": "\t--C_OpenWebview(\"http://300.jumpw.com/game/html/mobilelancher.html\",400,100,500,400)"
+  },
+  {
+    "file": "assets/data/script/gameindex.lua",
+    "line": 247,
+    "text": "-- \tC_OpenWebview(\"http://300.jumpw.com/game/html/mobilelancher.html\",400,150,500,350)"
+  },
+  {
+    "file": "assets/data/script/json/json.lua",
+    "line": 5,
+    "text": "-- Homepage: http://json.luaforge.net/"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 5,
+    "text": "-- Homepage: http://json.luaforge.net/"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 20,
+    "text": "--  Lua socket 2.0 (http://www.cs.princeton.edu/~diego/professional/luasocket/)"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 41,
+    "text": "--   local jsolait = json.rpc.proxy('http://jsolait.net/testj.py')"
+  },
+  {
+    "file": "assets/data/script/json/rpc.lua",
+    "line": 70,
+    "text": "--   print(json.rpc.call('http://jsolait.net/testj.py','echo','This string will be returned'))"
+  },
+  {
+    "file": "assets/data/script/json/rpcserver.lua",
+    "line": 6,
+    "text": "-- Homepage: http://json.luaforge.net/"
+  },
+  {
+    "file": "assets/data/script/logic/gameduplicate.lua",
+    "line": 3641,
+    "text": "\t\t-- \t\t--log(\"3.3.2.1\")"
+  },
+  {
+    "file": "assets/data/script/recharge_ui.lua",
+    "line": 168,
+    "text": "\t\t\t--local strAddress = \t\"http://payment2.ddmoba.com/payordercreate.html\""
+  },
+  {
+    "file": "assets/data/script/recharge_ui.lua",
+    "line": 169,
+    "text": "\t\t\tlocal strAddress = \t\"http://payment2.ddmoba.com/payordercreate.html\""
+  },
+  {
+    "file": "assets/version.json",
+    "line": 1,
+    "text": "{\"Res\":76,\"App\":216,\"Url\":\"http://kom.cdn.emagroup.cn/moba02/Android/\"}"
+  },
+  {
+    "file": "assets/version_copy.json",
+    "line": 1,
+    "text": "{\"Res\":999,\"App\":999,\"Url\":\"http://download.jumpw.com/ciyuan/Android/\"}"
+  }
+]

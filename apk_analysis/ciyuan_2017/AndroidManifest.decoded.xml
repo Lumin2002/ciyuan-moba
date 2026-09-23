@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="201602" android:versionName="2.16" package="com.emagroup.mbzw2.emagroup" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+  <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="22" />
+  <uses-feature android:glEsVersion="0x20000" />
+  <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+  <meta-data android:name="android.app.lib_name" android:value="game" />
+  <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+  <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+  <uses-permission android:name="android.permission.GET_TASKS" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="getui.permission.GetuiService.com.emagroup.mbzw2.emagroup" />
+  <permission android:name="getui.permission.GetuiService.com.emagroup.mbzw2.emagroup" android:protectionLevel="0x0" />
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+  <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+  <uses-permission android:name="android.permission.READ_LOGS" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <application android:label="次元大作战" android:icon="@0x7f020068">
+    <activity android:theme="@0x01030007" android:label="次元大作战" android:name="cn.emagroup.kom.Tombird" android:screenOrientation="0" android:configChanges="0x40000dff">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="com.emagroup.sdk.PayMabiActivity" />
+    <activity android:name="com.emagroup.sdk.TrdCardActivity" android:screenOrientation="0" />
+    <activity android:name="com.emagroup.sdk.WebViewActivity" android:screenOrientation="1" />
+    <activity android:name="com.emagroup.sdk.WebViewSimpleActivity" />
+    <service android:name="com.emagroup.sdk.EmaService" />
+    <activity android:name="com.alipay.sdk.app.H5PayActivity" android:exported="false" android:screenOrientation="3" android:configChanges="0xe0" />
+    <activity android:name="com.alipay.sdk.auth.AuthActivity" android:exported="false" android:screenOrientation="3" android:configChanges="0xe0" />
+    <meta-data android:name="EMA_APP_ID" android:value="n20015" />
+    <meta-data android:name="EMA_CHANNEL_ID" android:value="n26" />
+    <meta-data android:name="EMA_CHANNEL_TAG" android:value="n1001" />
+    <meta-data android:name="EMA_WHICH_ENVI" android:value="production" />
+    <meta-data android:name="PUSH_APPID" android:value="rYPJsOoDYa9868lmxgWyA4" />
+    <meta-data android:name="PUSH_APPKEY" android:value="U5LLqz8OWj7LW2zRdBF3bA" />
+    <meta-data android:name="PUSH_APPSECRET" android:value="Z2Hj5Fn43y8xDUuCoyiC73" />
+    <receiver android:name="com.emagroup.sdk.PushDemoReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="com.igexin.sdk.action.rYPJsOoDYa9868lmxgWyA4" />
+      </intent-filter>
+    </receiver>
+    <service android:label="NotificationCenter" android:name="com.igexin.sdk.PushService" android:exported="true" android:process=":pushservice">
+      <intent-filter>
+        <action android:name="com.igexin.sdk.action.service.message" />
+      </intent-filter>
+    </service>
+    <service android:label="NotificationCenterUser" android:name="com.igexin.sdk.PushServiceUser" android:exported="true">
+      <intent-filter>
+        <action android:name="com.igexin.sdk.action.user.message" />
+      </intent-filter>
+    </service>
+    <receiver android:name="com.igexin.sdk.PushReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+        <action android:name="android.intent.action.USER_PRESENT" />
+        <action android:name="com.igexin.sdk.action.refreshls" />
+        <action android:name="android.intent.action.MEDIA_MOUNTED" />
+        <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+        <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.igexin.sdk.PushManagerReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="com.igexin.sdk.action.pushmanager" />
+      </intent-filter>
+    </receiver>
+    <activity android:theme="@0x01030010" android:name="com.igexin.sdk.PushActivity" android:exported="false" android:process=":pushservice" android:taskAffinity="com.igexin.sdk.PushActivityTask" android:excludeFromRecents="true" />
+    <activity android:theme="@0x01030010" android:name="com.igexin.sdk.GActivity" android:exported="true" android:process=":pushservice" android:taskAffinity="com.igexin.sdk.PushActivityTask" android:excludeFromRecents="true" />
+    <service android:name="com.igexin.download.DownloadService" android:process=":pushservice" />
+    <receiver android:name="com.igexin.download.DownloadReceiver">
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+      </intent-filter>
+    </receiver>
+    <provider android:name="com.igexin.download.DownloadProvider" android:exported="true" android:process=":pushservice" android:authorities="downloads.com.emagroup.mbzw2.emagroup" />
+    <meta-data android:name="QQ_APP_ID" android:value="n1105564847" />
+    <activity android:name="com.tencent.tauth.AuthActivity" android:launchMode="2" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="tencent1105564847" />
+      </intent-filter>
+    </activity>
+    <activity android:theme="@0x01030010" android:name="com.tencent.connect.common.AssistActivity" android:configChanges="0x4a0" />
+    <meta-data android:name="WEI_BO_APP_ID" android:value="n4285757031" />
+    <activity android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:exported="false" android:configChanges="0xa0" android:windowSoftInputMode="0x10" />
+    <activity android:theme="@0x01030010" android:name="com.emagroup.sdk.WeiBoEntryActivity" android:exported="true">
+      <intent-filter>
+        <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </activity>
+    <meta-data android:name="WECHAT_APP_ID" android:value="wxad312759ba0cb817" />
+    <activity android:theme="@0x0103000f" android:name=".wxapi.WXEntryActivity" android:exported="true" />
+    <activity android:name="com.emagroup.sdk.PayTrdActivity" android:exported="true" android:launchMode="1">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:scheme="wxad312759ba0cb817" />
+        <data android:scheme="pay_qwallet1105564847" />
+      </intent-filter>
+    </activity>
+    <activity android:name="com.emagroup.sdk.RechargeMabiActivity" android:exported="true" android:launchMode="1">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:scheme="wxad312759ba0cb817" />
+        <data android:scheme="recharge_qwallet1105564847" />
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>

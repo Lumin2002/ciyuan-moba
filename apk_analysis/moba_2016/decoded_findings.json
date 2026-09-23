@@ -1,0 +1,122 @@
+{
+  "id": "moba_2016",
+  "hero_records": 21,
+  "heroes": [
+    {
+      "id": 119,
+      "name_key": "Name_aixi",
+      "display_name": null
+    },
+    {
+      "id": 102,
+      "name_key": "Name_Saber",
+      "display_name": null
+    },
+    {
+      "id": 126,
+      "name_key": "Name_gailun",
+      "display_name": null
+    },
+    {
+      "id": 103,
+      "name_key": "Name_siwangzhuzai",
+      "display_name": null
+    },
+    {
+      "id": 105,
+      "name_key": "Name_shana",
+      "display_name": null
+    },
+    {
+      "id": 114,
+      "name_key": "Name_hongA",
+      "display_name": null
+    },
+    {
+      "id": 101,
+      "name_key": "Name_heiyansheshou",
+      "display_name": null
+    },
+    {
+      "id": 118,
+      "name_key": "Name_yeye",
+      "display_name": null
+    },
+    {
+      "id": 109,
+      "name_key": "Name_Xiaoxin",
+      "display_name": null
+    },
+    {
+      "id": 104,
+      "name_key": "Name_buzhihuowu",
+      "display_name": null
+    },
+    {
+      "id": 106,
+      "name_key": "Name_daofeng",
+      "display_name": null
+    },
+    {
+      "id": 107,
+      "name_key": "Name_sanli",
+      "display_name": null
+    },
+    {
+      "id": 112,
+      "name_key": "Name_Xiaomeiyan",
+      "display_name": null
+    },
+    {
+      "id": 110,
+      "name_key": "Name_tongren",
+      "display_name": null
+    },
+    {
+      "id": 111,
+      "name_key": "Name_kalasi",
+      "display_name": null
+    },
+    {
+      "id": 113,
+      "name_key": "Name_jinmuyan",
+      "display_name": null
+    },
+    {
+      "id": 115,
+      "name_key": "Name_shizao",
+      "display_name": null
+    },
+    {
+      "id": 116,
+      "name_key": "Name_chuyinweilai",
+      "display_name": null
+    },
+    {
+      "id": 121,
+      "name_key": "Name_renzhemao",
+      "display_name": null
+    },
+    {
+      "id": 117,
+      "name_key": "Name_liuke",
+      "display_name": null
+    },
+    {
+      "id": 127,
+      "name_key": "Name_chamuchamu",
+      "display_name": null
+    }
+  ],
+  "versions": {
+    "assets/version.json": {
+      "Res": 63,
+      "App": 20,
+      "Url": "http://kom.cdn.emagroup.cn/Android/"
+    }
+  },
+  "lua_files": 79,
+  "lua_non_bytecode_files": 79,
+  "network_reference_lines": 33,
+  "hero_model_directories": []
+}

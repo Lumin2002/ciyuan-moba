@@ -1,0 +1,870 @@
+[
+  {
+    "url": "http://192.168.18.9:8080",
+    "sources": [
+      "assets/u8_developer_config.properties"
+    ]
+  },
+  {
+    "url": "http://300m.jumpw.com/config/300m/Android/jump/V1.0/jumpw_developerInfo.xml",
+    "sources": [
+      "assets/u8_developer_config.properties"
+    ]
+  },
+  {
+    "url": "http://alog.umeng.com/app_logs",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://alog.umengcloud.com/app_logs",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://android.bugly.qq.com/rqd/async",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api.jumpw.com/Announcement.html",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://curl.haxx.se/docs/http-cookies.html",
+    "sources": [
+      "lib/armeabi-v7a/libgame.so"
+    ]
+  },
+  {
+    "url": "http://da.mmarket.com/mmsdk/mmsdk?func=mmsdk:postactlog",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://da.mmarket.com/mmsdk/mmsdk?func=mmsdk:posterrlog",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://da.mmarket.com/mmsdk/mmsdk?func=mmsdk:posteventlog",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://da.mmarket.com/mmsdk/mmsdk?func=mmsdk:postsyslog",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://da.mmarket.com/mmsdk/mmsdk?func=mmsdk:specposteventlog",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://data.openspeech.cn/index.php/clientrequest/clientcollect/isCollect",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://dev.voicecloud.cn/msc/help.html",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://dmp.jumpw.com/clientupdate.jsp",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://dmp.jumpw.com/domob/callback.html",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://download.jumpw.com/300mobile/Android/",
+    "sources": [
+      "assets/version.json"
+    ]
+  },
+  {
+    "url": "http://file.api.weixin.qq.com/cgi-bin/media/get?access_token=%s&media_id=%s",
+    "sources": [
+      "lib/armeabi-v7a/libyim.so"
+    ]
+  },
+  {
+    "url": "http://gcc.gnu.org/bugs.html):",
+    "sources": [
+      "lib/armeabi-v7a/libyim.so",
+      "lib/armeabi-v7a/libyoume_voice_engine.so"
+    ]
+  },
+  {
+    "url": "http://hxqd.openspeech.cn/launchconfig",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://imfv.openspeech.cn/msp.do",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://iss.openspeech.cn/v?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://iws.openspeech.cn/online_param/config_update.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://log.umsns.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://log.umsns.com/link/qq/download/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://log.umsns.com/link/weixin/download/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://log.umsns.com/share/api/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://openapi.openspeech.cn/webapi/wfr.do",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://payment.ddmoba.com/payordercreate.html?serviceCode=10010007&receivername=%s&amount=%d&orderSource=%s&gameGuid=%d&outsn=%s",
+    "sources": [
+      "lib/armeabi-v7a/libgame.so"
+    ]
+  },
+  {
+    "url": "http://rqd.uu.qq.com/rqd/sync",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://schemas.android.com/apk/res-auto",
+    "sources": [
+      "res/color/abc_btn_colored_borderless_text_material.xml",
+      "res/color/abc_btn_colored_text_material.xml",
+      "res/color/abc_tint_btn_checkable.xml",
+      "res/color/abc_tint_default.xml",
+      "res/color/abc_tint_edittext.xml",
+      "res/color/abc_tint_seek_thumb.xml",
+      "res/color/abc_tint_spinner.xml",
+      "res/color/abc_tint_switch_thumb.xml",
+      "res/color/abc_tint_switch_track.xml",
+      "res/layout-v11/notification_media_cancel_action.xml",
+      "res/layout-v17/abc_action_mode_close_item_material.xml",
+      "res/layout-v17/abc_select_dialog_material.xml",
+      "res/layout-v21/abc_screen_toolbar.xml",
+      "res/layout/abc_action_menu_layout.xml",
+      "res/layout/abc_action_mode_close_item_material.xml",
+      "res/layout/abc_screen_toolbar.xml",
+      "res/layout/abc_select_dialog_material.xml"
+    ]
+  },
+  {
+    "url": "http://schemas.android.com/apk/res/android",
+    "sources": [
+      "classes.dex",
+      "res/anim/abc_fade_in.xml",
+      "res/anim/abc_fade_out.xml",
+      "res/anim/abc_grow_fade_in_from_bottom.xml",
+      "res/anim/abc_popup_enter.xml",
+      "res/anim/abc_popup_exit.xml",
+      "res/anim/abc_shrink_fade_out_from_bottom.xml",
+      "res/anim/abc_slide_in_bottom.xml",
+      "res/anim/abc_slide_in_top.xml",
+      "res/anim/abc_slide_out_bottom.xml",
+      "res/anim/abc_slide_out_top.xml",
+      "res/anim/dialog_enter.xml",
+      "res/anim/dialog_exit.xml",
+      "res/anim/jumpw_load_animation.xml",
+      "res/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+      "res/color-v11/abc_background_cache_hint_selector_material_light.xml",
+      "res/color-v23/abc_btn_colored_borderless_text_material.xml",
+      "res/color-v23/abc_btn_colored_text_material.xml",
+      "res/color-v23/abc_color_highlight_material.xml",
+      "res/color-v23/abc_tint_btn_checkable.xml",
+      "res/color-v23/abc_tint_default.xml",
+      "res/color-v23/abc_tint_edittext.xml",
+      "res/color-v23/abc_tint_seek_thumb.xml",
+      "res/color-v23/abc_tint_spinner.xml",
+      "res/color-v23/abc_tint_switch_thumb.xml",
+      "res/color-v23/abc_tint_switch_track.xml",
+      "res/color/abc_btn_colored_borderless_text_material.xml",
+      "res/color/abc_btn_colored_text_material.xml",
+      "res/color/abc_hint_foreground_material_dark.xml",
+      "res/color/abc_hint_foreground_material_light.xml",
+      "res/color/abc_primary_text_disable_only_material_dark.xml",
+      "res/color/abc_primary_text_disable_only_material_light.xml",
+      "res/color/abc_primary_text_material_dark.xml",
+      "res/color/abc_primary_text_material_light.xml",
+      "res/color/abc_search_url_text.xml",
+      "res/color/abc_secondary_text_material_dark.xml",
+      "res/color/abc_secondary_text_material_light.xml",
+      "res/color/abc_tint_btn_checkable.xml",
+      "res/color/abc_tint_default.xml",
+      "res/color/abc_tint_edittext.xml",
+      "res/color/abc_tint_seek_thumb.xml",
+      "res/color/abc_tint_spinner.xml",
+      "res/color/abc_tint_switch_thumb.xml",
+      "res/color/abc_tint_switch_track.xml",
+      "res/color/switch_thumb_material_dark.xml",
+      "res/color/switch_thumb_material_light.xml",
+      "res/layout-sw550dp-large/umeng_socialize_oauth_dialog.xml",
+      "res/layout-v11/notification_media_action.xml",
+      "res/layout-v11/notification_media_cancel_action.xml",
+      "res/layout-v11/notification_template_big_media.xml",
+      "res/layout-v11/notification_template_big_media_custom.xml",
+      "res/layout-v11/notification_template_big_media_narrow.xml",
+      "res/layout-v11/notification_template_big_media_narrow_custom.xml",
+      "res/layout-v16/notification_template_custom_big.xml",
+      "res/layout-v17/abc_action_mode_close_item_material.xml",
+      "res/layout-v17/abc_alert_dialog_button_bar_material.xml",
+      "res/layout-v17/abc_alert_dialog_title_material.xml",
+      "res/layout-v17/abc_dialog_title_material.xml",
+      "res/layout-v17/abc_popup_menu_header_item_layout.xml",
+      "res/layout-v17/abc_popup_menu_item_layout.xml",
+      "res/layout-v17/abc_search_view.xml",
+      "res/layout-v17/abc_select_dialog_material.xml",
+      "res/layout-v17/notification_action.xml",
+      "res/layout-v17/notification_action_tombstone.xml",
+      "res/layout-v17/notification_template_big_media.xml",
+      "res/layout-v17/notification_template_big_media_custom.xml",
+      "res/layout-v17/notification_template_big_media_narrow.xml",
+      "res/layout-v17/notification_template_big_media_narrow_custom.xml",
+      "res/layout-v17/notification_template_custom_big.xml",
+      "res/layout-v17/notification_template_lines_media.xml",
+      "res/layout-v17/notification_template_media.xml",
+      "res/layout-v17/notification_template_media_custom.xml",
+      "res/layout-v17/select_dialog_multichoice_material.xml",
+      "res/layout-v17/select_dialog_singlechoice_material.xml",
+      "res/layout-v17/textfield.xml",
+      "res/layout-v21/abc_screen_toolbar.xml",
+      "res/layout-v21/notification_action.xml",
+      "res/layout-v21/notification_action_tombstone.xml",
+      "res/layout-v21/notification_template_custom_big.xml",
+      "res/layout-v21/notification_template_icon_group.xml",
+      "res/layout-v22/abc_alert_dialog_button_bar_material.xml",
+      "res/layout/abc_action_bar_title_item.xml",
+      "res/layout/abc_action_bar_up_container.xml",
+      "res/layout/abc_action_bar_view_list_nav_layout.xml",
+      "res/layout/abc_action_menu_item_layout.xml",
+      "res/layout/abc_action_menu_layout.xml",
+      "res/layout/abc_action_mode_bar.xml",
+      "res/layout/abc_action_mode_close_item_material.xml",
+      "res/layout/abc_activity_chooser_view.xml",
+      "res/layout/abc_activity_chooser_view_list_item.xml",
+      "res/layout/abc_alert_dialog_button_bar_material.xml",
+      "res/layout/abc_alert_dialog_material.xml",
+      "res/layout/abc_alert_dialog_title_material.xml",
+      "res/layout/abc_dialog_title_material.xml",
+      "res/layout/abc_expanded_menu_layout.xml",
+      "res/layout/abc_list_menu_item_checkbox.xml",
+      "res/layout/abc_list_menu_item_icon.xml",
+      "res/layout/abc_list_menu_item_layout.xml",
+      "res/layout/abc_list_menu_item_radio.xml",
+      "res/layout/abc_popup_menu_header_item_layout.xml",
+      "res/layout/abc_popup_menu_item_layout.xml",
+      "res/layout/abc_screen_content_include.xml",
+      "res/layout/abc_screen_simple.xml",
+      "res/layout/abc_screen_simple_overlay_action_mode.xml",
+      "res/layout/abc_screen_toolbar.xml",
+      "res/layout/abc_search_dropdown_item_icons_2line.xml",
+      "res/layout/abc_search_view.xml",
+      "res/layout/abc_select_dialog_material.xml",
+      "res/layout/activity_main.xml",
+      "res/layout/jump_float_dialog_layout_menu_left.xml",
+      "res/layout/jump_float_dialog_layout_menu_logo.xml",
+      "res/layout/jump_float_dialog_layout_menu_right.xml",
+      "res/layout/jumpw_account_login.xml",
+      "res/layout/jumpw_activation.xml",
+      "res/layout/jumpw_dialog_commom.xml",
+      "res/layout/jumpw_layout_main.xml",
+      "res/layout/jumpw_layout_pay.xml",
+      "res/layout/jumpw_loading_dialog.xml",
+      "res/layout/jumpw_login_mode.xml",
+      "res/layout/jumpw_payment.xml",
+      "res/layout/jumpw_payment_method.xml",
+      "res/layout/jumpw_phone_bind.xml",
+      "res/layout/jumpw_phone_login.xml",
+      "res/layout/jumpw_phone_register.xml",
+      "res/layout/jumpw_quicks_login.xml",
+      "res/layout/jumpw_userinfo_activity.xml",
+      "res/layout/notification_action.xml",
+      "res/layout/notification_action_tombstone.xml",
+      "res/layout/notification_template_custom_big.xml",
+      "res/layout/notification_template_icon_group.xml",
+      "res/layout/notification_template_lines_media.xml",
+      "res/layout/notification_template_media.xml",
+      "res/layout/notification_template_media_custom.xml",
+      "res/layout/notification_template_part_chronometer.xml",
+      "res/layout/notification_template_part_time.xml",
+      "res/layout/select_dialog_item_material.xml",
+      "res/layout/select_dialog_multichoice_material.xml",
+      "res/layout/select_dialog_singlechoice_material.xml",
+      "res/layout/socialize_share_menu_item.xml",
+      "res/layout/support_simple_spinner_dropdown_item.xml",
+      "res/layout/textfield.xml",
+      "res/layout/umeng_socialize_oauth_dialog.xml",
+      "res/layout/umeng_socialize_share.xml",
+      "res/menu/main.xml"
+    ]
+  },
+  {
+    "url": "http://scs.openspeech.cn/scs",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/plt/index.j",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/qly/bindaccount.jump",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/qly/register.jump",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/MeXg2bp",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/bDk5tYb",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/bindmobile.jump",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/chkmobile.jump",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/gAAtc1e",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/getwebcash.jump",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/login.jump",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/mDfwo4d",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/mReg10x",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/pay.jump",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/regetpwd.jump",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/register.jump",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/resetpwd.jump",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.jumpw.com/sdk/validmsgregetpwd.jump",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://service.weibo.com/share/mobilesdk.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://service.weibo.com/share/mobilesdk_uppic.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://translate.google.com",
+    "sources": [
+      "lib/armeabi-v7a/libyim.so"
+    ]
+  },
+  {
+    "url": "http://www.apple.com/DTDs/PropertyList-1.0.dtd",
+    "sources": [
+      "lib/armeabi-v7a/libgame.so"
+    ]
+  },
+  {
+    "url": "http://www.umeng.com/social",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://xmlpull.org/v1/doc/features.html#indent-output",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://ziyuan.jumpw.com/sdk/300m/Android/jump/V1.0/jumpw_developerInfo.xml",
+    "sources": [
+      "assets/u8_developer_config.properties"
+    ]
+  },
+  {
+    "url": "https://api.weibo.com/2/users/show.json",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weibo.com/oauth2/getaid.json",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weibo.com/oauth2/revokeoauth2",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weixin.qq.com/sns/oauth2/access_token?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weixin.qq.com/sns/oauth2/refresh_token?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weixin.qq.com/sns/oauth2/refresh_token?appid=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.weixin.qq.com/sns/userinfo?access_token=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://api.youme.im",
+    "sources": [
+      "lib/armeabi-v7a/libyoume_voice_engine.so"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/0fqeCy?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/19HTvC?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/1HTzyC?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/4v4XPn?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/5P9baC?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/8Tfmei?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/9D49bu?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/9T595j?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/9XX5ry?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/9XXbCm?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/CC0LLz?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/CCiOHv?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/CuKXbi?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/GPruqi?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/H5vGLj?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/HL1T9j?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/KD4zOf?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/KHDGXb?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/KfWLzu?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/KzKfWz?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/LXzm8D?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/OTnqea?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/Pn0TTr?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/SLDG5z?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/WT95za?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/aOzmWf?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/bObWzC?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/f8HHDi?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/i8Dy8n?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/iWvmGD?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/iiuOHz?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/iqmK1D?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/jiia8D?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/uOjyCu?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/ve4Pbm?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://at.umeng.com/ya4Dmy?cid=476",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://bitbucket.org/loganchien/clang",
+    "sources": [
+      "lib/armeabi-v7a/libgame.so"
+    ]
+  },
+  {
+    "url": "https://bitbucket.org/loganchien/llvm",
+    "sources": [
+      "lib/armeabi-v7a/libgame.so"
+    ]
+  },
+  {
+    "url": "https://cmnsguider.yunos.com:443/genDeviceToken",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://graph.qq.com/oauth2.0/me?access_token=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://hkapi.youme.im",
+    "sources": [
+      "lib/armeabi-v7a/libyoume_voice_engine.so"
+    ]
+  },
+  {
+    "url": "https://log.umsns.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://mobile.umeng.com/images/pic/home/social/img-1.png",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://open.weibo.cn/oauth2/authorize?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://openmobile.qq.com/user/get_simple_userinfo?status_os=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://passport.jumpw.com/PaymentServlet.do",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "https://passport.jumpw.com/alipaySDK.html?",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "https://passport.jumpw.com/googleplaynotify.html",
+    "sources": [
+      "assets/jumpw_developerInfo.xml"
+    ]
+  },
+  {
+    "url": "https://sgapi.youme.im",
+    "sources": [
+      "lib/armeabi-v7a/libyoume_voice_engine.so"
+    ]
+  },
+  {
+    "url": "https://stats.umsns.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://test3api.youme.im",
+    "sources": [
+      "lib/armeabi-v7a/libyoume_voice_engine.so"
+    ]
+  },
+  {
+    "url": "https://uop.umeng.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://usapi.youme.im",
+    "sources": [
+      "lib/armeabi-v7a/libyoume_voice_engine.so"
+    ]
+  }
+]

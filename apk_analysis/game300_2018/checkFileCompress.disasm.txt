@@ -1,0 +1,100 @@
+
+_ZN7cocos2d11CCFileUtils17checkFileCompressEPhPmRbb vaddr=0x4b26c1 size=260
+004b26c0  push.w   {r4, r5, r6, r7, r8, sb, sl, fp, lr} 
+004b26c4  sub      sp, #0x14 
+004b26c6  ldr      r0, [pc, #0xec] 
+004b26c8  mov      fp, r1 
+004b26ca  ldr      r1, [pc, #0xec] 
+004b26cc  mov      sl, r2 
+004b26ce  add      r0, pc 
+004b26d0  add      r2, sp, #8 
+004b26d2  add      r1, r0 
+004b26d4  add      r0, sp, #0xc 
+004b26d6  blx      #0x67c488 
+004b26da  ldrb.w   r0, [fp] 
+004b26de  cmp      r0, #0x4d 
+004b26e0  bne      #0x4b2776 
+004b26e2  ldrb.w   r0, [fp, #1] 
+004b26e6  cmp      r0, #0x50 
+004b26e8  bne      #0x4b277a 
+004b26ea  ldrb.w   r0, [fp, #2] 
+004b26ee  cmp      r0, #0x3a 
+004b26f0  bne      #0x4b277e 
+004b26f2  ldr.w    r4, [fp, #4] 
+004b26f6  mov      r0, r4 
+004b26f8  blx      #0x637e14 _Znaj
+004b26fc  mov      r1, r4 
+004b26fe  movs     r2, #0 
+004b2700  mov      r8, r0 
+004b2702  movs     r6, #0 
+004b2704  blx      #0x1d8018 
+004b2708  str      r4, [sp, #4] 
+004b270a  add.w    r7, fp, #0xc 
+004b270e  ldr.w    r0, [sl] 
+004b2712  cmp      r0, #0xc 
+004b2714  beq      #0x4b274e 
+004b2716  ldr      r5, [sp, #0xc] 
+004b2718  movs     r4, #0 
+004b271a  ldr      r1, [r5, #-0xc] 
+004b271e  mov      r0, r4 
+004b2720  ldr      sb, [r5, #-0x4] 
+004b2724  blx      #0x68b488 __umodsi3
+004b2728  mov      r6, r0 
+004b272a  cmp.w    sb, #0 
+004b272e  blt      #0x4b2738 
+004b2730  add      r0, sp, #0xc 
+004b2732  blx      #0x67ab58 
+004b2736  ldr      r5, [sp, #0xc] 
+004b2738  ldrb     r0, [r5, r6] 
+004b273a  ldrb     r1, [r7, r4] 
+004b273c  eors     r0, r1 
+004b273e  strb     r0, [r7, r4] 
+004b2740  adds     r4, #1 
+004b2742  ldr.w    r0, [sl] 
+004b2746  sub.w    r6, r0, #0xc 
+004b274a  cmp      r4, r6 
+004b274c  blo      #0x4b271a 
+004b274e  add      r1, sp, #4 
+004b2750  mov      r0, r8 
+004b2752  mov      r2, r7 
+004b2754  mov      r3, r6 
+004b2756  bl       #0x61ce8c uncompress
+004b275a  ldr      r0, [sp, #4] 
+004b275c  cmp.w    fp, #0 
+004b2760  str.w    r0, [sl] 
+004b2764  beq      #0x4b2780 
+004b2766  ldr      r0, [sp, #0x38] 
+004b2768  eors     r0, r0, #1 
+004b276c  itt      eq 
+004b276e  moveq    r0, fp 
+004b2770  blxeq    #0x636814 
+004b2774  b        #0x4b2780 
+004b2776  mov      r8, fp 
+004b2778  b        #0x4b2780 
+004b277a  mov      r8, fp 
+004b277c  b        #0x4b2780 
+004b277e  mov      r8, fp 
+004b2780  ldr      r1, [pc, #0x38] 
+004b2782  ldr      r2, [pc, #0x3c] 
+004b2784  add      r1, pc 
+004b2786  ldr      r0, [sp, #0xc] 
+004b2788  sub.w    r4, r0, #0xc 
+004b278c  ldr      r1, [r2, r1] 
+004b278e  cmp      r4, r1 
+004b2790  bne      #0x4b279a 
+004b2792  mov      r0, r8 
+004b2794  add      sp, #0x14 
+004b2796  pop.w    {r4, r5, r6, r7, r8, sb, sl, fp, pc} 
+004b279a  subs     r0, #4 
+004b279c  mov.w    r1, #-1 
+004b27a0  blx      #0x63a7e4 
+004b27a4  cmp      r0, #0 
+004b27a6  bgt      #0x4b2792 
+004b27a8  add      r1, sp, #0x10 
+004b27aa  mov      r0, r4 
+004b27ac  blx      #0x67a998 
+004b27b0  b        #0x4b2792 
+004b27b2  nop       
+004b27b4  strb     r2, [r5, #0xa] 
+004b27b6  movs     r6, r7 
+004b27b8  cmp      r0, #0xec 

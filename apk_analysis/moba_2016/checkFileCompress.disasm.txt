@@ -1,0 +1,108 @@
+
+_ZN7cocos2d11CCFileUtils17checkFileCompressEPhPm vaddr=0x65f79c size=424
+0065f79c  push     {r4, r5, r6, r7, r8, sb, sl, fp, lr} 
+0065f7a0  mov      r4, r1 
+0065f7a4  ldr      r1, [pc, #0x190] 
+0065f7a8  sub      sp, sp, #0x24 
+0065f7ac  mov      r6, r2 
+0065f7b0  add      r0, sp, #0xc 
+0065f7b4  add      r1, pc, r1 
+0065f7b8  add      r2, sp, #4 
+0065f7bc  bl       #0x84042c 
+0065f7c0  ldrb     r3, [r4] 
+0065f7c4  cmp      r3, #0x4d 
+0065f7c8  beq      #0x65f7f4 
+0065f7cc  mov      r5, r4 
+0065f7d0  ldr      r2, [sp, #0xc] 
+0065f7d4  ldr      r3, [pc, #0x164] 
+0065f7d8  sub      r0, r2, #0xc 
+0065f7dc  ldr      r3, [pc, r3] 
+0065f7e0  cmp      r0, r3 
+0065f7e4  bne      #0x65f900 
+0065f7e8  mov      r0, r5 
+0065f7ec  add      sp, sp, #0x24 
+0065f7f0  pop      {r4, r5, r6, r7, r8, sb, sl, fp, pc} 
+0065f7f4  ldrb     r3, [r4, #1] 
+0065f7f8  cmp      r3, #0x50 
+0065f7fc  bne      #0x65f7cc 
+0065f800  ldrb     r3, [r4, #2] 
+0065f804  cmp      r3, #0x3a 
+0065f808  bne      #0x65f7cc 
+0065f80c  mov      r1, r4 
+0065f810  mov      r2, #0xc 
+0065f814  add      r0, sp, #0x14 
+0065f818  mov      r7, #0 
+0065f81c  strb     r7, [sp, #0x14] 
+0065f820  strb     r7, [sp, #0x15] 
+0065f824  strb     r7, [sp, #0x16] 
+0065f828  str      r7, [sp, #0x18] 
+0065f82c  strb     r7, [sp, #0x1c] 
+0065f830  strb     r7, [sp, #0x1d] 
+0065f834  bl       #0x243204 
+0065f838  ldr      r8, [sp, #0x18] 
+0065f83c  mov      r0, r8 
+0065f840  bl       #0x854904 _Znaj
+0065f844  mov      r1, r7 
+0065f848  mov      r2, r8 
+0065f84c  mov      r5, r0 
+0065f850  bl       #0x24321c 
+0065f854  cmp      r5, r7 
+0065f858  beq      #0x65f8f4 
+0065f85c  ldr      r3, [r6] 
+0065f860  add      sb, r4, #0xc 
+0065f864  str      r8, [sp, #0x10] 
+0065f868  cmp      r3, #0xc 
+0065f86c  moveq    r3, r7 
+0065f870  beq      #0x65f8d0 
+0065f874  ldr      sl, [sp, #0xc] 
+0065f878  mov      r0, r7 
+0065f87c  mov      fp, sb 
+0065f880  mov      r8, r7 
+0065f884  ldr      r1, [sl, #-0xc] 
+0065f888  add      r8, r8, #1 
+0065f88c  bl       #0x85e6e8 __aeabi_uidivmod
+0065f890  ldr      r3, [sl, #-4] 
+0065f894  add      r0, sp, #0xc 
+0065f898  cmp      r3, #0 
+0065f89c  mov      r7, r1 
+0065f8a0  blt      #0x65f8ac 
+0065f8a4  bl       #0x83f6a8 
+0065f8a8  ldr      sl, [sp, #0xc] 
+0065f8ac  ldrb     r2, [fp] 
+0065f8b0  mov      r0, r8 
+0065f8b4  ldrb     r3, [sl, r7] 
+0065f8b8  eor      r3, r2, r3 
+0065f8bc  strb     r3, [fp], #1 
+0065f8c0  ldr      r3, [r6] 
+0065f8c4  sub      r3, r3, #0xc 
+0065f8c8  cmp      r8, r3 
+0065f8cc  blo      #0x65f884 
+0065f8d0  mov      r0, r5 
+0065f8d4  add      r1, sp, #0x10 
+0065f8d8  mov      r2, sb 
+0065f8dc  bl       #0x24324c 
+0065f8e0  ldr      r3, [sp, #0x10] 
+0065f8e4  mov      r0, r4 
+0065f8e8  str      r3, [r6] 
+0065f8ec  bl       #0x852bf0 _ZdaPv
+0065f8f0  b        #0x65f7d0 
+0065f8f4  mov      r0, r4 
+0065f8f8  bl       #0x852bf0 _ZdaPv
+0065f8fc  b        #0x65f7d0 
+0065f900  sub      r2, r2, #4 
+0065f904  mvn      r3, #0 
+0065f908  dmb      sy 
+0065f90c  ldrex    r1, [r2] 
+0065f910  add      ip, r1, r3 
+0065f914  strex    r1, ip, [r2] 
+0065f918  teq      r1, #0 
+0065f91c  bne      #0x65f90c 
+0065f920  sub      r1, ip, r3 
+0065f924  dmb      sy 
+0065f928  cmp      r1, #0 
+0065f92c  bgt      #0x65f7e8 
+0065f930  add      r1, sp, #8 
+0065f934  bl       #0x83eda8 
+0065f938  b        #0x65f7e8 
+0065f93c  eoreq    r7, r8, r4, ror #25 
+0065f940  umaaleq  pc, r1, r0, sp 

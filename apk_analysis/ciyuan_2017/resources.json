@@ -1,0 +1,2656 @@
+{
+  "@0x7f020018": [
+    {
+      "name": "drawable/ema_bg_edittext_focused",
+      "value": "res/drawable/ema_bg_edittext_focused.xml"
+    }
+  ],
+  "@0x7f020019": [
+    {
+      "name": "drawable/ema_bg_edittext_normal",
+      "value": "res/drawable/ema_bg_edittext_normal.xml"
+    }
+  ],
+  "@0x7f020027": [
+    {
+      "name": "drawable/ema_check_btn_accoun",
+      "value": "res/drawable/ema_check_btn_accoun.xml"
+    }
+  ],
+  "@0x7f020028": [
+    {
+      "name": "drawable/ema_check_btn_giftbag",
+      "value": "res/drawable/ema_check_btn_giftbag.xml"
+    }
+  ],
+  "@0x7f020029": [
+    {
+      "name": "drawable/ema_check_btn_help",
+      "value": "res/drawable/ema_check_btn_help.xml"
+    }
+  ],
+  "@0x7f02002a": [
+    {
+      "name": "drawable/ema_check_btn_promotion",
+      "value": "res/drawable/ema_check_btn_promotion.xml"
+    }
+  ],
+  "@0x7f02002b": [
+    {
+      "name": "drawable/ema_edittext_cursor",
+      "value": "res/drawable/ema_edittext_cursor.xml"
+    }
+  ],
+  "@0x7f020047": [
+    {
+      "name": "drawable/ema_pay_gcard_list_item_bg",
+      "value": "res/drawable/ema_pay_gcard_list_item_bg.xml"
+    }
+  ],
+  "@0x7f020048": [
+    {
+      "name": "drawable/ema_pay_gcard_list_itme_btn",
+      "value": "res/drawable/ema_pay_gcard_list_itme_btn.xml"
+    }
+  ],
+  "@0x7f020050": [
+    {
+      "name": "drawable/ema_setbar_bg",
+      "value": "res/drawable/ema_setbar_bg.xml"
+    }
+  ],
+  "@0x7f020051": [
+    {
+      "name": "drawable/ema_shape_corner_btn0",
+      "value": "res/drawable/ema_shape_corner_btn0.xml"
+    }
+  ],
+  "@0x7f020052": [
+    {
+      "name": "drawable/ema_shape_corner_btn1",
+      "value": "res/drawable/ema_shape_corner_btn1.xml"
+    }
+  ],
+  "@0x7f020053": [
+    {
+      "name": "drawable/ema_shape_corner_btn2",
+      "value": "res/drawable/ema_shape_corner_btn2.xml"
+    }
+  ],
+  "@0x7f020054": [
+    {
+      "name": "drawable/ema_shape_corner_btn4",
+      "value": "res/drawable/ema_shape_corner_btn4.xml"
+    }
+  ],
+  "@0x7f020055": [
+    {
+      "name": "drawable/ema_shape_corner_btn5",
+      "value": "res/drawable/ema_shape_corner_btn5.xml"
+    }
+  ],
+  "@0x7f020056": [
+    {
+      "name": "drawable/ema_shape_share_cancel",
+      "value": "res/drawable/ema_shape_share_cancel.xml"
+    }
+  ],
+  "@0x7f020057": [
+    {
+      "name": "drawable/ema_shape_share_choose_bg",
+      "value": "res/drawable/ema_shape_share_choose_bg.xml"
+    }
+  ],
+  "@0x7f020058": [
+    {
+      "name": "drawable/ema_shape_webview_dialog",
+      "value": "res/drawable/ema_shape_webview_dialog.xml"
+    }
+  ],
+  "@0x7f020060": [
+    {
+      "name": "drawable/ema_text_selector",
+      "value": "res/drawable/ema_text_selector.xml"
+    }
+  ],
+  "@0x7f020069": [
+    {
+      "name": "drawable/plugin_btn_close",
+      "value": "res/drawable/plugin_btn_close.png"
+    }
+  ],
+  "@0x7f02006a": [
+    {
+      "name": "drawable/plugin_ui_ad",
+      "value": "res/drawable/plugin_ui_ad.png"
+    }
+  ],
+  "@0x7f02006c": [
+    {
+      "name": "drawable/ema_clr_normal",
+      "value": "#fff5f5dc"
+    }
+  ],
+  "@0x7f02006d": [
+    {
+      "name": "drawable/ema_clr_pressed",
+      "value": "#fff5f5f5"
+    }
+  ],
+  "@0x7f020068": [
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-ldpi-v4/icon.png"
+    },
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-mdpi-v4/icon.png"
+    },
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-hdpi-v4/icon.png"
+    },
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-xhdpi-v4/icon.png"
+    }
+  ],
+  "@0x7f02006b": [
+    {
+      "name": "drawable/push",
+      "value": "res/drawable-mdpi-v4/push.png"
+    },
+    {
+      "name": "drawable/push",
+      "value": "res/drawable-hdpi-v4/push.png"
+    }
+  ],
+  "@0x7f020067": [
+    {
+      "name": "drawable/ic_launcher",
+      "value": "res/drawable-hdpi-v4/ic_launcher.png"
+    }
+  ],
+  "@0x7f020000": [
+    {
+      "name": "drawable/ema_3rd_btn1",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn1.png"
+    }
+  ],
+  "@0x7f020001": [
+    {
+      "name": "drawable/ema_3rd_btn_0yuanfu",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn_0yuanfu.png"
+    }
+  ],
+  "@0x7f020002": [
+    {
+      "name": "drawable/ema_3rd_btn_alipay",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn_alipay.png"
+    }
+  ],
+  "@0x7f020003": [
+    {
+      "name": "drawable/ema_3rd_btn_duanxinpay",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn_duanxinpay.png"
+    }
+  ],
+  "@0x7f020004": [
+    {
+      "name": "drawable/ema_3rd_btn_gamecardpay",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn_gamecardpay.png"
+    }
+  ],
+  "@0x7f020005": [
+    {
+      "name": "drawable/ema_3rd_btn_mo9pay",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn_mo9pay.png"
+    }
+  ],
+  "@0x7f020006": [
+    {
+      "name": "drawable/ema_3rd_btn_phonecardpay",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn_phonecardpay.png"
+    }
+  ],
+  "@0x7f020007": [
+    {
+      "name": "drawable/ema_3rd_btn_qq",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn_qq.png"
+    }
+  ],
+  "@0x7f020008": [
+    {
+      "name": "drawable/ema_3rd_btn_shenzhoupay",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn_shenzhoupay.png"
+    }
+  ],
+  "@0x7f020009": [
+    {
+      "name": "drawable/ema_3rd_btn_tenpay",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn_tenpay.png"
+    }
+  ],
+  "@0x7f02000a": [
+    {
+      "name": "drawable/ema_3rd_btn_unipay",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn_unipay.png"
+    }
+  ],
+  "@0x7f02000b": [
+    {
+      "name": "drawable/ema_3rd_btn_weixin",
+      "value": "res/drawable-xhdpi-v4/ema_3rd_btn_weixin.png"
+    }
+  ],
+  "@0x7f02000c": [
+    {
+      "name": "drawable/ema_account_btn1",
+      "value": "res/drawable-xhdpi-v4/ema_account_btn1.png"
+    }
+  ],
+  "@0x7f02000d": [
+    {
+      "name": "drawable/ema_account_btn2",
+      "value": "res/drawable-xhdpi-v4/ema_account_btn2.png"
+    }
+  ],
+  "@0x7f02000e": [
+    {
+      "name": "drawable/ema_account_btn3",
+      "value": "res/drawable-xhdpi-v4/ema_account_btn3.png"
+    }
+  ],
+  "@0x7f02000f": [
+    {
+      "name": "drawable/ema_account_btn4",
+      "value": "res/drawable-xhdpi-v4/ema_account_btn4.png"
+    }
+  ],
+  "@0x7f020010": [
+    {
+      "name": "drawable/ema_account_btn5",
+      "value": "res/drawable-xhdpi-v4/ema_account_btn5.png"
+    }
+  ],
+  "@0x7f020011": [
+    {
+      "name": "drawable/ema_account_btn6",
+      "value": "res/drawable-xhdpi-v4/ema_account_btn6.png"
+    }
+  ],
+  "@0x7f020012": [
+    {
+      "name": "drawable/ema_account_icon1",
+      "value": "res/drawable-xhdpi-v4/ema_account_icon1.png"
+    }
+  ],
+  "@0x7f020013": [
+    {
+      "name": "drawable/ema_account_icon2",
+      "value": "res/drawable-xhdpi-v4/ema_account_icon2.png"
+    }
+  ],
+  "@0x7f020014": [
+    {
+      "name": "drawable/ema_account_icon3",
+      "value": "res/drawable-xhdpi-v4/ema_account_icon3.png"
+    }
+  ],
+  "@0x7f020015": [
+    {
+      "name": "drawable/ema_account_icon4",
+      "value": "res/drawable-xhdpi-v4/ema_account_icon4.png"
+    }
+  ],
+  "@0x7f020016": [
+    {
+      "name": "drawable/ema_account_icon5",
+      "value": "res/drawable-xhdpi-v4/ema_account_icon5.png"
+    }
+  ],
+  "@0x7f020017": [
+    {
+      "name": "drawable/ema_account_icon6",
+      "value": "res/drawable-xhdpi-v4/ema_account_icon6.png"
+    }
+  ],
+  "@0x7f02001a": [
+    {
+      "name": "drawable/ema_bind_dialog_logo",
+      "value": "res/drawable-xhdpi-v4/ema_bind_dialog_logo.png"
+    }
+  ],
+  "@0x7f02001b": [
+    {
+      "name": "drawable/ema_bottom_accoun",
+      "value": "res/drawable-xhdpi-v4/ema_bottom_accoun.png"
+    }
+  ],
+  "@0x7f02001c": [
+    {
+      "name": "drawable/ema_bottom_accoun_checked",
+      "value": "res/drawable-xhdpi-v4/ema_bottom_accoun_checked.png"
+    }
+  ],
+  "@0x7f02001d": [
+    {
+      "name": "drawable/ema_bottom_giftbag",
+      "value": "res/drawable-xhdpi-v4/ema_bottom_giftbag.png"
+    }
+  ],
+  "@0x7f02001e": [
+    {
+      "name": "drawable/ema_bottom_giftbag_checked",
+      "value": "res/drawable-xhdpi-v4/ema_bottom_giftbag_checked.png"
+    }
+  ],
+  "@0x7f02001f": [
+    {
+      "name": "drawable/ema_bottom_help",
+      "value": "res/drawable-xhdpi-v4/ema_bottom_help.png"
+    }
+  ],
+  "@0x7f020020": [
+    {
+      "name": "drawable/ema_bottom_help_checked",
+      "value": "res/drawable-xhdpi-v4/ema_bottom_help_checked.png"
+    }
+  ],
+  "@0x7f020021": [
+    {
+      "name": "drawable/ema_bottom_promotion",
+      "value": "res/drawable-xhdpi-v4/ema_bottom_promotion.png"
+    }
+  ],
+  "@0x7f020022": [
+    {
+      "name": "drawable/ema_bottom_promotion_checked",
+      "value": "res/drawable-xhdpi-v4/ema_bottom_promotion_checked.png"
+    }
+  ],
+  "@0x7f020023": [
+    {
+      "name": "drawable/ema_btn_cancel",
+      "value": "res/drawable-xhdpi-v4/ema_btn_cancel.png"
+    }
+  ],
+  "@0x7f020024": [
+    {
+      "name": "drawable/ema_button_blue",
+      "value": "res/drawable-xhdpi-v4/ema_button_blue.png"
+    }
+  ],
+  "@0x7f020025": [
+    {
+      "name": "drawable/ema_button_blue_long",
+      "value": "res/drawable-xhdpi-v4/ema_button_blue_long.png"
+    }
+  ],
+  "@0x7f020026": [
+    {
+      "name": "drawable/ema_button_orange",
+      "value": "res/drawable-xhdpi-v4/ema_button_orange.png"
+    }
+  ],
+  "@0x7f02002c": [
+    {
+      "name": "drawable/ema_floating_account",
+      "value": "res/drawable-xhdpi-v4/ema_floating_account.png"
+    }
+  ],
+  "@0x7f02002d": [
+    {
+      "name": "drawable/ema_floating_charge",
+      "value": "res/drawable-xhdpi-v4/ema_floating_charge.png"
+    }
+  ],
+  "@0x7f02002e": [
+    {
+      "name": "drawable/ema_floating_combat",
+      "value": "res/drawable-xhdpi-v4/ema_floating_combat.png"
+    }
+  ],
+  "@0x7f02002f": [
+    {
+      "name": "drawable/ema_floating_giftbag",
+      "value": "res/drawable-xhdpi-v4/ema_floating_giftbag.png"
+    }
+  ],
+  "@0x7f020030": [
+    {
+      "name": "drawable/ema_floating_help",
+      "value": "res/drawable-xhdpi-v4/ema_floating_help.png"
+    }
+  ],
+  "@0x7f020031": [
+    {
+      "name": "drawable/ema_floating_icon",
+      "value": "res/drawable-xhdpi-v4/ema_floating_icon.png"
+    }
+  ],
+  "@0x7f020032": [
+    {
+      "name": "drawable/ema_floating_icon_down",
+      "value": "res/drawable-xhdpi-v4/ema_floating_icon_down.png"
+    }
+  ],
+  "@0x7f020033": [
+    {
+      "name": "drawable/ema_floating_more",
+      "value": "res/drawable-xhdpi-v4/ema_floating_more.png"
+    }
+  ],
+  "@0x7f020034": [
+    {
+      "name": "drawable/ema_floating_promotion",
+      "value": "res/drawable-xhdpi-v4/ema_floating_promotion.png"
+    }
+  ],
+  "@0x7f020035": [
+    {
+      "name": "drawable/ema_func_bbs",
+      "value": "res/drawable-xhdpi-v4/ema_func_bbs.png"
+    }
+  ],
+  "@0x7f020036": [
+    {
+      "name": "drawable/ema_func_doc",
+      "value": "res/drawable-xhdpi-v4/ema_func_doc.png"
+    }
+  ],
+  "@0x7f020037": [
+    {
+      "name": "drawable/ema_func_faq",
+      "value": "res/drawable-xhdpi-v4/ema_func_faq.png"
+    }
+  ],
+  "@0x7f020038": [
+    {
+      "name": "drawable/ema_func_help",
+      "value": "res/drawable-xhdpi-v4/ema_func_help.png"
+    }
+  ],
+  "@0x7f020039": [
+    {
+      "name": "drawable/ema_func_info",
+      "value": "res/drawable-xhdpi-v4/ema_func_info.png"
+    }
+  ],
+  "@0x7f02003a": [
+    {
+      "name": "drawable/ema_loading_bg",
+      "value": "res/drawable-xhdpi-v4/ema_loading_bg.png"
+    }
+  ],
+  "@0x7f02003b": [
+    {
+      "name": "drawable/ema_lock",
+      "value": "res/drawable-xhdpi-v4/ema_lock.png"
+    }
+  ],
+  "@0x7f02003c": [
+    {
+      "name": "drawable/ema_login_btn7",
+      "value": "res/drawable-xhdpi-v4/ema_login_btn7.png"
+    }
+  ],
+  "@0x7f02003d": [
+    {
+      "name": "drawable/ema_login_phone_btn1",
+      "value": "res/drawable-xhdpi-v4/ema_login_phone_btn1.png"
+    }
+  ],
+  "@0x7f02003e": [
+    {
+      "name": "drawable/ema_login_phone_input",
+      "value": "res/drawable-xhdpi-v4/ema_login_phone_input.png"
+    }
+  ],
+  "@0x7f02003f": [
+    {
+      "name": "drawable/ema_login_return",
+      "value": "res/drawable-xhdpi-v4/ema_login_return.png"
+    }
+  ],
+  "@0x7f020040": [
+    {
+      "name": "drawable/ema_login_tourist",
+      "value": "res/drawable-xhdpi-v4/ema_login_tourist.png"
+    }
+  ],
+  "@0x7f020041": [
+    {
+      "name": "drawable/ema_logo",
+      "value": "res/drawable-xhdpi-v4/ema_logo.png"
+    }
+  ],
+  "@0x7f020042": [
+    {
+      "name": "drawable/ema_logo_anlaiye",
+      "value": "res/drawable-xhdpi-v4/ema_logo_anlaiye.png"
+    }
+  ],
+  "@0x7f020043": [
+    {
+      "name": "drawable/ema_logo_anlaiye_bg",
+      "value": "res/drawable-xhdpi-v4/ema_logo_anlaiye_bg.png"
+    }
+  ],
+  "@0x7f020044": [
+    {
+      "name": "drawable/ema_logo_sign_bottom",
+      "value": "res/drawable-xhdpi-v4/ema_logo_sign_bottom.png"
+    }
+  ],
+  "@0x7f020045": [
+    {
+      "name": "drawable/ema_pay_discount_bg",
+      "value": "res/drawable-xhdpi-v4/ema_pay_discount_bg.png"
+    }
+  ],
+  "@0x7f020046": [
+    {
+      "name": "drawable/ema_pay_gcard_edt_bg",
+      "value": "res/drawable-xhdpi-v4/ema_pay_gcard_edt_bg.9.png"
+    }
+  ],
+  "@0x7f020049": [
+    {
+      "name": "drawable/ema_phone",
+      "value": "res/drawable-xhdpi-v4/ema_phone.png"
+    }
+  ],
+  "@0x7f02004a": [
+    {
+      "name": "drawable/ema_prompt_paybg",
+      "value": "res/drawable-xhdpi-v4/ema_prompt_paybg.png"
+    }
+  ],
+  "@0x7f02004b": [
+    {
+      "name": "drawable/ema_prompt_paybtn",
+      "value": "res/drawable-xhdpi-v4/ema_prompt_paybtn.png"
+    }
+  ],
+  "@0x7f02004c": [
+    {
+      "name": "drawable/ema_prompt_paysucc",
+      "value": "res/drawable-xhdpi-v4/ema_prompt_paysucc.png"
+    }
+  ],
+  "@0x7f02004d": [
+    {
+      "name": "drawable/ema_prompt_paywarn",
+      "value": "res/drawable-xhdpi-v4/ema_prompt_paywarn.png"
+    }
+  ],
+  "@0x7f02004e": [
+    {
+      "name": "drawable/ema_qianbao",
+      "value": "res/drawable-xhdpi-v4/ema_qianbao.png"
+    }
+  ],
+  "@0x7f02004f": [
+    {
+      "name": "drawable/ema_qq_login",
+      "value": "res/drawable-xhdpi-v4/ema_qq_login.png"
+    }
+  ],
+  "@0x7f020059": [
+    {
+      "name": "drawable/ema_share_friend_quan",
+      "value": "res/drawable-xhdpi-v4/ema_share_friend_quan.png"
+    }
+  ],
+  "@0x7f02005a": [
+    {
+      "name": "drawable/ema_share_qq",
+      "value": "res/drawable-xhdpi-v4/ema_share_qq.png"
+    }
+  ],
+  "@0x7f02005b": [
+    {
+      "name": "drawable/ema_share_qq_qzone",
+      "value": "res/drawable-xhdpi-v4/ema_share_qq_qzone.png"
+    }
+  ],
+  "@0x7f02005c": [
+    {
+      "name": "drawable/ema_share_weibo",
+      "value": "res/drawable-xhdpi-v4/ema_share_weibo.png"
+    }
+  ],
+  "@0x7f02005d": [
+    {
+      "name": "drawable/ema_share_weixin",
+      "value": "res/drawable-xhdpi-v4/ema_share_weixin.png"
+    }
+  ],
+  "@0x7f02005e": [
+    {
+      "name": "drawable/ema_splash_logo",
+      "value": "res/drawable-xhdpi-v4/ema_splash_logo.png"
+    }
+  ],
+  "@0x7f02005f": [
+    {
+      "name": "drawable/ema_tbs",
+      "value": "res/drawable-xhdpi-v4/ema_tbs.png"
+    }
+  ],
+  "@0x7f020061": [
+    {
+      "name": "drawable/ema_title",
+      "value": "res/drawable-xhdpi-v4/ema_title.png"
+    }
+  ],
+  "@0x7f020062": [
+    {
+      "name": "drawable/ema_toolbar_bg",
+      "value": "res/drawable-xhdpi-v4/ema_toolbar_bg.png"
+    }
+  ],
+  "@0x7f020063": [
+    {
+      "name": "drawable/ema_user",
+      "value": "res/drawable-xhdpi-v4/ema_user.png"
+    }
+  ],
+  "@0x7f020064": [
+    {
+      "name": "drawable/ema_wachate_login",
+      "value": "res/drawable-xhdpi-v4/ema_wachate_login.png"
+    }
+  ],
+  "@0x7f020065": [
+    {
+      "name": "drawable/ema_wallet_btn1",
+      "value": "res/drawable-xhdpi-v4/ema_wallet_btn1.png"
+    }
+  ],
+  "@0x7f020066": [
+    {
+      "name": "drawable/ema_wallet_btn2",
+      "value": "res/drawable-xhdpi-v4/ema_wallet_btn2.png"
+    }
+  ],
+  "@0x7f030000": [
+    {
+      "name": "layout/dialog_share",
+      "value": "res/layout/dialog_share.xml"
+    }
+  ],
+  "@0x7f030001": [
+    {
+      "name": "layout/ema_alert_dialog",
+      "value": "res/layout/ema_alert_dialog.xml"
+    }
+  ],
+  "@0x7f030002": [
+    {
+      "name": "layout/ema_bind_alert_dialog",
+      "value": "res/layout/ema_bind_alert_dialog.xml"
+    }
+  ],
+  "@0x7f030003": [
+    {
+      "name": "layout/ema_com_title",
+      "value": "res/layout/ema_com_title.xml"
+    }
+  ],
+  "@0x7f030004": [
+    {
+      "name": "layout/ema_dialog_system_busy",
+      "value": "res/layout/ema_dialog_system_busy.xml"
+    }
+  ],
+  "@0x7f030005": [
+    {
+      "name": "layout/ema_floating",
+      "value": "res/layout/ema_floating.xml"
+    }
+  ],
+  "@0x7f030006": [
+    {
+      "name": "layout/ema_login_normal",
+      "value": "res/layout/ema_login_normal.xml"
+    }
+  ],
+  "@0x7f030007": [
+    {
+      "name": "layout/ema_login_succdialog",
+      "value": "res/layout/ema_login_succdialog.xml"
+    }
+  ],
+  "@0x7f030008": [
+    {
+      "name": "layout/ema_option_item",
+      "value": "res/layout/ema_option_item.xml"
+    }
+  ],
+  "@0x7f030009": [
+    {
+      "name": "layout/ema_options",
+      "value": "res/layout/ema_options.xml"
+    }
+  ],
+  "@0x7f03000a": [
+    {
+      "name": "layout/ema_pay_0yuanfu_passw",
+      "value": "res/layout/ema_pay_0yuanfu_passw.xml"
+    }
+  ],
+  "@0x7f03000b": [
+    {
+      "name": "layout/ema_pay_0yuanfu_set_passw",
+      "value": "res/layout/ema_pay_0yuanfu_set_passw.xml"
+    }
+  ],
+  "@0x7f03000c": [
+    {
+      "name": "layout/ema_pay_gcard",
+      "value": "res/layout/ema_pay_gcard.xml"
+    }
+  ],
+  "@0x7f03000d": [
+    {
+      "name": "layout/ema_pay_gcard_grid_item",
+      "value": "res/layout/ema_pay_gcard_grid_item.xml"
+    }
+  ],
+  "@0x7f03000e": [
+    {
+      "name": "layout/ema_pay_gcard_list_item",
+      "value": "res/layout/ema_pay_gcard_list_item.xml"
+    }
+  ],
+  "@0x7f03000f": [
+    {
+      "name": "layout/ema_pay_gcard_new",
+      "value": "res/layout/ema_pay_gcard_new.xml"
+    }
+  ],
+  "@0x7f030010": [
+    {
+      "name": "layout/ema_pay_mabi",
+      "value": "res/layout/ema_pay_mabi.xml"
+    }
+  ],
+  "@0x7f030011": [
+    {
+      "name": "layout/ema_pay_thrdpay",
+      "value": "res/layout/ema_pay_thrdpay.xml"
+    }
+  ],
+  "@0x7f030012": [
+    {
+      "name": "layout/ema_pay_trd_item",
+      "value": "res/layout/ema_pay_trd_item.xml"
+    }
+  ],
+  "@0x7f030013": [
+    {
+      "name": "layout/ema_prompt_pay_cancel",
+      "value": "res/layout/ema_prompt_pay_cancel.xml"
+    }
+  ],
+  "@0x7f030014": [
+    {
+      "name": "layout/ema_prompt_pay_result",
+      "value": "res/layout/ema_prompt_pay_result.xml"
+    }
+  ],
+  "@0x7f030015": [
+    {
+      "name": "layout/ema_recharge_mabi",
+      "value": "res/layout/ema_recharge_mabi.xml"
+    }
+  ],
+  "@0x7f030016": [
+    {
+      "name": "layout/ema_register",
+      "value": "res/layout/ema_register.xml"
+    }
+  ],
+  "@0x7f030017": [
+    {
+      "name": "layout/ema_register_by_phone",
+      "value": "res/layout/ema_register_by_phone.xml"
+    }
+  ],
+  "@0x7f030018": [
+    {
+      "name": "layout/ema_set_pay_limit",
+      "value": "res/layout/ema_set_pay_limit.xml"
+    }
+  ],
+  "@0x7f030019": [
+    {
+      "name": "layout/ema_set_pay_limit_enter_passw",
+      "value": "res/layout/ema_set_pay_limit_enter_passw.xml"
+    }
+  ],
+  "@0x7f03001a": [
+    {
+      "name": "layout/ema_set_pay_passw",
+      "value": "res/layout/ema_set_pay_passw.xml"
+    }
+  ],
+  "@0x7f03001b": [
+    {
+      "name": "layout/ema_splash",
+      "value": "res/layout/ema_splash.xml"
+    }
+  ],
+  "@0x7f03001c": [
+    {
+      "name": "layout/ema_trd_select_dialog",
+      "value": "res/layout/ema_trd_select_dialog.xml"
+    }
+  ],
+  "@0x7f03001d": [
+    {
+      "name": "layout/ema_trd_select_dialog_item",
+      "value": "res/layout/ema_trd_select_dialog_item.xml"
+    }
+  ],
+  "@0x7f03001e": [
+    {
+      "name": "layout/ema_webview",
+      "value": "res/layout/ema_webview.xml"
+    }
+  ],
+  "@0x7f03001f": [
+    {
+      "name": "layout/ema_webview_dialog",
+      "value": "res/layout/ema_webview_dialog.xml"
+    },
+    {
+      "name": "layout/ema_webview_dialog",
+      "value": "res/layout-land/ema_webview_dialog.xml"
+    }
+  ],
+  "@0x7f030020": [
+    {
+      "name": "layout/ema_webview_simple",
+      "value": "res/layout/ema_webview_simple.xml"
+    }
+  ],
+  "@0x7f030021": [
+    {
+      "name": "layout/getui_notification",
+      "value": "res/layout/getui_notification.xml"
+    }
+  ],
+  "@0x7f030022": [
+    {
+      "name": "layout/increment_popup_dialog",
+      "value": "res/layout/increment_popup_dialog.xml"
+    }
+  ],
+  "@0x7f030023": [
+    {
+      "name": "layout/plugin_ads",
+      "value": "res/layout/plugin_ads.xml"
+    }
+  ],
+  "@0x7f030024": [
+    {
+      "name": "layout/plugin_login",
+      "value": "res/layout/plugin_login.xml"
+    }
+  ],
+  "@0x7f030025": [
+    {
+      "name": "layout/textfield",
+      "value": "res/layout/textfield.xml"
+    }
+  ],
+  "@0x7f040000": [
+    {
+      "name": "anim/dialog_enter",
+      "value": "res/anim/dialog_enter.xml"
+    }
+  ],
+  "@0x7f040001": [
+    {
+      "name": "anim/dialog_exit",
+      "value": "res/anim/dialog_exit.xml"
+    }
+  ],
+  "@0x7f050000": [
+    {
+      "name": "dimen/ema_toolbar_width",
+      "value": "15361"
+    }
+  ],
+  "@0x7f050001": [
+    {
+      "name": "dimen/ema_toolbar_height",
+      "value": "10241"
+    }
+  ],
+  "@0x7f050002": [
+    {
+      "name": "dimen/ema_toolbar_padding",
+      "value": "513"
+    }
+  ],
+  "@0x7f060000": [
+    {
+      "name": "string/ema_app_name",
+      "value": "EmaSdkLib"
+    }
+  ],
+  "@0x7f060001": [
+    {
+      "name": "string/ema_name",
+      "value": "亿马联盟"
+    }
+  ],
+  "@0x7f060002": [
+    {
+      "name": "string/ema_tourist_login",
+      "value": "游客登录"
+    }
+  ],
+  "@0x7f060003": [
+    {
+      "name": "string/plugin_login_title",
+      "value": "账号登陆"
+    }
+  ],
+  "@0x7f060004": [
+    {
+      "name": "string/plugin_login_account",
+      "value": "账号"
+    }
+  ],
+  "@0x7f060005": [
+    {
+      "name": "string/plugin_login_password",
+      "value": "密码"
+    }
+  ],
+  "@0x7f060006": [
+    {
+      "name": "string/plugin_login",
+      "value": "登陆"
+    }
+  ],
+  "@0x7f060007": [
+    {
+      "name": "string/plugin_cancel",
+      "value": "取消"
+    }
+  ],
+  "@0x7f060008": [
+    {
+      "name": "string/plugin_pay_content",
+      "value": "是否确认支付？"
+    }
+  ],
+  "@0x7f060009": [
+    {
+      "name": "string/plugin_pay",
+      "value": "支付"
+    }
+  ],
+  "@0x7f06000a": [
+    {
+      "name": "string/plugin_rank",
+      "value": "排行榜"
+    }
+  ],
+  "@0x7f06000b": [
+    {
+      "name": "string/plugin_achievement",
+      "value": "成就榜"
+    }
+  ],
+  "@0x7f06000c": [
+    {
+      "name": "string/plugin_center",
+      "value": "平台中心"
+    }
+  ],
+  "@0x7f06000d": [
+    {
+      "name": "string/plugin_showTool",
+      "value": "工具栏"
+    }
+  ],
+  "@0x7f06000e": [
+    {
+      "name": "string/plugin_hideTool",
+      "value": "隐藏工具栏"
+    }
+  ],
+  "@0x7f06000f": [
+    {
+      "name": "string/plugin_realNameRegister",
+      "value": "实名注册"
+    }
+  ],
+  "@0x7f060010": [
+    {
+      "name": "string/plugin_antiAddictionQuery",
+      "value": "防沉迷查询"
+    }
+  ],
+  "@0x7f060011": [
+    {
+      "name": "string/plugin_exit",
+      "value": "退出"
+    }
+  ],
+  "@0x7f060012": [
+    {
+      "name": "string/plugin_pause",
+      "value": "暂停游戏"
+    }
+  ],
+  "@0x7f060013": [
+    {
+      "name": "string/plugin_sure",
+      "value": "确认"
+    }
+  ],
+  "@0x7f060014": [
+    {
+      "name": "string/plugin_accountSwitch",
+      "value": "切换账号"
+    }
+  ],
+  "@0x7f060015": [
+    {
+      "name": "string/plugin_logout",
+      "value": "登出"
+    }
+  ],
+  "@0x7f060016": [
+    {
+      "name": "string/plugin_submitLoginGameRole",
+      "value": "提交角色信息"
+    }
+  ],
+  "@0x7f060017": [
+    {
+      "name": "string/plugin_tips",
+      "value": "测试模式,不能用于渠道发布"
+    }
+  ],
+  "@0x7f060018": [
+    {
+      "name": "string/plugin_waiting",
+      "value": "请稍等"
+    }
+  ],
+  "@0x7f060019": [
+    {
+      "name": "string/plugin_data",
+      "value": "数据通信中..."
+    }
+  ],
+  "@0x7f080000": [
+    {
+      "name": "id/btn_close",
+      "value": "false"
+    }
+  ],
+  "@0x7f080001": [
+    {
+      "name": "id/relative_bg",
+      "value": "false"
+    }
+  ],
+  "@0x7f080002": [
+    {
+      "name": "id/linear_sina_weibo",
+      "value": "false"
+    }
+  ],
+  "@0x7f080003": [
+    {
+      "name": "id/linear_weixin_friend",
+      "value": "false"
+    }
+  ],
+  "@0x7f080004": [
+    {
+      "name": "id/linear_weixin_quan",
+      "value": "false"
+    }
+  ],
+  "@0x7f080005": [
+    {
+      "name": "id/linear_qq_share",
+      "value": "false"
+    }
+  ],
+  "@0x7f080006": [
+    {
+      "name": "id/linear_qq_qzone",
+      "value": "false"
+    }
+  ],
+  "@0x7f080007": [
+    {
+      "name": "id/ema_img_pay_result",
+      "value": "false"
+    }
+  ],
+  "@0x7f080008": [
+    {
+      "name": "id/ema_txt_content",
+      "value": "false"
+    }
+  ],
+  "@0x7f080009": [
+    {
+      "name": "id/ema_tv_cancel",
+      "value": "false"
+    }
+  ],
+  "@0x7f08000a": [
+    {
+      "name": "id/ema_tv_sure",
+      "value": "false"
+    }
+  ],
+  "@0x7f08000b": [
+    {
+      "name": "id/ema_logo",
+      "value": "false"
+    }
+  ],
+  "@0x7f08000c": [
+    {
+      "name": "id/ema_title_right_img",
+      "value": "false"
+    }
+  ],
+  "@0x7f08000d": [
+    {
+      "name": "id/ema_txt_title",
+      "value": "false"
+    }
+  ],
+  "@0x7f08000e": [
+    {
+      "name": "id/ema_txt_pay_result",
+      "value": "false"
+    }
+  ],
+  "@0x7f08000f": [
+    {
+      "name": "id/ema_btn_pay_sure",
+      "value": "false"
+    }
+  ],
+  "@0x7f080010": [
+    {
+      "name": "id/ema_toolbar_left",
+      "value": "false"
+    }
+  ],
+  "@0x7f080011": [
+    {
+      "name": "id/ema_btn_1_left",
+      "value": "false"
+    }
+  ],
+  "@0x7f080012": [
+    {
+      "name": "id/ema_btn_2_left",
+      "value": "false"
+    }
+  ],
+  "@0x7f080013": [
+    {
+      "name": "id/ema_btn_3_left",
+      "value": "false"
+    }
+  ],
+  "@0x7f080014": [
+    {
+      "name": "id/ema_btn_4_left",
+      "value": "false"
+    }
+  ],
+  "@0x7f080015": [
+    {
+      "name": "id/ema_btn_5_left",
+      "value": "false"
+    }
+  ],
+  "@0x7f080016": [
+    {
+      "name": "id/ema_img_toolbar",
+      "value": "false"
+    }
+  ],
+  "@0x7f080017": [
+    {
+      "name": "id/ema_toolbar_right",
+      "value": "false"
+    }
+  ],
+  "@0x7f080018": [
+    {
+      "name": "id/ema_btn_1",
+      "value": "false"
+    }
+  ],
+  "@0x7f080019": [
+    {
+      "name": "id/ema_btn_2",
+      "value": "false"
+    }
+  ],
+  "@0x7f08001a": [
+    {
+      "name": "id/ema_btn_3",
+      "value": "false"
+    }
+  ],
+  "@0x7f08001b": [
+    {
+      "name": "id/ema_btn_4",
+      "value": "false"
+    }
+  ],
+  "@0x7f08001c": [
+    {
+      "name": "id/ema_btn_5",
+      "value": "false"
+    }
+  ],
+  "@0x7f08001d": [
+    {
+      "name": "id/ema_normalLogin_phoneLogin",
+      "value": "false"
+    }
+  ],
+  "@0x7f08001e": [
+    {
+      "name": "id/ema_login_image_logo",
+      "value": "false"
+    }
+  ],
+  "@0x7f08001f": [
+    {
+      "name": "id/ema_login_normal_RelativeLayout1",
+      "value": "false"
+    }
+  ],
+  "@0x7f080020": [
+    {
+      "name": "id/ema_normal_name_editText",
+      "value": "false"
+    }
+  ],
+  "@0x7f080021": [
+    {
+      "name": "id/ema_account_go_list",
+      "value": "false"
+    }
+  ],
+  "@0x7f080022": [
+    {
+      "name": "id/ema_login_normal_RelativeLayout2",
+      "value": "false"
+    }
+  ],
+  "@0x7f080023": [
+    {
+      "name": "id/ema_normal_pass_editText",
+      "value": "false"
+    }
+  ],
+  "@0x7f080024": [
+    {
+      "name": "id/ema_normal_find_passwd",
+      "value": "false"
+    }
+  ],
+  "@0x7f080025": [
+    {
+      "name": "id/ema_normalLogin_enterGame",
+      "value": "false"
+    }
+  ],
+  "@0x7f080026": [
+    {
+      "name": "id/ema_normallogin_change_emalogin",
+      "value": "false"
+    }
+  ],
+  "@0x7f080027": [
+    {
+      "name": "id/ema_normalLogin_oneKeyReg",
+      "value": "false"
+    }
+  ],
+  "@0x7f080028": [
+    {
+      "name": "id/ema_login_succ_txtView",
+      "value": "false"
+    }
+  ],
+  "@0x7f080029": [
+    {
+      "name": "id/ema_login_succ_buttonView",
+      "value": "false"
+    }
+  ],
+  "@0x7f08002a": [
+    {
+      "name": "id/ema_btn_del",
+      "value": "false"
+    }
+  ],
+  "@0x7f08002b": [
+    {
+      "name": "id/ema_list",
+      "value": "false"
+    }
+  ],
+  "@0x7f08002c": [
+    {
+      "name": "id/ema_txt_price",
+      "value": "false"
+    }
+  ],
+  "@0x7f08002d": [
+    {
+      "name": "id/ema_edt_passw",
+      "value": "false"
+    }
+  ],
+  "@0x7f08002e": [
+    {
+      "name": "id/ema_btn_cancel",
+      "value": "false"
+    }
+  ],
+  "@0x7f08002f": [
+    {
+      "name": "id/ema_btn_sure",
+      "value": "false"
+    }
+  ],
+  "@0x7f080030": [
+    {
+      "name": "id/ema_pay_gcard_return_game",
+      "value": "false"
+    }
+  ],
+  "@0x7f080031": [
+    {
+      "name": "id/ema_pay_gcard_repay_text",
+      "value": "false"
+    }
+  ],
+  "@0x7f080032": [
+    {
+      "name": "id/ema_pay_gcard_need",
+      "value": "false"
+    }
+  ],
+  "@0x7f080033": [
+    {
+      "name": "id/ema_pay_gcard_RelativeLayout_gamecard",
+      "value": "false"
+    }
+  ],
+  "@0x7f080034": [
+    {
+      "name": "id/ema_pay_gcard_gamecard_text",
+      "value": "false"
+    }
+  ],
+  "@0x7f080035": [
+    {
+      "name": "id/ema_pay_gcard_type",
+      "value": "false"
+    }
+  ],
+  "@0x7f080036": [
+    {
+      "name": "id/ema_pay_gcard_RelativeLayout1",
+      "value": "false"
+    }
+  ],
+  "@0x7f080037": [
+    {
+      "name": "id/ema_pay_gamecard_mer_text",
+      "value": "false"
+    }
+  ],
+  "@0x7f080038": [
+    {
+      "name": "id/ema_pay_gamecard_money",
+      "value": "false"
+    }
+  ],
+  "@0x7f080039": [
+    {
+      "name": "id/ema_pay_gcard_cord_num",
+      "value": "false"
+    }
+  ],
+  "@0x7f08003a": [
+    {
+      "name": "id/ema_pay_gamecard_card_number",
+      "value": "false"
+    }
+  ],
+  "@0x7f08003b": [
+    {
+      "name": "id/ema_pay_gcard_passwd_num",
+      "value": "false"
+    }
+  ],
+  "@0x7f08003c": [
+    {
+      "name": "id/ema_pay_gamecard_card_passw",
+      "value": "false"
+    }
+  ],
+  "@0x7f08003d": [
+    {
+      "name": "id/ema_pay_gamecard_btn_next",
+      "value": "false"
+    }
+  ],
+  "@0x7f08003e": [
+    {
+      "name": "id/ema_pay_gcard_grid_item_btn",
+      "value": "false"
+    }
+  ],
+  "@0x7f08003f": [
+    {
+      "name": "id/ema_pay_gcard_list_item_btn",
+      "value": "false"
+    }
+  ],
+  "@0x7f080040": [
+    {
+      "name": "id/ema_list_gcard",
+      "value": "false"
+    }
+  ],
+  "@0x7f080041": [
+    {
+      "name": "id/ema_gridview_gcard",
+      "value": "false"
+    }
+  ],
+  "@0x7f080042": [
+    {
+      "name": "id/ema_pay_gamecard_btn_pay",
+      "value": "false"
+    }
+  ],
+  "@0x7f080043": [
+    {
+      "name": "id/ema_scrollView",
+      "value": "false"
+    }
+  ],
+  "@0x7f080044": [
+    {
+      "name": "id/ema_pay_mabi_back",
+      "value": "false"
+    }
+  ],
+  "@0x7f080045": [
+    {
+      "name": "id/ema_pay_mabi_imageView_return",
+      "value": "false"
+    }
+  ],
+  "@0x7f080046": [
+    {
+      "name": "id/ema_pay_mabi_goodsNametext",
+      "value": "false"
+    }
+  ],
+  "@0x7f080047": [
+    {
+      "name": "id/ema_pay_mabi_goodsName",
+      "value": "false"
+    }
+  ],
+  "@0x7f080048": [
+    {
+      "name": "id/ema_pay_mabi_GoodsNumText",
+      "value": "false"
+    }
+  ],
+  "@0x7f080049": [
+    {
+      "name": "id/ema_pay_mabi_GoodsNum",
+      "value": "false"
+    }
+  ],
+  "@0x7f08004a": [
+    {
+      "name": "id/ema_pay_mabi_totalPrice_text",
+      "value": "false"
+    }
+  ],
+  "@0x7f08004b": [
+    {
+      "name": "id/ema_pay_mabi_totalPrice",
+      "value": "false"
+    }
+  ],
+  "@0x7f08004c": [
+    {
+      "name": "id/ema_pay_mabi_Price",
+      "value": "false"
+    }
+  ],
+  "@0x7f08004d": [
+    {
+      "name": "id/ema_pay_mabi_account",
+      "value": "false"
+    }
+  ],
+  "@0x7f08004e": [
+    {
+      "name": "id/ema_pay_mabi_stillPay",
+      "value": "false"
+    }
+  ],
+  "@0x7f08004f": [
+    {
+      "name": "id/ema_pay_mabi_balance_text",
+      "value": "false"
+    }
+  ],
+  "@0x7f080050": [
+    {
+      "name": "id/ema_pay_mabi_congzhi",
+      "value": "false"
+    }
+  ],
+  "@0x7f080051": [
+    {
+      "name": "id/ema_pay_mabi_pay_limit_text",
+      "value": "false"
+    }
+  ],
+  "@0x7f080052": [
+    {
+      "name": "id/ema_pay_mabi_pay_limit",
+      "value": "false"
+    }
+  ],
+  "@0x7f080053": [
+    {
+      "name": "id/ema_pay_mabi_pay_btn_limit_change",
+      "value": "false"
+    }
+  ],
+  "@0x7f080054": [
+    {
+      "name": "id/ema_pay_pass_text",
+      "value": "false"
+    }
+  ],
+  "@0x7f080055": [
+    {
+      "name": "id/ema_pay_mabi_edt_pay_passw",
+      "value": "false"
+    }
+  ],
+  "@0x7f080056": [
+    {
+      "name": "id/ema_pay_mabi_find_passwd",
+      "value": "false"
+    }
+  ],
+  "@0x7f080057": [
+    {
+      "name": "id/ema_pay_mabi_btn_pay",
+      "value": "false"
+    }
+  ],
+  "@0x7f080058": [
+    {
+      "name": "id/ema_pay_thrd_return_game",
+      "value": "false"
+    }
+  ],
+  "@0x7f080059": [
+    {
+      "name": "id/ema_pay_thrd_totalPrice",
+      "value": "false"
+    }
+  ],
+  "@0x7f08005a": [
+    {
+      "name": "id/ema_pay_thrd_total_price_textview",
+      "value": "false"
+    }
+  ],
+  "@0x7f08005b": [
+    {
+      "name": "id/ema_pay_thrd_username",
+      "value": "false"
+    }
+  ],
+  "@0x7f08005c": [
+    {
+      "name": "id/ema_pay_thrd_username_textview",
+      "value": "false"
+    }
+  ],
+  "@0x7f08005d": [
+    {
+      "name": "id/ema_pay_thrd_goodsName",
+      "value": "false"
+    }
+  ],
+  "@0x7f08005e": [
+    {
+      "name": "id/ema_pay_thrd_goodsname_textview",
+      "value": "false"
+    }
+  ],
+  "@0x7f08005f": [
+    {
+      "name": "id/ema_pay_thrd_PayList",
+      "value": "false"
+    }
+  ],
+  "@0x7f080060": [
+    {
+      "name": "id/ema_pay_trd_itemImage",
+      "value": "false"
+    }
+  ],
+  "@0x7f080061": [
+    {
+      "name": "id/ema_pay_trd_discount",
+      "value": "false"
+    }
+  ],
+  "@0x7f080062": [
+    {
+      "name": "id/ema_btn_pay_continue",
+      "value": "false"
+    }
+  ],
+  "@0x7f080063": [
+    {
+      "name": "id/ema_btn_pay_exit",
+      "value": "false"
+    }
+  ],
+  "@0x7f080064": [
+    {
+      "name": "id/ema_recharge_mabi_back",
+      "value": "false"
+    }
+  ],
+  "@0x7f080065": [
+    {
+      "name": "id/ema_recharge_mabi_imageView_return",
+      "value": "false"
+    }
+  ],
+  "@0x7f080066": [
+    {
+      "name": "id/ema_recharge_mabi_count",
+      "value": "false"
+    }
+  ],
+  "@0x7f080067": [
+    {
+      "name": "id/ema_recharge_mabi_account_text",
+      "value": "false"
+    }
+  ],
+  "@0x7f080068": [
+    {
+      "name": "id/ema_recharge_mabi_balance",
+      "value": "false"
+    }
+  ],
+  "@0x7f080069": [
+    {
+      "name": "id/ema_recharge_mabi_balance_text",
+      "value": "false"
+    }
+  ],
+  "@0x7f08006a": [
+    {
+      "name": "id/ema_recharge_EditText_text",
+      "value": "false"
+    }
+  ],
+  "@0x7f08006b": [
+    {
+      "name": "id/ema_recharge_EditText",
+      "value": "false"
+    }
+  ],
+  "@0x7f08006c": [
+    {
+      "name": "id/ema_recharge_mabi_btn_10",
+      "value": "false"
+    }
+  ],
+  "@0x7f08006d": [
+    {
+      "name": "id/ema_recharge_mabi_btn_50",
+      "value": "false"
+    }
+  ],
+  "@0x7f08006e": [
+    {
+      "name": "id/ema_recharge_mabi_btn_100",
+      "value": "false"
+    }
+  ],
+  "@0x7f08006f": [
+    {
+      "name": "id/ema_recharge_mabi_btn_200",
+      "value": "false"
+    }
+  ],
+  "@0x7f080070": [
+    {
+      "name": "id/ema_recharge_mabi_btn_500",
+      "value": "false"
+    }
+  ],
+  "@0x7f080071": [
+    {
+      "name": "id/ema_recharge_mabi_btn_1000",
+      "value": "false"
+    }
+  ],
+  "@0x7f080072": [
+    {
+      "name": "id/ema_recharge_mabi_PayList",
+      "value": "false"
+    }
+  ],
+  "@0x7f080073": [
+    {
+      "name": "id/ema_register_RelativeLayout1",
+      "value": "false"
+    }
+  ],
+  "@0x7f080074": [
+    {
+      "name": "id/ema_register_loginname",
+      "value": "false"
+    }
+  ],
+  "@0x7f080075": [
+    {
+      "name": "id/ema_register_RelativeLayout2",
+      "value": "false"
+    }
+  ],
+  "@0x7f080076": [
+    {
+      "name": "id/ema_register_passwd",
+      "value": "false"
+    }
+  ],
+  "@0x7f080077": [
+    {
+      "name": "id/ema_register_login",
+      "value": "false"
+    }
+  ],
+  "@0x7f080078": [
+    {
+      "name": "id/ema_register_phoneLogin",
+      "value": "false"
+    }
+  ],
+  "@0x7f080079": [
+    {
+      "name": "id/ema_register_returnLogin",
+      "value": "false"
+    }
+  ],
+  "@0x7f08007a": [
+    {
+      "name": "id/ema_phone_info_inputText",
+      "value": "false"
+    }
+  ],
+  "@0x7f08007b": [
+    {
+      "name": "id/ema_btn_get_auth_code",
+      "value": "false"
+    }
+  ],
+  "@0x7f08007c": [
+    {
+      "name": "id/ema_btn_start_work",
+      "value": "false"
+    }
+  ],
+  "@0x7f08007d": [
+    {
+      "name": "id/ema_btn_return_register",
+      "value": "false"
+    }
+  ],
+  "@0x7f08007e": [
+    {
+      "name": "id/ema_wechat_login_rela",
+      "value": "false"
+    }
+  ],
+  "@0x7f08007f": [
+    {
+      "name": "id/ema_wachate_login",
+      "value": "false"
+    }
+  ],
+  "@0x7f080080": [
+    {
+      "name": "id/ema_qq_login_rela",
+      "value": "false"
+    }
+  ],
+  "@0x7f080081": [
+    {
+      "name": "id/ema_qq_login",
+      "value": "false"
+    }
+  ],
+  "@0x7f080082": [
+    {
+      "name": "id/ema_btn_return_login",
+      "value": "false"
+    }
+  ],
+  "@0x7f080083": [
+    {
+      "name": "id/ema_txt_prompt",
+      "value": "false"
+    }
+  ],
+  "@0x7f080084": [
+    {
+      "name": "id/ema_edt_paylimit",
+      "value": "false"
+    }
+  ],
+  "@0x7f080085": [
+    {
+      "name": "id/ema_edt_paypassw",
+      "value": "false"
+    }
+  ],
+  "@0x7f080086": [
+    {
+      "name": "id/ema_splash_imageview",
+      "value": "false"
+    }
+  ],
+  "@0x7f080087": [
+    {
+      "name": "id/ema_list_dialog_text",
+      "value": "false"
+    }
+  ],
+  "@0x7f080088": [
+    {
+      "name": "id/ema_list_dialog_list",
+      "value": "false"
+    }
+  ],
+  "@0x7f080089": [
+    {
+      "name": "id/ema_btn",
+      "value": "false"
+    }
+  ],
+  "@0x7f08008a": [
+    {
+      "name": "id/ema_webview_back",
+      "value": "false"
+    }
+  ],
+  "@0x7f08008b": [
+    {
+      "name": "id/ema_webview_imageView_return",
+      "value": "false"
+    }
+  ],
+  "@0x7f08008c": [
+    {
+      "name": "id/ema_webView_title",
+      "value": "false"
+    }
+  ],
+  "@0x7f08008d": [
+    {
+      "name": "id/ema_webview_ProgressBar",
+      "value": "false"
+    }
+  ],
+  "@0x7f08008e": [
+    {
+      "name": "id/ema_webview_url",
+      "value": "false"
+    }
+  ],
+  "@0x7f08008f": [
+    {
+      "name": "id/ema_webview_RadioGroup",
+      "value": "false"
+    }
+  ],
+  "@0x7f080090": [
+    {
+      "name": "id/ema_webview_account",
+      "value": "false"
+    }
+  ],
+  "@0x7f080091": [
+    {
+      "name": "id/ema_webview_gift",
+      "value": "false"
+    }
+  ],
+  "@0x7f080092": [
+    {
+      "name": "id/ema_webview_promotion",
+      "value": "false"
+    }
+  ],
+  "@0x7f080093": [
+    {
+      "name": "id/ema_webview_help",
+      "value": "false"
+    }
+  ],
+  "@0x7f080094": [
+    {
+      "name": "id/webView_dialog",
+      "value": "false"
+    }
+  ],
+  "@0x7f080095": [
+    {
+      "name": "id/ema_webview",
+      "value": "false"
+    }
+  ],
+  "@0x7f080096": [
+    {
+      "name": "id/getui_root_view",
+      "value": "false"
+    }
+  ],
+  "@0x7f080097": [
+    {
+      "name": "id/getui_notification_bg",
+      "value": "false"
+    }
+  ],
+  "@0x7f080098": [
+    {
+      "name": "id/getui_notification_icon",
+      "value": "false"
+    }
+  ],
+  "@0x7f080099": [
+    {
+      "name": "id/getui_notification_date",
+      "value": "false"
+    }
+  ],
+  "@0x7f08009a": [
+    {
+      "name": "id/getui_notification_icon2",
+      "value": "false"
+    }
+  ],
+  "@0x7f08009b": [
+    {
+      "name": "id/getui_notification_style1",
+      "value": "false"
+    }
+  ],
+  "@0x7f08009c": [
+    {
+      "name": "id/getui_notification_style1_title",
+      "value": "false"
+    }
+  ],
+  "@0x7f08009d": [
+    {
+      "name": "id/getui_notification_style1_content",
+      "value": "false"
+    }
+  ],
+  "@0x7f08009e": [
+    {
+      "name": "id/getui_notification_style2",
+      "value": "false"
+    }
+  ],
+  "@0x7f08009f": [
+    {
+      "name": "id/getui_notification__style2_title",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800a0": [
+    {
+      "name": "id/getui_notification_style3",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800a1": [
+    {
+      "name": "id/getui_notification_style3_content",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800a2": [
+    {
+      "name": "id/getui_notification_style4",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800a3": [
+    {
+      "name": "id/getui_notification_download_content",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800a4": [
+    {
+      "name": "id/getui_notification_download_progressbar",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800a5": [
+    {
+      "name": "id/getui_bigview_expanded",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800a6": [
+    {
+      "name": "id/getui_bigview_banner",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800a7": [
+    {
+      "name": "id/getui_notification_headsup",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800a8": [
+    {
+      "name": "id/getui_headsup_banner",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800a9": [
+    {
+      "name": "id/getui_big_imageView_headsup2",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800aa": [
+    {
+      "name": "id/getui_icon_headsup",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ab": [
+    {
+      "name": "id/getui_title_headsup",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ac": [
+    {
+      "name": "id/getui_time_headsup",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ad": [
+    {
+      "name": "id/getui_message_headsup",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ae": [
+    {
+      "name": "id/getui_big_imageView_headsup",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800af": [
+    {
+      "name": "id/getui_big_text_headsup",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800b0": [
+    {
+      "name": "id/getui_big_default_Content",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800b1": [
+    {
+      "name": "id/getui_big_defaultView",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800b2": [
+    {
+      "name": "id/getui_big_notification_icon",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800b3": [
+    {
+      "name": "id/getui_big_notification_date",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800b4": [
+    {
+      "name": "id/getui_big_notification_icon2",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800b5": [
+    {
+      "name": "id/getui_big_notification",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800b6": [
+    {
+      "name": "id/getui_big_notification_title",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800b7": [
+    {
+      "name": "id/getui_big_notification_title_center",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800b8": [
+    {
+      "name": "id/getui_big_notification_content",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800b9": [
+    {
+      "name": "id/getui_big_bigview_defaultView",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ba": [
+    {
+      "name": "id/getui_big_bigtext_defaultView",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800bb": [
+    {
+      "name": "id/getui_notification_l_layout",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800bc": [
+    {
+      "name": "id/getui_notification_L_icon",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800bd": [
+    {
+      "name": "id/getui_notification_download_L",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800be": [
+    {
+      "name": "id/getui_notification_download_title_L",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800bf": [
+    {
+      "name": "id/getui_notification_download_progressBar_L",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800c0": [
+    {
+      "name": "id/getui_notification_L_line1",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800c1": [
+    {
+      "name": "id/getui_notification_download_content_L",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800c2": [
+    {
+      "name": "id/getui_notification_download_info_L",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800c3": [
+    {
+      "name": "id/getui_notification_L",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800c4": [
+    {
+      "name": "id/getui_notification_L_line2",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800c5": [
+    {
+      "name": "id/getui_notification_title_L",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800c6": [
+    {
+      "name": "id/getui_notification_L_time",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800c7": [
+    {
+      "name": "id/getui_notification_L_line3",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800c8": [
+    {
+      "name": "id/getui_notification_L_context",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800c9": [
+    {
+      "name": "id/getui_notification_L_right_icon",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ca": [
+    {
+      "name": "id/m_background",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800cb": [
+    {
+      "name": "id/app_name_title",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800cc": [
+    {
+      "name": "id/app_logo",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800cd": [
+    {
+      "name": "id/app_logo_province",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ce": [
+    {
+      "name": "id/app_name",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800cf": [
+    {
+      "name": "id/app_version",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800d0": [
+    {
+      "name": "id/app_size",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800d1": [
+    {
+      "name": "id/app_need_size",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800d2": [
+    {
+      "name": "id/app_progress",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800d3": [
+    {
+      "name": "id/click_upload",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800d4": [
+    {
+      "name": "id/upload_status",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800d5": [
+    {
+      "name": "id/update",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800d6": [
+    {
+      "name": "id/update_msg",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800d7": [
+    {
+      "name": "id/update_msg1",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800d8": [
+    {
+      "name": "id/update_msg2",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800d9": [
+    {
+      "name": "id/down_click_linearLayout",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800da": [
+    {
+      "name": "id/other_operation",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800db": [
+    {
+      "name": "id/manage_app",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800dc": [
+    {
+      "name": "id/wifi_download",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800dd": [
+    {
+      "name": "id/next_time",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800de": [
+    {
+      "name": "id/click_down",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800df": [
+    {
+      "name": "id/click_down_img",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800e0": [
+    {
+      "name": "id/maybe",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800e1": [
+    {
+      "name": "id/maybe_list",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800e2": [
+    {
+      "name": "id/recommend_lin1",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800e3": [
+    {
+      "name": "id/recommend_logo1",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800e4": [
+    {
+      "name": "id/rec_install1",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800e5": [
+    {
+      "name": "id/recommend_pro1",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800e6": [
+    {
+      "name": "id/status1",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800e7": [
+    {
+      "name": "id/recommend1",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800e8": [
+    {
+      "name": "id/recommend_lin2",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800e9": [
+    {
+      "name": "id/recommend_logo2",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ea": [
+    {
+      "name": "id/rec_install2",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800eb": [
+    {
+      "name": "id/recommend_pro2",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ec": [
+    {
+      "name": "id/status2",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ed": [
+    {
+      "name": "id/recommend2",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ee": [
+    {
+      "name": "id/recommend_lin3",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ef": [
+    {
+      "name": "id/recommend_logo3",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800f0": [
+    {
+      "name": "id/rec_install3",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800f1": [
+    {
+      "name": "id/recommend_pro3",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800f2": [
+    {
+      "name": "id/status3",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800f3": [
+    {
+      "name": "id/recommend3",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800f4": [
+    {
+      "name": "id/recommend_lin4",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800f5": [
+    {
+      "name": "id/recommend_logo4",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800f6": [
+    {
+      "name": "id/rec_install4",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800f7": [
+    {
+      "name": "id/recommend_pro4",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800f8": [
+    {
+      "name": "id/status4",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800f9": [
+    {
+      "name": "id/recommend4",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800fa": [
+    {
+      "name": "id/close",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800fb": [
+    {
+      "name": "id/plugin_image_ad",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800fc": [
+    {
+      "name": "id/plugin_image_close",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800fd": [
+    {
+      "name": "id/username",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800fe": [
+    {
+      "name": "id/txt_username",
+      "value": "false"
+    }
+  ],
+  "@0x7f0800ff": [
+    {
+      "name": "id/password",
+      "value": "false"
+    }
+  ],
+  "@0x7f080100": [
+    {
+      "name": "id/txt_password",
+      "value": "false"
+    }
+  ],
+  "@0x7f080101": [
+    {
+      "name": "id/tips",
+      "value": "false"
+    }
+  ],
+  "@0x7f080102": [
+    {
+      "name": "id/textfield",
+      "value": "false"
+    }
+  ],
+  "@0x7f080103": [
+    {
+      "name": "id/button",
+      "value": "false"
+    }
+  ]
+}

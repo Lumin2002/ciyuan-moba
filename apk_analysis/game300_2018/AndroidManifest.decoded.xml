@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1303" android:versionName="1.33" package="com.jumpw.mobile300" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="19" />
+  <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.GET_TASKS" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.SEND_SMS" />
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+  <uses-permission android:name="android.permission.READ_LOGS" />
+  <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <meta-data android:name="android.support.VERSION" android:value="25.3.1" />
+  <application android:theme="@0x7f0700a4" android:label="@0x7f050049" android:icon="@0x7f020057" android:name="com.jumpw.sdk.JumpwApplication" android:allowBackup="true" android:supportsRtl="true">
+    <activity android:theme="@0x01030007" android:name="com.jumpw.mobile300.Tombird" android:launchMode="1" android:screenOrientation="6" android:configChanges="0x40000dff">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <meta-data android:name="android.max_aspect" android:value="2.0999999046325684" />
+    <service android:name="com.youme.voiceengine.VoiceEngineService">
+      <intent-filter>
+        <action android:name="com.youme.voiceengine.VoiceEngineService" />
+        <category android:name="android.intent.category.default" />
+      </intent-filter>
+    </service>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <activity android:name="com.umeng.qq.tencent.AuthActivity" android:launchMode="2" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+      </intent-filter>
+    </activity>
+    <activity android:theme="@0x01030010" android:name="com.umeng.qq.tencent.AssistActivity" android:screenOrientation="1" android:configChanges="0x4a0" />
+    <activity android:theme="@0x7f07016d" android:name="com.umeng.socialize.editorpage.ShareActivity" android:excludeFromRecents="true" />
+    <activity android:theme="@0x01030010" android:name="com.jumpw.mobile300.wxapi.WXEntryActivity" android:exported="true" android:screenOrientation="1" android:configChanges="0xa0" />
+    <activity android:theme="@0x7f070166" android:name="com.jump.game.activity.JumpwLoginActivity" android:screenOrientation="0" android:configChanges="0x4a0" />
+    <activity android:theme="@0x7f070166" android:name="com.jump.game.activity.JumpActivationActivity" android:screenOrientation="0" android:configChanges="0x4a0" />
+    <activity android:theme="@0x01030010" android:name="com.jump.game.activity.JumpwUserCenterActivity" android:screenOrientation="1" android:configChanges="0x4a0" />
+    <activity android:theme="@0x7f070166" android:name="com.jump.game.activity.JumpwTourisBindPhoneAccountActivity" android:screenOrientation="0" android:configChanges="0x4a0" />
+    <activity android:theme="@0x7f070166" android:name="com.jump.game.activity.JumpwPayActivity" android:screenOrientation="0" android:configChanges="0x4a0" />
+    <activity android:theme="@0x7f070166" android:name="com.jump.game.activity.JumpwWechaeH5PayActivity" android:screenOrientation="0" android:configChanges="0x4a0" />
+    <activity android:theme="@0x7f070166" android:name="com.jump.game.activity.JumpwQQH5PayActivity" android:screenOrientation="0" android:configChanges="0x4a0" />
+    <activity android:theme="@0x7f070166" android:name="com.jump.game.activity.JumpwAliH5PayActivity" android:screenOrientation="0" android:configChanges="0x4a0" />
+    <meta-data android:name="android.max_aspect" android:value="2.0999999046325684" />
+    <meta-data android:name="QQ_APPID" android:value="1106379448" />
+    <meta-data android:name="QQ_APPKEY" android:value="KEYsdnlC4J8SJn7czqx" />
+    <meta-data android:name="WEIXIN_APPKEY" android:value="40e54fad4dce886edcf6c2fba0e1ba00" />
+    <meta-data android:name="WEIXIN_APPID" android:value="wxeb86e170b6d4f1fe" />
+    <meta-data android:name="UMENG_APPKEY" android:value="5a6ec09eb27b0a51290001b3" />
+    <meta-data android:name="U8_APPLICATION_PROXY_NAME" android:value="com.jump.sdk.JumpwProxyApplication" />
+    <meta-data android:name="ulog.level" android:value="DEBUG" />
+    <meta-data android:name="ulog.local" android:value="false" />
+    <meta-data android:name="ulog.remote_url" android:value="http://192.168.18.9:8090/" />
+    <meta-data android:name="ulog.remote" android:value="false" />
+    <meta-data android:name="ulog.remote_interval" android:value="1000" />
+    <meta-data android:name="ulog.enable" android:value="false" />
+  </application>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+</manifest>

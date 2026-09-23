@@ -1,0 +1,537 @@
+{
+  "id": "game300_2018",
+  "source": "纯300大作战【2018年10月6日】.apk",
+  "size": 465387144,
+  "sha256": "15a01c3476f6e1c7b8d038f65bfab459fe1bd466cf38b0606518f11fbb3ecddc",
+  "file_count": 19283,
+  "zip_crc": "all entries passed",
+  "manifest": {
+    "android:versionCode": "1303",
+    "android:versionName": "1.33",
+    "package": "com.jumpw.mobile300",
+    "platformBuildVersionCode": "23",
+    "platformBuildVersionName": "6.0-2438415"
+  },
+  "sdk": {
+    "android:minSdkVersion": "15",
+    "android:targetSdkVersion": "19"
+  },
+  "application": {
+    "android:theme": "@0x7f0700a4",
+    "android:label": "@0x7f050049",
+    "android:icon": "@0x7f020057",
+    "android:name": "com.jumpw.sdk.JumpwApplication",
+    "android:allowBackup": "true",
+    "android:supportsRtl": "true"
+  },
+  "app_labels": [
+    {
+      "name": "string/app_name",
+      "value": "300大作战"
+    }
+  ],
+  "icons": [
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-ldpi-v4/icon.png"
+    },
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-mdpi-v4/icon.png"
+    },
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-hdpi-v4/icon.png"
+    },
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-xhdpi-v4/icon.png"
+    },
+    {
+      "name": "drawable/icon",
+      "value": "res/drawable-xxhdpi-v4/icon.png"
+    }
+  ],
+  "permissions": [
+    {
+      "android:name": "android.permission.WRITE_EXTERNAL_STORAGE"
+    },
+    {
+      "android:name": "android.permission.INTERNET"
+    },
+    {
+      "android:name": "android.permission.VIBRATE"
+    },
+    {
+      "android:name": "android.permission.GET_TASKS"
+    },
+    {
+      "android:name": "android.permission.ACCESS_WIFI_STATE"
+    },
+    {
+      "android:name": "android.permission.ACCESS_NETWORK_STATE"
+    },
+    {
+      "android:name": "android.permission.CHANGE_WIFI_STATE"
+    },
+    {
+      "android:name": "android.permission.READ_PHONE_STATE"
+    },
+    {
+      "android:name": "android.permission.MANAGE_ACCOUNTS"
+    },
+    {
+      "android:name": "android.permission.GET_ACCOUNTS"
+    },
+    {
+      "android:name": "android.permission.SEND_SMS"
+    },
+    {
+      "android:name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+    },
+    {
+      "android:name": "android.permission.SYSTEM_ALERT_WINDOW"
+    },
+    {
+      "android:name": "android.permission.READ_LOGS"
+    },
+    {
+      "android:name": "android.permission.SYSTEM_OVERLAY_WINDOW"
+    },
+    {
+      "android:name": "android.permission.WAKE_LOCK"
+    },
+    {
+      "android:name": "android.permission.RECORD_AUDIO"
+    },
+    {
+      "android:name": "android.permission.CHANGE_NETWORK_STATE"
+    },
+    {
+      "android:name": "android.permission.ACCESS_FINE_LOCATION"
+    },
+    {
+      "android:name": "android.permission.MODIFY_AUDIO_SETTINGS"
+    },
+    {
+      "android:name": "android.permission.BLUETOOTH"
+    },
+    {
+      "android:name": "android.permission.READ_EXTERNAL_STORAGE"
+    },
+    {
+      "android:name": "android.permission.ACCESS_COARSE_LOCATION"
+    },
+    {
+      "android:name": "android.permission.INTERACT_ACROSS_USERS_FULL"
+    }
+  ],
+  "features": [],
+  "components": [
+    {
+      "type": "activity",
+      "android:theme": "@0x01030007",
+      "android:name": "com.jumpw.mobile300.Tombird",
+      "android:launchMode": "1",
+      "android:screenOrientation": "6",
+      "android:configChanges": "0x40000dff",
+      "intent_actions": [
+        "android.intent.action.MAIN"
+      ]
+    },
+    {
+      "type": "service",
+      "android:name": "com.youme.voiceengine.VoiceEngineService",
+      "intent_actions": [
+        "com.youme.voiceengine.VoiceEngineService"
+      ]
+    },
+    {
+      "type": "activity",
+      "android:name": "com.umeng.qq.tencent.AuthActivity",
+      "android:launchMode": "2",
+      "android:noHistory": "true",
+      "intent_actions": [
+        "android.intent.action.VIEW"
+      ]
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x01030010",
+      "android:name": "com.umeng.qq.tencent.AssistActivity",
+      "android:screenOrientation": "1",
+      "android:configChanges": "0x4a0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x7f07016d",
+      "android:name": "com.umeng.socialize.editorpage.ShareActivity",
+      "android:excludeFromRecents": "true",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x01030010",
+      "android:name": "com.jumpw.mobile300.wxapi.WXEntryActivity",
+      "android:exported": "true",
+      "android:screenOrientation": "1",
+      "android:configChanges": "0xa0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x7f070166",
+      "android:name": "com.jump.game.activity.JumpwLoginActivity",
+      "android:screenOrientation": "0",
+      "android:configChanges": "0x4a0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x7f070166",
+      "android:name": "com.jump.game.activity.JumpActivationActivity",
+      "android:screenOrientation": "0",
+      "android:configChanges": "0x4a0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x01030010",
+      "android:name": "com.jump.game.activity.JumpwUserCenterActivity",
+      "android:screenOrientation": "1",
+      "android:configChanges": "0x4a0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x7f070166",
+      "android:name": "com.jump.game.activity.JumpwTourisBindPhoneAccountActivity",
+      "android:screenOrientation": "0",
+      "android:configChanges": "0x4a0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x7f070166",
+      "android:name": "com.jump.game.activity.JumpwPayActivity",
+      "android:screenOrientation": "0",
+      "android:configChanges": "0x4a0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x7f070166",
+      "android:name": "com.jump.game.activity.JumpwWechaeH5PayActivity",
+      "android:screenOrientation": "0",
+      "android:configChanges": "0x4a0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x7f070166",
+      "android:name": "com.jump.game.activity.JumpwQQH5PayActivity",
+      "android:screenOrientation": "0",
+      "android:configChanges": "0x4a0",
+      "intent_actions": []
+    },
+    {
+      "type": "activity",
+      "android:theme": "@0x7f070166",
+      "android:name": "com.jump.game.activity.JumpwAliH5PayActivity",
+      "android:screenOrientation": "0",
+      "android:configChanges": "0x4a0",
+      "intent_actions": []
+    }
+  ],
+  "metadata": [
+    {
+      "android:name": "android.max_aspect",
+      "android:value": "2.0999999046325684"
+    },
+    {
+      "android:name": "android.max_aspect",
+      "android:value": "2.0999999046325684"
+    },
+    {
+      "android:name": "QQ_APPID",
+      "android:value": "1106379448"
+    },
+    {
+      "android:name": "QQ_APPKEY",
+      "android:value": "KEYsdnlC4J8SJn7czqx"
+    },
+    {
+      "android:name": "WEIXIN_APPKEY",
+      "android:value": "40e54fad4dce886edcf6c2fba0e1ba00"
+    },
+    {
+      "android:name": "WEIXIN_APPID",
+      "android:value": "wxeb86e170b6d4f1fe"
+    },
+    {
+      "android:name": "UMENG_APPKEY",
+      "android:value": "5a6ec09eb27b0a51290001b3"
+    },
+    {
+      "android:name": "U8_APPLICATION_PROXY_NAME",
+      "android:value": "com.jump.sdk.JumpwProxyApplication"
+    },
+    {
+      "android:name": "ulog.level",
+      "android:value": "DEBUG"
+    },
+    {
+      "android:name": "ulog.local",
+      "android:value": "false"
+    },
+    {
+      "android:name": "ulog.remote_url",
+      "android:value": "http://192.168.18.9:8090/"
+    },
+    {
+      "android:name": "ulog.remote",
+      "android:value": "false"
+    },
+    {
+      "android:name": "ulog.remote_interval",
+      "android:value": "1000"
+    },
+    {
+      "android:name": "ulog.enable",
+      "android:value": "false"
+    }
+  ],
+  "certificates": [
+    {
+      "file": "300.RSA",
+      "subject": "CN=Jump",
+      "issuer": "CN=Jump",
+      "sha256": "0ff3f528453eef95bdcf6e4ac33eef000d303b652017724837a2e4772e28b0b2",
+      "not_before": "2017-06-16 03:45:08+00:00",
+      "not_after": "2042-06-10 03:45:08+00:00",
+      "signature_algorithm": "sha256"
+    }
+  ],
+  "dex": {
+    "classes": 3711,
+    "strings": 32593,
+    "magic": "6465780a30333500",
+    "class_groups": {
+      "android/support/v4": 1208,
+      "android/support/v7": 372,
+      "org/apache/http": 357,
+      "com/umeng/analytics": 304,
+      "com/umeng/socialize": 300,
+      "com/iflytek/cloud": 228,
+      "com/jump/game": 163,
+      "com/tencent/bugly": 116,
+      "com/jumpw/sdk": 90,
+      "com/iflytek/speech": 68,
+      "org/cocos2dx/lib": 52,
+      "com/umeng/qq": 49,
+      "android/support/annotation": 47,
+      "com/iflytek/sunflower": 43,
+      "com/jumpw/mobile300": 42,
+      "com/umeng/weixin": 33,
+      "com/youme/voiceengine": 33,
+      "org/apache/commons": 31,
+      "com/ta/utdid2": 25,
+      "android/support/graphics": 24,
+      "com/uns/util": 20,
+      "android/net/http": 19,
+      "com/sina/weibo": 18,
+      "com/jump/sdk": 13,
+      "android/support/multidex": 9,
+      "com/android/internal": 8,
+      "com/iflytek/msc": 6,
+      "com/jump/share": 5,
+      "com/iflytek/common": 4,
+      "com/umeng/social": 4,
+      "com/uns/log": 3,
+      "android/net/compatibility": 1,
+      "android/support/compat": 1,
+      "android/support/coreui": 1,
+      "android/support/coreutils": 1,
+      "android/support/fragment": 1,
+      "android/support/mediacompat": 1,
+      "com/umeng/a;": 1,
+      "com/umeng/fakev4": 1,
+      "com/umeng/shareboard": 1,
+      "com/umeng/shareview": 1,
+      "com/umeng/tool": 1,
+      "com/ut/device": 1,
+      "org/fmod/AudioDevice;": 1,
+      "org/fmod/FMOD;": 1
+    }
+  },
+  "libraries": [
+    {
+      "path": "lib/armeabi-v7a/libBugly.so",
+      "size": 144892,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi-v7a/libfmod.so",
+      "size": 927240,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi-v7a/libfmodstudio.so",
+      "size": 628148,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi-v7a/libgame.so",
+      "size": 9033204,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi-v7a/libidentifyapp.so",
+      "size": 35828,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi-v7a/libNativeCrash.so",
+      "size": 91320,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi-v7a/libyim.so",
+      "size": 1513188,
+      "elf_class": 1,
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi-v7a/libyoume_voice_engine.so",
+      "size": 2994344,
+      "elf_class": 1,
+      "machine": 40
+    }
+  ],
+  "native_markers": [
+    "# This file was generated by cocos2d-x! Edit at your own risk.",
+    "# Test cocos2d-x cookie write.",
+    "cocos2d-x assert",
+    "cocos2d-x debug info",
+    "Lua 5.1",
+    "LuaJIT 2.0.1"
+  ],
+  "network_string_count": 118,
+  "resource_wrapping": {
+    "wrapped_by_extension": {
+      ".csv": 12,
+      ".proto": 50,
+      ".dat": 119,
+      ".txt": 4,
+      ".png": 58,
+      ".lua": 545,
+      ".ini": 1339,
+      ".tga": 13,
+      ".xmap": 2,
+      ".bin": 1,
+      ".ccz": 1,
+      ".x2": 1747,
+      ".pkm": 13762,
+      ".xml": 1,
+      ".vs": 42,
+      ".ps": 40,
+      ".glsl": 17,
+      ".bank": 966,
+      ".plist": 2
+    },
+    "unwrapped_by_extension": {
+      ".ttf": 3,
+      ".xml": 1
+    },
+    "header_samples": {
+      ".csv": {
+        "path": "assets/data/conf/achievement.csv",
+        "header": "4d503a01f0200100653b2c014ab9a0a4"
+      },
+      ".proto": {
+        "path": "assets/data/conf/achievement.proto",
+        "header": "4d503a0134040000653b2c014ab9a8aa"
+      },
+      ".dat": {
+        "path": "assets/data/conf/achievement_c.dat",
+        "header": "4d503a01e6310000653b2c014ab998a3"
+      },
+      ".txt": {
+        "path": "assets/data/conf/undueword.txt",
+        "header": "4d503a018a950000653b2c014ab95184"
+      },
+      ".png": {
+        "path": "assets/data/editor/img/bar_bg.png",
+        "header": "4d503a017a000000653b2c014ab9de35"
+      },
+      ".lua": {
+        "path": "assets/data/editor/script/charactor.lua",
+        "header": "4d503a0131090000653b2c014ab9986c"
+      },
+      ".ini": {
+        "path": "assets/data/engine.ini",
+        "header": "4d503a01a1010000653b2c014ab9a8e9"
+      },
+      ".ttf": {
+        "path": "assets/data/font/basefont.ttf",
+        "header": "00010000001101000004001047535542"
+      },
+      ".tga": {
+        "path": "assets/data/hotfix_res/check_data.tga",
+        "header": "4d503a01fc670000653b2c014ab9d865"
+      },
+      ".xml": {
+        "path": "assets/data/inilist.xml",
+        "header": "3c3f786d6c2076657273696f6e3d2231"
+      },
+      ".xmap": {
+        "path": "assets/data/map/arena_fair.xmap",
+        "header": "4d503a01ef830c00653b2c014ab9d8e4"
+      },
+      ".bin": {
+        "path": "assets/data/map/arena_fair_mist.bin",
+        "header": "4d503a0100000002653b2c014ab9d9e1"
+      },
+      ".ccz": {
+        "path": "assets/data/map/water0.pvr.ccz",
+        "header": "4d503a0145b90000653b2c014ab91163"
+      },
+      ".x2": {
+        "path": "assets/data/model/effect/common/jump_biaoji/dianjidimian/tx_c_biaoshi_dianji_01.x2",
+        "header": "4d503a013f110000653b2c014ab9d8ae"
+      },
+      ".pkm": {
+        "path": "assets/data/model/effect/common/jump_buff/riverbuff/m300_langan01.pkm",
+        "header": "4d503a0110800000653b2c014ab9e044"
+      },
+      ".vs": {
+        "path": "assets/data/shader/billboard.vs",
+        "header": "4d503a01d6010000653b2c014ab940a8"
+      },
+      ".ps": {
+        "path": "assets/data/shader/cartoon.ps",
+        "header": "4d503a012a070000653b2c014ab9b8ac"
+      },
+      ".glsl": {
+        "path": "assets/data/shader/character_pbr_ps.glsl",
+        "header": "4d503a0193080000653b2c014ab9986f"
+      },
+      ".bank": {
+        "path": "assets/data/sound/mobile/101_1voice.bank",
+        "header": "4d503a01c2010000653b2c014ab978e8"
+      },
+      ".plist": {
+        "path": "assets/data/ui_new/gamestage_ui/plist/bloodbar.plist",
+        "header": "4d503a01f22e0000653b2c014ab9d8a3"
+      }
+    }
+  },
+  "config": "local channelLocal = 0\nlocal channelJump = 24\n\n_ConfigMgr.tutorial = true\n_ConfigMgr.voicePrefix = \"_jp\"\n_ConfigMgr.maidPrefix = \"japan_\"\n_ConfigMgr.mobileIME = true\n\n_ConfigMgr.readLocalServerList = false\n_ConfigMgr.clientIndex = 2\n\n_ConfigMgr.loginChannel = channelJump\n_ConfigMgr.skipDataCheck = false\n_ConfigMgr.showSDK = false"
+}

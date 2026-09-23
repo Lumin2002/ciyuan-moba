@@ -1,0 +1,30 @@
+# ── 原始安装包（版权素材，且合计 800+ MB）────────────────────────────
+*.apk
+*.apk.*
+
+# ── ZIP 全量解包结果（可由 APK 重新生成）─────────────────────────────
+apk_analysis/*/unpacked/
+
+# ── 解密后的游戏素材（版权内容，可由 decode_resources.py 重新生成）──
+apk_analysis/*/decoded/
+
+# ── 从二进制批量导出的原始字符串（体积大，无分析价值）───────────────
+apk_analysis/*/dex_strings.txt
+apk_analysis/*/native_core_strings.txt
+
+# ── 报告中的预览图（游戏图标 / 加载画面合成）────────────────────────
+apk_analysis/*_preview.png
+
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ── 编辑器 / 系统 ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini

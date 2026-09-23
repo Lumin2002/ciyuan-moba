@@ -1,0 +1,2178 @@
+[
+  {
+    "id": "ciyuan_2017",
+    "source": "次元大作战【2017年6月】.apk",
+    "size": 227697557,
+    "sha256": "57ac48171d3b15e41607f956b762c2a76b24fdb2b0027476b741bcd43ce5ddbf",
+    "file_count": 6185,
+    "zip_crc": "all entries passed",
+    "manifest": {
+      "android:versionCode": "201602",
+      "android:versionName": "2.16",
+      "package": "com.emagroup.mbzw2.emagroup",
+      "platformBuildVersionCode": "25",
+      "platformBuildVersionName": "7.1.1"
+    },
+    "sdk": {
+      "android:minSdkVersion": "17",
+      "android:targetSdkVersion": "22"
+    },
+    "application": {
+      "android:label": "次元大作战",
+      "android:icon": "@0x7f020068"
+    },
+    "app_labels": [
+      {
+        "value": "次元大作战"
+      }
+    ],
+    "icons": [
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-ldpi-v4/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-mdpi-v4/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-hdpi-v4/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-xhdpi-v4/icon.png"
+      }
+    ],
+    "permissions": [
+      {
+        "android:name": "android.permission.RESTART_PACKAGES"
+      },
+      {
+        "android:name": "android.permission.KILL_BACKGROUND_PROCESSES"
+      },
+      {
+        "android:name": "android.permission.GET_TASKS"
+      },
+      {
+        "android:name": "android.permission.INTERNET"
+      },
+      {
+        "android:name": "android.permission.ACCESS_WIFI_STATE"
+      },
+      {
+        "android:name": "android.permission.ACCESS_NETWORK_STATE"
+      },
+      {
+        "android:name": "android.permission.CHANGE_WIFI_STATE"
+      },
+      {
+        "android:name": "android.permission.WRITE_EXTERNAL_STORAGE"
+      },
+      {
+        "android:name": "android.permission.READ_PHONE_STATE"
+      },
+      {
+        "android:name": "android.permission.MANAGE_ACCOUNTS"
+      },
+      {
+        "android:name": "android.permission.GET_ACCOUNTS"
+      },
+      {
+        "android:name": "android.permission.BLUETOOTH"
+      },
+      {
+        "android:name": "android.permission.BLUETOOTH_ADMIN"
+      },
+      {
+        "android:name": "android.permission.RECEIVE_BOOT_COMPLETED"
+      },
+      {
+        "android:name": "android.permission.VIBRATE"
+      },
+      {
+        "android:name": "android.permission.ACCESS_COARSE_LOCATION"
+      },
+      {
+        "android:name": "getui.permission.GetuiService.com.emagroup.mbzw2.emagroup"
+      },
+      {
+        "android:name": "android.permission.SYSTEM_ALERT_WINDOW"
+      },
+      {
+        "android:name": "android.permission.SYSTEM_OVERLAY_WINDOW"
+      },
+      {
+        "android:name": "android.permission.INTERNET"
+      },
+      {
+        "android:name": "android.permission.CHANGE_WIFI_STATE"
+      },
+      {
+        "android:name": "android.permission.WAKE_LOCK"
+      },
+      {
+        "android:name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+      },
+      {
+        "android:name": "android.permission.READ_LOGS"
+      },
+      {
+        "android:name": "android.permission.ACCESS_FINE_LOCATION"
+      }
+    ],
+    "features": [
+      {
+        "android:glEsVersion": "0x20000"
+      }
+    ],
+    "components": [
+      {
+        "type": "activity",
+        "android:theme": "@0x01030007",
+        "android:label": "次元大作战",
+        "android:name": "cn.emagroup.kom.Tombird",
+        "android:screenOrientation": "0",
+        "android:configChanges": "0x40000dff",
+        "intent_actions": [
+          "android.intent.action.MAIN"
+        ]
+      },
+      {
+        "type": "activity",
+        "android:name": "com.emagroup.sdk.PayMabiActivity",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "com.emagroup.sdk.TrdCardActivity",
+        "android:screenOrientation": "0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "com.emagroup.sdk.WebViewActivity",
+        "android:screenOrientation": "1",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "com.emagroup.sdk.WebViewSimpleActivity",
+        "intent_actions": []
+      },
+      {
+        "type": "service",
+        "android:name": "com.emagroup.sdk.EmaService",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "com.alipay.sdk.app.H5PayActivity",
+        "android:exported": "false",
+        "android:screenOrientation": "3",
+        "android:configChanges": "0xe0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "com.alipay.sdk.auth.AuthActivity",
+        "android:exported": "false",
+        "android:screenOrientation": "3",
+        "android:configChanges": "0xe0",
+        "intent_actions": []
+      },
+      {
+        "type": "receiver",
+        "android:name": "com.emagroup.sdk.PushDemoReceiver",
+        "android:exported": "false",
+        "intent_actions": [
+          "com.igexin.sdk.action.rYPJsOoDYa9868lmxgWyA4"
+        ]
+      },
+      {
+        "type": "service",
+        "android:label": "NotificationCenter",
+        "android:name": "com.igexin.sdk.PushService",
+        "android:exported": "true",
+        "android:process": ":pushservice",
+        "intent_actions": [
+          "com.igexin.sdk.action.service.message"
+        ]
+      },
+      {
+        "type": "service",
+        "android:label": "NotificationCenterUser",
+        "android:name": "com.igexin.sdk.PushServiceUser",
+        "android:exported": "true",
+        "intent_actions": [
+          "com.igexin.sdk.action.user.message"
+        ]
+      },
+      {
+        "type": "receiver",
+        "android:name": "com.igexin.sdk.PushReceiver",
+        "intent_actions": [
+          "android.intent.action.BOOT_COMPLETED",
+          "android.net.conn.CONNECTIVITY_CHANGE",
+          "android.intent.action.USER_PRESENT",
+          "com.igexin.sdk.action.refreshls",
+          "android.intent.action.MEDIA_MOUNTED",
+          "android.intent.action.ACTION_POWER_CONNECTED",
+          "android.intent.action.ACTION_POWER_DISCONNECTED"
+        ]
+      },
+      {
+        "type": "receiver",
+        "android:name": "com.igexin.sdk.PushManagerReceiver",
+        "android:exported": "false",
+        "intent_actions": [
+          "com.igexin.sdk.action.pushmanager"
+        ]
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030010",
+        "android:name": "com.igexin.sdk.PushActivity",
+        "android:exported": "false",
+        "android:process": ":pushservice",
+        "android:taskAffinity": "com.igexin.sdk.PushActivityTask",
+        "android:excludeFromRecents": "true",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030010",
+        "android:name": "com.igexin.sdk.GActivity",
+        "android:exported": "true",
+        "android:process": ":pushservice",
+        "android:taskAffinity": "com.igexin.sdk.PushActivityTask",
+        "android:excludeFromRecents": "true",
+        "intent_actions": []
+      },
+      {
+        "type": "service",
+        "android:name": "com.igexin.download.DownloadService",
+        "android:process": ":pushservice",
+        "intent_actions": []
+      },
+      {
+        "type": "receiver",
+        "android:name": "com.igexin.download.DownloadReceiver",
+        "intent_actions": [
+          "android.net.conn.CONNECTIVITY_CHANGE"
+        ]
+      },
+      {
+        "type": "provider",
+        "android:name": "com.igexin.download.DownloadProvider",
+        "android:exported": "true",
+        "android:process": ":pushservice",
+        "android:authorities": "downloads.com.emagroup.mbzw2.emagroup",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "com.tencent.tauth.AuthActivity",
+        "android:launchMode": "2",
+        "android:noHistory": "true",
+        "intent_actions": [
+          "android.intent.action.VIEW"
+        ]
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030010",
+        "android:name": "com.tencent.connect.common.AssistActivity",
+        "android:configChanges": "0x4a0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "com.sina.weibo.sdk.component.WeiboSdkBrowser",
+        "android:exported": "false",
+        "android:configChanges": "0xa0",
+        "android:windowSoftInputMode": "0x10",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030010",
+        "android:name": "com.emagroup.sdk.WeiBoEntryActivity",
+        "android:exported": "true",
+        "intent_actions": [
+          "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+        ]
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x0103000f",
+        "android:name": ".wxapi.WXEntryActivity",
+        "android:exported": "true",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "com.emagroup.sdk.PayTrdActivity",
+        "android:exported": "true",
+        "android:launchMode": "1",
+        "intent_actions": [
+          "android.intent.action.VIEW"
+        ]
+      },
+      {
+        "type": "activity",
+        "android:name": "com.emagroup.sdk.RechargeMabiActivity",
+        "android:exported": "true",
+        "android:launchMode": "1",
+        "intent_actions": [
+          "android.intent.action.VIEW"
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "android:name": "EMA_APP_ID",
+        "android:value": "n20015"
+      },
+      {
+        "android:name": "EMA_CHANNEL_ID",
+        "android:value": "n26"
+      },
+      {
+        "android:name": "EMA_CHANNEL_TAG",
+        "android:value": "n1001"
+      },
+      {
+        "android:name": "EMA_WHICH_ENVI",
+        "android:value": "production"
+      },
+      {
+        "android:name": "PUSH_APPID",
+        "android:value": "rYPJsOoDYa9868lmxgWyA4"
+      },
+      {
+        "android:name": "PUSH_APPKEY",
+        "android:value": "U5LLqz8OWj7LW2zRdBF3bA"
+      },
+      {
+        "android:name": "PUSH_APPSECRET",
+        "android:value": "Z2Hj5Fn43y8xDUuCoyiC73"
+      },
+      {
+        "android:name": "QQ_APP_ID",
+        "android:value": "n1105564847"
+      },
+      {
+        "android:name": "WEI_BO_APP_ID",
+        "android:value": "n4285757031"
+      },
+      {
+        "android:name": "WECHAT_APP_ID",
+        "android:value": "wxad312759ba0cb817"
+      }
+    ],
+    "certificates": [
+      {
+        "file": "KOM.RSA",
+        "subject": "CN=AdamWu,OU=Emagroup,O=Emagroup,L=Shanghai,ST=Shanghai,C=86",
+        "issuer": "CN=AdamWu,OU=Emagroup,O=Emagroup,L=Shanghai,ST=Shanghai,C=86",
+        "sha256": "6b9daf7964287f1862c5cd2f6ac7bfd051b169399dabd67c1414301b84c442f2",
+        "not_before": "2015-08-25 03:20:27+00:00",
+        "not_after": "2040-08-18 03:20:27+00:00",
+        "signature_algorithm": "sha256"
+      }
+    ],
+    "dex": {
+      "classes": 1804,
+      "strings": 17511,
+      "magic": "6465780a30333500",
+      "class_groups": {
+        "com/emagroup/sdk": 247,
+        "com/igexin/push": 213,
+        "com/sina/weibo": 207,
+        "com/tencent/open": 147,
+        "com/anysdk/framework": 119,
+        "com/alipay/sdk": 91,
+        "com/tencent/mm": 75,
+        "com/tencent/wxop": 75,
+        "com/tencent/connect": 73,
+        "com/tencent/stat": 65,
+        "com/alipay/android": 48,
+        "com/tencent/map": 44,
+        "org/cocos2dx/lib": 43,
+        "com/igexin/a": 43,
+        "com/dataeye/c": 33,
+        "com/ta/utdid2": 31,
+        "com/alipay/apmobilesecuritysdk": 30,
+        "com/igexin/sdk": 25,
+        "cn/emagroup/kom": 20,
+        "com/alipay/security": 20,
+        "com/igexin/download": 17,
+        "com/emagroup/mbzw2": 14,
+        "com/alipay/a": 13,
+        "com/anysdk/Util": 13,
+        "com/dataeye/a": 12,
+        "com/alipay/tscenter": 9,
+        "com/tencent/mobileqq": 9,
+        "com/tencent/a": 8,
+        "com/dataeye/b": 6,
+        "com/tencent/tauth": 5,
+        "org/json/alipay": 5,
+        "com/cocos/play": 4,
+        "com/tencent/qqconnect": 4,
+        "com/alipay/mobile": 3,
+        "com/sina/sso": 3,
+        "com/ut/device": 3,
+        "com/dataeye/plugin": 2,
+        "cn/emagroup/sdk": 1,
+        "com/alipay/mobilesecuritysdk": 1,
+        "com/dataeye/ConfigParamsUpdateListener;": 1,
+        "com/dataeye/DCAccount;": 1,
+        "com/dataeye/DCAccountType;": 1,
+        "com/dataeye/DCAgent;": 1,
+        "com/dataeye/DCChannelConfig;": 1,
+        "com/dataeye/DCCocos2dConfigParams;": 1
+      }
+    },
+    "libraries": [
+      {
+        "path": "lib/armeabi/libfmod.so",
+        "size": 1312884,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libfmodstudio.so",
+        "size": 1527200,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libgame.so",
+        "size": 11661680,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libgetuiext2.so",
+        "size": 42240,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libNativeCrash.so",
+        "size": 91320,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libPluginProtocol.so",
+        "size": 689628,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libweibosdkcore.so",
+        "size": 25840,
+        "elf_class": 1,
+        "machine": 40
+      }
+    ],
+    "native_markers": [
+      "cn/emagroup/kom/Tombird",
+      "Lua 5.1",
+      "LuaJIT 2.0.1",
+      "cocos2d-x debug info",
+      "cocos2d-x assert"
+    ],
+    "network_string_count": 130,
+    "resource_wrapping": {
+      "wrapped_by_extension": {
+        ".csv": 14,
+        ".dat": 55,
+        ".txt": 5,
+        ".ini": 639,
+        ".xmap": 2,
+        ".tga": 8,
+        ".bin": 1,
+        ".ccz": 1888,
+        ".x2": 941,
+        ".pkm": 1626,
+        ".xml": 1,
+        ".lua": 164,
+        ".vs": 33,
+        ".ps": 19,
+        ".glsl": 15,
+        ".bank": 194,
+        ".png": 318
+      },
+      "unwrapped_by_extension": {
+        ".ttf": 3,
+        ".xml": 1
+      },
+      "header_samples": {
+        ".csv": {
+          "path": "assets/data/conf/achievement.csv",
+          "header": "4d503a011c3e0100653b39014ab9a0a4"
+        },
+        ".dat": {
+          "path": "assets/data/conf/achievement_c.dat",
+          "header": "4d503a013e680000653b39014ab988a2"
+        },
+        ".txt": {
+          "path": "assets/data/conf/undueword.txt",
+          "header": "4d503a0151c20400653b39014ab94184"
+        },
+        ".ini": {
+          "path": "assets/data/engine.ini",
+          "header": "4d503a01a1010000653b39014ab9a8e9"
+        },
+        ".ttf": {
+          "path": "assets/data/font/ana.ttf",
+          "header": "00010000000e0080000300604f532f32"
+        },
+        ".xml": {
+          "path": "assets/data/inilist.xml",
+          "header": "3c3f786d6c2076657273696f6e3d2231"
+        },
+        ".xmap": {
+          "path": "assets/data/map/arena_fair.xmap",
+          "header": "4d503a0183150c00653b39014ab9a9a4"
+        },
+        ".tga": {
+          "path": "assets/data/map/arena_fair_grassmask.tga",
+          "header": "4d503a0112001000653b39014ab9d8e4"
+        },
+        ".bin": {
+          "path": "assets/data/map/arena_fair_mist.bin",
+          "header": "4d503a0100000002653b39014ab9d9e8"
+        },
+        ".ccz": {
+          "path": "assets/data/map/water0.pvr.ccz",
+          "header": "4d503a0145b90000653b39014ab91163"
+        },
+        ".x2": {
+          "path": "assets/data/model/effect/common/biaoshi/dianjidimian/tx_c_biaoshi_dianji_01.x2",
+          "header": "4d503a017f440000653b39014ab9d8e2"
+        },
+        ".pkm": {
+          "path": "assets/data/model/effect/texture/dian/tx_dian_0001.pkm",
+          "header": "4d503a0110200000653b39014ab9d8fe"
+        },
+        ".lua": {
+          "path": "assets/data/script/achievement_ui.lua",
+          "header": "4d503a011e8b0000653b39014ab9d804"
+        },
+        ".vs": {
+          "path": "assets/data/shader/billboard.vs",
+          "header": "4d503a01d6010000653b39014ab940a8"
+        },
+        ".ps": {
+          "path": "assets/data/shader/character.ps",
+          "header": "4d503a01f7010000653b39014ab9b0a9"
+        },
+        ".glsl": {
+          "path": "assets/data/shader/character_pbr_ps.glsl",
+          "header": "4d503a0193080000653b39014ab9986f"
+        },
+        ".bank": {
+          "path": "assets/data/sound/mobile/101_1voice.bank",
+          "header": "4d503a01809c0900653b39014ab9d944"
+        },
+        ".png": {
+          "path": "assets/data/texture/bloodbar/bloodbar.png",
+          "header": "4d503a013d150000653b39014ab93404"
+        }
+      }
+    },
+    "config": "eLoginType_Spark = 0\neLoginType_Ema = 1\n\ng_nLoginType = eLoginType_Ema\ng_bForceServerList = 0\ng_NeedTutorial = 1\ng_nSDKNew = 1\n\n-- g_auUrl = \"http://120.92.63.244/othersactivitymanager.html\" --test\ng_auUrl = \"http://payment2.ddmoba.com/othersactivitymanager.html\" --pro\n\ng_nClientServerIndex = 3\n\ng_uAckPingInterval = 15000\n\nProductID_IAP_0 = \t\"CYDZZ_1000\" \nProductID_IAP_1 =\t\"CYDZZ_1001\"\nProductID_IAP_2 =\t\"CYDZZ_1002\" \nProductID_IAP_3 =\t\"CYDZZ_1003\"\nProductID_IAP_4 =\t\"CYDZZ_1004\" \nProductID_IAP_5 =\t\"CYDZZ_1005\" \nProductID_IAP_6 =\t\"CYDZZ_1006\" "
+  },
+  {
+    "id": "game300_2018",
+    "source": "纯300大作战【2018年10月6日】.apk",
+    "size": 465387144,
+    "sha256": "15a01c3476f6e1c7b8d038f65bfab459fe1bd466cf38b0606518f11fbb3ecddc",
+    "file_count": 19283,
+    "zip_crc": "all entries passed",
+    "manifest": {
+      "android:versionCode": "1303",
+      "android:versionName": "1.33",
+      "package": "com.jumpw.mobile300",
+      "platformBuildVersionCode": "23",
+      "platformBuildVersionName": "6.0-2438415"
+    },
+    "sdk": {
+      "android:minSdkVersion": "15",
+      "android:targetSdkVersion": "19"
+    },
+    "application": {
+      "android:theme": "@0x7f0700a4",
+      "android:label": "@0x7f050049",
+      "android:icon": "@0x7f020057",
+      "android:name": "com.jumpw.sdk.JumpwApplication",
+      "android:allowBackup": "true",
+      "android:supportsRtl": "true"
+    },
+    "app_labels": [
+      {
+        "name": "string/app_name",
+        "value": "300大作战"
+      }
+    ],
+    "icons": [
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-ldpi-v4/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-mdpi-v4/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-hdpi-v4/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-xhdpi-v4/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-xxhdpi-v4/icon.png"
+      }
+    ],
+    "permissions": [
+      {
+        "android:name": "android.permission.WRITE_EXTERNAL_STORAGE"
+      },
+      {
+        "android:name": "android.permission.INTERNET"
+      },
+      {
+        "android:name": "android.permission.VIBRATE"
+      },
+      {
+        "android:name": "android.permission.GET_TASKS"
+      },
+      {
+        "android:name": "android.permission.ACCESS_WIFI_STATE"
+      },
+      {
+        "android:name": "android.permission.ACCESS_NETWORK_STATE"
+      },
+      {
+        "android:name": "android.permission.CHANGE_WIFI_STATE"
+      },
+      {
+        "android:name": "android.permission.READ_PHONE_STATE"
+      },
+      {
+        "android:name": "android.permission.MANAGE_ACCOUNTS"
+      },
+      {
+        "android:name": "android.permission.GET_ACCOUNTS"
+      },
+      {
+        "android:name": "android.permission.SEND_SMS"
+      },
+      {
+        "android:name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+      },
+      {
+        "android:name": "android.permission.SYSTEM_ALERT_WINDOW"
+      },
+      {
+        "android:name": "android.permission.READ_LOGS"
+      },
+      {
+        "android:name": "android.permission.SYSTEM_OVERLAY_WINDOW"
+      },
+      {
+        "android:name": "android.permission.WAKE_LOCK"
+      },
+      {
+        "android:name": "android.permission.RECORD_AUDIO"
+      },
+      {
+        "android:name": "android.permission.CHANGE_NETWORK_STATE"
+      },
+      {
+        "android:name": "android.permission.ACCESS_FINE_LOCATION"
+      },
+      {
+        "android:name": "android.permission.MODIFY_AUDIO_SETTINGS"
+      },
+      {
+        "android:name": "android.permission.BLUETOOTH"
+      },
+      {
+        "android:name": "android.permission.READ_EXTERNAL_STORAGE"
+      },
+      {
+        "android:name": "android.permission.ACCESS_COARSE_LOCATION"
+      },
+      {
+        "android:name": "android.permission.INTERACT_ACROSS_USERS_FULL"
+      }
+    ],
+    "features": [],
+    "components": [
+      {
+        "type": "activity",
+        "android:theme": "@0x01030007",
+        "android:name": "com.jumpw.mobile300.Tombird",
+        "android:launchMode": "1",
+        "android:screenOrientation": "6",
+        "android:configChanges": "0x40000dff",
+        "intent_actions": [
+          "android.intent.action.MAIN"
+        ]
+      },
+      {
+        "type": "service",
+        "android:name": "com.youme.voiceengine.VoiceEngineService",
+        "intent_actions": [
+          "com.youme.voiceengine.VoiceEngineService"
+        ]
+      },
+      {
+        "type": "activity",
+        "android:name": "com.umeng.qq.tencent.AuthActivity",
+        "android:launchMode": "2",
+        "android:noHistory": "true",
+        "intent_actions": [
+          "android.intent.action.VIEW"
+        ]
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030010",
+        "android:name": "com.umeng.qq.tencent.AssistActivity",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4a0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f07016d",
+        "android:name": "com.umeng.socialize.editorpage.ShareActivity",
+        "android:excludeFromRecents": "true",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030010",
+        "android:name": "com.jumpw.mobile300.wxapi.WXEntryActivity",
+        "android:exported": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0xa0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f070166",
+        "android:name": "com.jump.game.activity.JumpwLoginActivity",
+        "android:screenOrientation": "0",
+        "android:configChanges": "0x4a0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f070166",
+        "android:name": "com.jump.game.activity.JumpActivationActivity",
+        "android:screenOrientation": "0",
+        "android:configChanges": "0x4a0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030010",
+        "android:name": "com.jump.game.activity.JumpwUserCenterActivity",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4a0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f070166",
+        "android:name": "com.jump.game.activity.JumpwTourisBindPhoneAccountActivity",
+        "android:screenOrientation": "0",
+        "android:configChanges": "0x4a0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f070166",
+        "android:name": "com.jump.game.activity.JumpwPayActivity",
+        "android:screenOrientation": "0",
+        "android:configChanges": "0x4a0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f070166",
+        "android:name": "com.jump.game.activity.JumpwWechaeH5PayActivity",
+        "android:screenOrientation": "0",
+        "android:configChanges": "0x4a0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f070166",
+        "android:name": "com.jump.game.activity.JumpwQQH5PayActivity",
+        "android:screenOrientation": "0",
+        "android:configChanges": "0x4a0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f070166",
+        "android:name": "com.jump.game.activity.JumpwAliH5PayActivity",
+        "android:screenOrientation": "0",
+        "android:configChanges": "0x4a0",
+        "intent_actions": []
+      }
+    ],
+    "metadata": [
+      {
+        "android:name": "android.max_aspect",
+        "android:value": "2.0999999046325684"
+      },
+      {
+        "android:name": "android.max_aspect",
+        "android:value": "2.0999999046325684"
+      },
+      {
+        "android:name": "QQ_APPID",
+        "android:value": "1106379448"
+      },
+      {
+        "android:name": "QQ_APPKEY",
+        "android:value": "KEYsdnlC4J8SJn7czqx"
+      },
+      {
+        "android:name": "WEIXIN_APPKEY",
+        "android:value": "40e54fad4dce886edcf6c2fba0e1ba00"
+      },
+      {
+        "android:name": "WEIXIN_APPID",
+        "android:value": "wxeb86e170b6d4f1fe"
+      },
+      {
+        "android:name": "UMENG_APPKEY",
+        "android:value": "5a6ec09eb27b0a51290001b3"
+      },
+      {
+        "android:name": "U8_APPLICATION_PROXY_NAME",
+        "android:value": "com.jump.sdk.JumpwProxyApplication"
+      },
+      {
+        "android:name": "ulog.level",
+        "android:value": "DEBUG"
+      },
+      {
+        "android:name": "ulog.local",
+        "android:value": "false"
+      },
+      {
+        "android:name": "ulog.remote_url",
+        "android:value": "http://192.168.18.9:8090/"
+      },
+      {
+        "android:name": "ulog.remote",
+        "android:value": "false"
+      },
+      {
+        "android:name": "ulog.remote_interval",
+        "android:value": "1000"
+      },
+      {
+        "android:name": "ulog.enable",
+        "android:value": "false"
+      }
+    ],
+    "certificates": [
+      {
+        "file": "300.RSA",
+        "subject": "CN=Jump",
+        "issuer": "CN=Jump",
+        "sha256": "0ff3f528453eef95bdcf6e4ac33eef000d303b652017724837a2e4772e28b0b2",
+        "not_before": "2017-06-16 03:45:08+00:00",
+        "not_after": "2042-06-10 03:45:08+00:00",
+        "signature_algorithm": "sha256"
+      }
+    ],
+    "dex": {
+      "classes": 3711,
+      "strings": 32593,
+      "magic": "6465780a30333500",
+      "class_groups": {
+        "android/support/v4": 1208,
+        "android/support/v7": 372,
+        "org/apache/http": 357,
+        "com/umeng/analytics": 304,
+        "com/umeng/socialize": 300,
+        "com/iflytek/cloud": 228,
+        "com/jump/game": 163,
+        "com/tencent/bugly": 116,
+        "com/jumpw/sdk": 90,
+        "com/iflytek/speech": 68,
+        "org/cocos2dx/lib": 52,
+        "com/umeng/qq": 49,
+        "android/support/annotation": 47,
+        "com/iflytek/sunflower": 43,
+        "com/jumpw/mobile300": 42,
+        "com/umeng/weixin": 33,
+        "com/youme/voiceengine": 33,
+        "org/apache/commons": 31,
+        "com/ta/utdid2": 25,
+        "android/support/graphics": 24,
+        "com/uns/util": 20,
+        "android/net/http": 19,
+        "com/sina/weibo": 18,
+        "com/jump/sdk": 13,
+        "android/support/multidex": 9,
+        "com/android/internal": 8,
+        "com/iflytek/msc": 6,
+        "com/jump/share": 5,
+        "com/iflytek/common": 4,
+        "com/umeng/social": 4,
+        "com/uns/log": 3,
+        "android/net/compatibility": 1,
+        "android/support/compat": 1,
+        "android/support/coreui": 1,
+        "android/support/coreutils": 1,
+        "android/support/fragment": 1,
+        "android/support/mediacompat": 1,
+        "com/umeng/a;": 1,
+        "com/umeng/fakev4": 1,
+        "com/umeng/shareboard": 1,
+        "com/umeng/shareview": 1,
+        "com/umeng/tool": 1,
+        "com/ut/device": 1,
+        "org/fmod/AudioDevice;": 1,
+        "org/fmod/FMOD;": 1
+      }
+    },
+    "libraries": [
+      {
+        "path": "lib/armeabi-v7a/libBugly.so",
+        "size": 144892,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi-v7a/libfmod.so",
+        "size": 927240,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi-v7a/libfmodstudio.so",
+        "size": 628148,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi-v7a/libgame.so",
+        "size": 9033204,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi-v7a/libidentifyapp.so",
+        "size": 35828,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi-v7a/libNativeCrash.so",
+        "size": 91320,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi-v7a/libyim.so",
+        "size": 1513188,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi-v7a/libyoume_voice_engine.so",
+        "size": 2994344,
+        "elf_class": 1,
+        "machine": 40
+      }
+    ],
+    "native_markers": [
+      "# This file was generated by cocos2d-x! Edit at your own risk.",
+      "# Test cocos2d-x cookie write.",
+      "cocos2d-x assert",
+      "cocos2d-x debug info",
+      "Lua 5.1",
+      "LuaJIT 2.0.1"
+    ],
+    "network_string_count": 118,
+    "resource_wrapping": {
+      "wrapped_by_extension": {
+        ".csv": 12,
+        ".proto": 50,
+        ".dat": 119,
+        ".txt": 4,
+        ".png": 58,
+        ".lua": 545,
+        ".ini": 1339,
+        ".tga": 13,
+        ".xmap": 2,
+        ".bin": 1,
+        ".ccz": 1,
+        ".x2": 1747,
+        ".pkm": 13762,
+        ".xml": 1,
+        ".vs": 42,
+        ".ps": 40,
+        ".glsl": 17,
+        ".bank": 966,
+        ".plist": 2
+      },
+      "unwrapped_by_extension": {
+        ".ttf": 3,
+        ".xml": 1
+      },
+      "header_samples": {
+        ".csv": {
+          "path": "assets/data/conf/achievement.csv",
+          "header": "4d503a01f0200100653b2c014ab9a0a4"
+        },
+        ".proto": {
+          "path": "assets/data/conf/achievement.proto",
+          "header": "4d503a0134040000653b2c014ab9a8aa"
+        },
+        ".dat": {
+          "path": "assets/data/conf/achievement_c.dat",
+          "header": "4d503a01e6310000653b2c014ab998a3"
+        },
+        ".txt": {
+          "path": "assets/data/conf/undueword.txt",
+          "header": "4d503a018a950000653b2c014ab95184"
+        },
+        ".png": {
+          "path": "assets/data/editor/img/bar_bg.png",
+          "header": "4d503a017a000000653b2c014ab9de35"
+        },
+        ".lua": {
+          "path": "assets/data/editor/script/charactor.lua",
+          "header": "4d503a0131090000653b2c014ab9986c"
+        },
+        ".ini": {
+          "path": "assets/data/engine.ini",
+          "header": "4d503a01a1010000653b2c014ab9a8e9"
+        },
+        ".ttf": {
+          "path": "assets/data/font/basefont.ttf",
+          "header": "00010000001101000004001047535542"
+        },
+        ".tga": {
+          "path": "assets/data/hotfix_res/check_data.tga",
+          "header": "4d503a01fc670000653b2c014ab9d865"
+        },
+        ".xml": {
+          "path": "assets/data/inilist.xml",
+          "header": "3c3f786d6c2076657273696f6e3d2231"
+        },
+        ".xmap": {
+          "path": "assets/data/map/arena_fair.xmap",
+          "header": "4d503a01ef830c00653b2c014ab9d8e4"
+        },
+        ".bin": {
+          "path": "assets/data/map/arena_fair_mist.bin",
+          "header": "4d503a0100000002653b2c014ab9d9e1"
+        },
+        ".ccz": {
+          "path": "assets/data/map/water0.pvr.ccz",
+          "header": "4d503a0145b90000653b2c014ab91163"
+        },
+        ".x2": {
+          "path": "assets/data/model/effect/common/jump_biaoji/dianjidimian/tx_c_biaoshi_dianji_01.x2",
+          "header": "4d503a013f110000653b2c014ab9d8ae"
+        },
+        ".pkm": {
+          "path": "assets/data/model/effect/common/jump_buff/riverbuff/m300_langan01.pkm",
+          "header": "4d503a0110800000653b2c014ab9e044"
+        },
+        ".vs": {
+          "path": "assets/data/shader/billboard.vs",
+          "header": "4d503a01d6010000653b2c014ab940a8"
+        },
+        ".ps": {
+          "path": "assets/data/shader/cartoon.ps",
+          "header": "4d503a012a070000653b2c014ab9b8ac"
+        },
+        ".glsl": {
+          "path": "assets/data/shader/character_pbr_ps.glsl",
+          "header": "4d503a0193080000653b2c014ab9986f"
+        },
+        ".bank": {
+          "path": "assets/data/sound/mobile/101_1voice.bank",
+          "header": "4d503a01c2010000653b2c014ab978e8"
+        },
+        ".plist": {
+          "path": "assets/data/ui_new/gamestage_ui/plist/bloodbar.plist",
+          "header": "4d503a01f22e0000653b2c014ab9d8a3"
+        }
+      }
+    },
+    "config": "local channelLocal = 0\nlocal channelJump = 24\n\n_ConfigMgr.tutorial = true\n_ConfigMgr.voicePrefix = \"_jp\"\n_ConfigMgr.maidPrefix = \"japan_\"\n_ConfigMgr.mobileIME = true\n\n_ConfigMgr.readLocalServerList = false\n_ConfigMgr.clientIndex = 2\n\n_ConfigMgr.loginChannel = channelJump\n_ConfigMgr.skipDataCheck = false\n_ConfigMgr.showSDK = false"
+  },
+  {
+    "id": "moba_2016",
+    "source": "魔霸之王【2016年4月1日】.apk",
+    "size": 154750536,
+    "sha256": "b447947befd9fdb9569af2b3626e3cee2947d25e76add4b5b5e82fab5e37dfda",
+    "file_count": 5138,
+    "zip_crc": "all entries passed",
+    "manifest": {
+      "android:versionCode": "1020",
+      "android:versionName": "1.20",
+      "package": "cn.emagroup.kom.baidu"
+    },
+    "sdk": {
+      "android:minSdkVersion": "15",
+      "android:targetSdkVersion": "18"
+    },
+    "application": {
+      "android:label": "@0x7f030000",
+      "android:icon": "@0x7f020000",
+      "android:name": "com.baidu.gamesdk.BDGameApplication"
+    },
+    "app_labels": [
+      {
+        "name": "string/app_name",
+        "value": "魔霸之王"
+      }
+    ],
+    "icons": [
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-ldpi/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-mdpi/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-hdpi/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-xhdpi/icon.png"
+      },
+      {
+        "name": "drawable/icon",
+        "value": "res/drawable-xxhdpi/icon.png"
+      }
+    ],
+    "permissions": [
+      {
+        "android:name": "android.permission.WRITE_EXTERNAL_STORAGE"
+      },
+      {
+        "android:name": "android.permission.INTERNET"
+      },
+      {
+        "android:name": "android.permission.GET_TASKS"
+      },
+      {
+        "android:name": "android.permission.ACCESS_WIFI_STATE"
+      },
+      {
+        "android:name": "android.permission.ACCESS_NETWORK_STATE"
+      },
+      {
+        "android:name": "android.permission.CHANGE_WIFI_STATE"
+      },
+      {
+        "android:name": "android.permission.READ_PHONE_STATE"
+      },
+      {
+        "android:name": "android.permission.MANAGE_ACCOUNTS"
+      },
+      {
+        "android:name": "android.permission.GET_ACCOUNTS"
+      },
+      {
+        "android:name": "android.permission.SEND_SMS"
+      },
+      {
+        "android:name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+      },
+      {
+        "android:name": "android.permission.SYSTEM_ALERT_WINDOW"
+      },
+      {
+        "android:name": "android.permission.SYSTEM_OVERLAY_WINDOW"
+      },
+      {
+        "android:name": "android.permission.INTERNET"
+      },
+      {
+        "android:name": "android.permission.READ_PHONE_STATE"
+      },
+      {
+        "android:name": "android.permission.ACCESS_NETWORK_STATE"
+      },
+      {
+        "android:name": "android.permission.ACCESS_WIFI_STATE"
+      },
+      {
+        "android:name": "android.permission.CHANGE_WIFI_STATE"
+      },
+      {
+        "android:name": "android.permission.WAKE_LOCK"
+      },
+      {
+        "android:name": "android.permission.BLUETOOTH"
+      },
+      {
+        "android:name": "android.permission.BLUETOOTH_ADMIN"
+      },
+      {
+        "android:name": "android.permission.ACCESS_FINE_LOCATION"
+      },
+      {
+        "android:name": "getui.permission.GetuiService.cn.emagroup.kom.baidu"
+      },
+      {
+        "android:name": "android.permission.WRITE_SETTINGS"
+      },
+      {
+        "android:name": "android.permission.READ_SMS"
+      },
+      {
+        "android:name": "android.permission.CHANGE_NETWORK_STATE"
+      },
+      {
+        "android:name": "android.permission.ACCESS_COARSE_LOCATION"
+      },
+      {
+        "android:name": "android.permission.RECEIVE_SMS"
+      },
+      {
+        "android:name": "android.permission.CALL_PHONE"
+      },
+      {
+        "android:name": "android.permission.RECEIVE_BOOT_COMPLETED"
+      },
+      {
+        "android:name": "android.permission.VIBRATE"
+      },
+      {
+        "android:name": "android.permission.ACCESS_DOWNLOAD_MANAGER"
+      },
+      {
+        "android:name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+      },
+      {
+        "android:name": "android.permission.CAMERA"
+      },
+      {
+        "android:name": "android.permission.FLASHLIGHT"
+      },
+      {
+        "android:name": "android.permission.DISABLE_KEYGUARD"
+      },
+      {
+        "android:name": "android.permission.BROADCAST_STICKY"
+      }
+    ],
+    "features": [
+      {
+        "android:glEsVersion": "0x20000"
+      }
+    ],
+    "components": [
+      {
+        "type": "activity",
+        "android:theme": "@0x01030007",
+        "android:label": "@0x7f030000",
+        "android:name": "cn.emagroup.kom.Tombird",
+        "android:screenOrientation": "0",
+        "android:configChanges": "0x40000dff",
+        "intent_actions": [
+          "android.intent.action.MAIN"
+        ]
+      },
+      {
+        "type": "activity",
+        "android:name": "cn.emagroup.sdk.PayMabiActivity",
+        "android:launchMode": "2",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "cn.emagroup.sdk.Pay3rdActivity",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "cn.emagroup.sdk.EmaPayThrdActivity",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "cn.emagroup.sdk.EmaWebViewActivity",
+        "android:launchMode": "2",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "cn.emagroup.sdk.EmaRechargeMabi",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "cn.emagroup.sdk.EmaPaySzfu",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "cn.emagroup.sdk.EmaPayGcard",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "cn.emagroup.sdk.AccountMainActivity",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0002",
+        "android:name": "com.baidu.platformsdk.LoginActivity",
+        "android:exported": "false",
+        "android:excludeFromRecents": "true",
+        "android:configChanges": "0x4f0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0002",
+        "android:name": "com.baidu.platformsdk.AssistActivity",
+        "android:exported": "false",
+        "android:excludeFromRecents": "true",
+        "android:configChanges": "0x4f0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0002",
+        "android:name": "com.baidu.platformsdk.BindPhoneActivity",
+        "android:exported": "false",
+        "android:excludeFromRecents": "true",
+        "android:configChanges": "0x4f0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0002",
+        "android:name": "com.baidu.platformsdk.CashierDeskActivity",
+        "android:exported": "false",
+        "android:configChanges": "0x4f0",
+        "android:windowSoftInputMode": "0x20",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030007",
+        "android:name": "com.baidu.platformsdk.WebActivity",
+        "android:exported": "false",
+        "android:configChanges": "0x4f0",
+        "android:windowSoftInputMode": "0x20",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0002",
+        "android:name": "com.baidu.platformsdk.ModifyPasswordActivity",
+        "android:exported": "false",
+        "android:excludeFromRecents": "true",
+        "android:configChanges": "0x4f0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030007",
+        "android:name": "com.baidu.platformsdk.ThirdPartyLoginActivity",
+        "android:exported": "false",
+        "android:excludeFromRecents": "true",
+        "android:configChanges": "0x4f0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0002",
+        "android:name": "com.baidu.platformsdk.VisitorBindActivity",
+        "android:exported": "false",
+        "android:excludeFromRecents": "true",
+        "android:configChanges": "0x4f0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0002",
+        "android:name": "com.baidu.platformsdk.BaiduBeanDetailActivity",
+        "android:exported": "false",
+        "android:configChanges": "0x4f0",
+        "android:windowSoftInputMode": "0x20",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0002",
+        "android:name": "com.baidu.platformsdk.OrderDetailActivity",
+        "android:exported": "false",
+        "android:configChanges": "0x4f0",
+        "android:windowSoftInputMode": "0x20",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0002",
+        "android:name": "com.baidu.platformsdk.SapiWebActivity",
+        "android:exported": "false",
+        "android:configChanges": "0x4f0",
+        "android:windowSoftInputMode": "0x20",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0002",
+        "android:name": "com.baidu.platformsdk.SapiLoginProxyActivity",
+        "android:exported": "false",
+        "android:configChanges": "0x4f0",
+        "android:windowSoftInputMode": "0x20",
+        "intent_actions": []
+      },
+      {
+        "type": "service",
+        "android:name": "com.baidu.platformsdk.BDPlatformService",
+        "android:exported": "false",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0028",
+        "android:name": "com.baidu.paysdk.login.LoginActivity",
+        "android:exported": "false",
+        "android:excludeFromRecents": "true",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x2",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0028",
+        "android:name": "com.baidu.paysdk.ui.WelcomeActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x2",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.OrderHomeActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x2",
+        "android:hardwareAccelerated": "false",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.PayResultActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x2",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.PcPwdCheckActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x4",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.PwdCheckActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x4",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.PwdSetActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x4",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.PwdConfirmActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x4",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.PwdSetAndConfirmActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x4",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0027",
+        "android:name": "com.baidu.paysdk.ui.PwdPayActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x14",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0027",
+        "android:name": "com.baidu.paysdk.ui.PwdPaySmsActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x2",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.WebViewActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x2",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.BindCardNoActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:launchMode": "2",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x2",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.BindCardDetailActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:launchMode": "2",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x24",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.BindCardDetailCredit2Activity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:launchMode": "2",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x24",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.BindCardDetailCreditActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:launchMode": "2",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x24",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.BindSmsActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x10",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.SelectBindCardActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x2",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.PhonePwdActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "1",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x2",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b002d",
+        "android:name": "com.baidu.paysdk.ui.SignChannelListActivity",
+        "android:exported": "@0x7f070000",
+        "android:excludeFromRecents": "true",
+        "android:configChanges": "0x4e0",
+        "android:windowSoftInputMode": "0x2",
+        "android:hardwareAccelerated": "false",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0000",
+        "android:name": "com.baidu.sapi2.utils.LoginProtectAcitivity",
+        "android:screenOrientation": "1",
+        "android:windowSoftInputMode": "0x20",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "com.unionpay.uppay.PayActivity",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "0",
+        "android:configChanges": "0xa0",
+        "android:windowSoftInputMode": "0x10",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "com.alipay.sdk.app.H5PayActivity",
+        "android:exported": "false",
+        "android:screenOrientation": "3",
+        "android:configChanges": "0xe0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:name": "com.alipay.sdk.auth.AuthActivity",
+        "android:exported": "false",
+        "android:screenOrientation": "3",
+        "android:configChanges": "0xe0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030010",
+        "android:name": "com.baidu.platformsdk.pay.channel.qqwallet.QQPayActivity",
+        "android:exported": "true",
+        "android:launchMode": "1",
+        "android:configChanges": "0x4f0",
+        "intent_actions": [
+          "android.intent.action.VIEW"
+        ]
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x7f0b0018",
+        "android:name": "com.duoku.platform.ui.DKContainerActivity",
+        "android:launchMode": "1",
+        "android:configChanges": "0x4e0",
+        "intent_actions": []
+      },
+      {
+        "type": "service",
+        "android:name": "cn.emagroup.framework.gather.EmaOnLineService",
+        "intent_actions": []
+      },
+      {
+        "type": "service",
+        "android:name": "com.duoku.platform.service.DKSuspensionService",
+        "intent_actions": []
+      },
+      {
+        "type": "receiver",
+        "android:name": "com.duoku.platform.push.MyPushMessageReceiver",
+        "intent_actions": [
+          "com.baidu.android.pushservice.action.MESSAGE",
+          "com.baidu.android.pushservice.action.RECEIVE",
+          "com.baidu.android.pushservice.action.notification.CLICK"
+        ]
+      },
+      {
+        "type": "receiver",
+        "android:name": "com.baidu.android.pushservice.PushServiceReceiver",
+        "android:process": ":bdservice_v1",
+        "intent_actions": [
+          "android.intent.action.BOOT_COMPLETED",
+          "android.net.conn.CONNECTIVITY_CHANGE",
+          "com.baidu.android.pushservice.action.notification.SHOW",
+          "com.baidu.android.pushservice.action.media.CLICK",
+          "android.intent.action.MEDIA_MOUNTED",
+          "android.intent.action.USER_PRESENT",
+          "android.intent.action.ACTION_POWER_CONNECTED",
+          "android.intent.action.ACTION_POWER_DISCONNECTED"
+        ]
+      },
+      {
+        "type": "receiver",
+        "android:name": "com.baidu.android.pushservice.RegistrationReceiver",
+        "android:process": ":bdservice_v1",
+        "intent_actions": [
+          "com.baidu.android.pushservice.action.METHOD",
+          "com.baidu.android.pushservice.action.BIND_SYNC",
+          "android.intent.action.PACKAGE_REMOVED"
+        ]
+      },
+      {
+        "type": "service",
+        "android:name": "com.baidu.android.pushservice.PushService",
+        "android:exported": "true",
+        "android:process": ":bdservice_v1",
+        "intent_actions": [
+          "com.baidu.android.pushservice.action.PUSH_SERVICE"
+        ]
+      },
+      {
+        "type": "service",
+        "android:name": "com.baidu.android.pushservice.CommandService",
+        "android:exported": "true",
+        "intent_actions": []
+      },
+      {
+        "type": "receiver",
+        "android:name": "cn.emagroup.framework.SDK.EmaSDKPushReceiver",
+        "android:exported": "false",
+        "intent_actions": [
+          "com.igexin.sdk.action.mdMmHMLzea8TwUEnFOvya5"
+        ]
+      },
+      {
+        "type": "service",
+        "android:label": "NotificationCenter",
+        "android:name": "com.igexin.sdk.PushService",
+        "android:exported": "true",
+        "android:process": ":pushservice",
+        "intent_actions": []
+      },
+      {
+        "type": "service",
+        "android:label": "NotificationCenterUser",
+        "android:name": "com.igexin.sdk.PushServiceUser",
+        "android:exported": "true",
+        "intent_actions": []
+      },
+      {
+        "type": "receiver",
+        "android:name": "com.igexin.sdk.PushReceiver",
+        "intent_actions": [
+          "android.intent.action.BOOT_COMPLETED",
+          "android.net.conn.CONNECTIVITY_CHANGE",
+          "android.intent.action.USER_PRESENT",
+          "com.igexin.sdk.action.refreshls",
+          "android.intent.action.MEDIA_MOUNTED",
+          "android.intent.action.ACTION_POWER_CONNECTED",
+          "android.intent.action.ACTION_POWER_DISCONNECTED"
+        ]
+      },
+      {
+        "type": "receiver",
+        "android:name": "com.igexin.sdk.PushManagerReceiver",
+        "android:exported": "false",
+        "intent_actions": [
+          "com.igexin.sdk.action.pushmanager"
+        ]
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030010",
+        "android:name": "com.igexin.sdk.PushActivity",
+        "android:exported": "false",
+        "android:process": ":pushservice",
+        "android:taskAffinity": "com.igexin.sdk.PushActivityTask",
+        "android:excludeFromRecents": "true",
+        "intent_actions": []
+      },
+      {
+        "type": "service",
+        "android:name": "com.igexin.download.DownloadService",
+        "android:process": ":pushservice",
+        "intent_actions": []
+      },
+      {
+        "type": "receiver",
+        "android:name": "com.igexin.download.DownloadReceiver",
+        "intent_actions": [
+          "android.net.conn.CONNECTIVITY_CHANGE"
+        ]
+      },
+      {
+        "type": "provider",
+        "android:name": "com.igexin.download.DownloadProvider",
+        "android:exported": "true",
+        "android:process": ":pushservice",
+        "android:authorities": "downloads.cn.emagroup.kom.baidu",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030010",
+        "android:name": "com.igexin.getuiext.activity.GetuiExtActivity",
+        "android:exported": "false",
+        "android:process": ":pushservice",
+        "android:taskAffinity": "android.task.myServicetask",
+        "android:excludeFromRecents": "true",
+        "android:configChanges": "0xb0",
+        "intent_actions": []
+      },
+      {
+        "type": "activity",
+        "android:theme": "@0x01030010",
+        "android:name": "com.igexin.sdk.GActivity",
+        "android:exported": "true",
+        "android:process": ":pushservice",
+        "android:taskAffinity": "com.igexin.sdk.PushActivityTask",
+        "android:excludeFromRecents": "true",
+        "intent_actions": []
+      },
+      {
+        "type": "receiver",
+        "android:name": "com.igexin.getuiext.service.PayloadReceiver",
+        "android:exported": "false",
+        "intent_actions": [
+          "com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4",
+          "com.igexin.sdk.action.mdMmHMLzea8TwUEnFOvya5"
+        ]
+      },
+      {
+        "type": "service",
+        "android:name": "com.igexin.getuiext.service.GetuiExtService",
+        "android:process": ":pushservice",
+        "intent_actions": []
+      }
+    ],
+    "metadata": [
+      {
+        "android:name": "EMA_APP_ID",
+        "android:value": "@0x7f030003"
+      },
+      {
+        "android:name": "EMA_PRIVATE_KEY",
+        "android:value": "6d21811db7bf62fed92367714956f52b"
+      },
+      {
+        "android:name": "EMA_REDIRECTURL",
+        "android:value": "http://client.emagroup.cn/index.php/test/oauth/request_receive_authcode"
+      },
+      {
+        "android:name": "BDPlatformType",
+        "android:value": "0"
+      },
+      {
+        "android:name": "BDGameVersion",
+        "android:value": "3.5.2"
+      },
+      {
+        "android:name": "PUSH_APPID",
+        "android:value": "mdMmHMLzea8TwUEnFOvya5"
+      },
+      {
+        "android:name": "PUSH_APPKEY",
+        "android:value": "jK8wy5s3fJ6fVcu7mKM063"
+      },
+      {
+        "android:name": "PUSH_APPSECRET",
+        "android:value": "Mhk9hbyriV6WiiZeF0Gfi5"
+      },
+      {
+        "android:name": "ASC_ChannelID",
+        "android:value": "2"
+      }
+    ],
+    "certificates": [
+      {
+        "file": "DUOKUGAM.RSA",
+        "subject": "CN=Gavin Van,OU=RD,O=Baidu Yi Xin Network Technology (Beijing) CO Ltd.,L=Beijing,ST=Beijing,C=CN",
+        "issuer": "CN=Gavin Van,OU=RD,O=Baidu Yi Xin Network Technology (Beijing) CO Ltd.,L=Beijing,ST=Beijing,C=CN",
+        "sha256": "5dc093e67472e4e1cf23da41a6409ab5e166912dc38b5e16f57656bb1fb8d8d4",
+        "not_before": "2013-05-24 02:56:25+00:00",
+        "not_after": "2039-05-18 02:56:25+00:00",
+        "signature_algorithm": "sha1"
+      }
+    ],
+    "dex": {
+      "classes": 4749,
+      "strings": 33776,
+      "magic": "6465780a30333500",
+      "class_groups": {
+        "com/baidu/bdgame": 971,
+        "android/support/v4": 780,
+        "com/duoku/platform": 359,
+        "com/baidu/wallet": 308,
+        "com/unionpay/mobile": 293,
+        "com/baidu/android": 282,
+        "com/baidu/sapi2": 256,
+        "com/igexin/push": 185,
+        "com/baidu/paysdk": 172,
+        "com/google/gson": 165,
+        "com/alipay/sdk": 136,
+        "com/baidu/platformsdk": 91,
+        "cn/emagroup/framework": 82,
+        "com/igexin/getuiext": 73,
+        "com/baidu/mtjstatsdk": 66,
+        "com/baidu/frontia": 54,
+        "org/cocos2dx/lib": 39,
+        "com/slidingmenu/lib": 37,
+        "com/dataeye/c": 33,
+        "com/igexin/a": 33,
+        "com/alipay/mobilesecuritysdk": 28,
+        "cn/emagroup/kom": 26,
+        "android/support/annotation": 25,
+        "com/baidu/gamesdk": 25,
+        "com/igexin/sdk": 25,
+        "com/ta/utdid2": 25,
+        "com/baidu/mobstat": 22,
+        "com/igexin/download": 17,
+        "com/baidu/cloudsdk": 15,
+        "cn/emagroup/test": 14,
+        "com/dataeye/a": 12,
+        "com/tencent/mobileqq": 9,
+        "com/unionpay/client3": 9,
+        "com/UCMobile/PayPlugin": 6,
+        "com/alipay/android": 6,
+        "com/baidu/sumeru": 6,
+        "com/dataeye/b": 6,
+        "com/duoku/game": 5,
+        "org/apache/commons": 5,
+        "android/content/pm": 4,
+        "com/baidu/loctp": 4,
+        "cn/gov/pbc": 3,
+        "com/dianxinos/tokens": 3,
+        "com/duoku/a": 3,
+        "cn/emagroup/esdk": 2
+      }
+    },
+    "libraries": [
+      {
+        "path": "lib/armeabi/libbdpush_V2_3.so",
+        "size": 21628,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libbd_wsp_v1_0.so",
+        "size": 46336,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libby-sdk-root-jni.so",
+        "size": 13432,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libentryexstd.so",
+        "size": 107784,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libfmod.so",
+        "size": 1312884,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libfmodstudio.so",
+        "size": 1527200,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libgetuiext.so",
+        "size": 106628,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libsapi_so_1.so",
+        "size": 17528,
+        "elf_class": 1,
+        "machine": 40
+      },
+      {
+        "path": "lib/armeabi/libtombird.so",
+        "size": 11067660,
+        "elf_class": 1,
+        "machine": 40
+      }
+    ],
+    "native_markers": [
+      "cn/emagroup/kom/Tombird",
+      "Lua 5.1",
+      "LuaJIT 2.0.1",
+      "cocos2d-x debug info",
+      "cocos2d-x assert"
+    ],
+    "network_string_count": 133,
+    "resource_wrapping": {
+      "wrapped_by_extension": {
+        ".csv": 5,
+        ".dat": 41,
+        ".txt": 5,
+        ".ini": 345,
+        ".xmap": 3,
+        ".tga": 7,
+        ".bin": 2,
+        ".ccz": 1667,
+        ".x2": 585,
+        ".pkm": 1091,
+        ".xml": 1,
+        ".lua": 78,
+        ".vs": 33,
+        ".ps": 19,
+        ".glsl": 12,
+        ".bank": 79,
+        ".png": 12
+      },
+      "unwrapped_by_extension": {
+        ".ttf": 1,
+        ".xml": 1
+      },
+      "header_samples": {
+        ".csv": {
+          "path": "assets/data/conf/achievement.csv",
+          "header": "4d503a00fe640000653b03004ab9a0a5"
+        },
+        ".dat": {
+          "path": "assets/data/conf/achievement_c.dat",
+          "header": "4d503a00cc210000653b03004ab950e3"
+        },
+        ".txt": {
+          "path": "assets/data/conf/undueword.txt",
+          "header": "4d503a0044c30000653b03004ab9d984"
+        },
+        ".ini": {
+          "path": "assets/data/engine.ini",
+          "header": "4d503a00a1010000653b03004ab9a8e9"
+        },
+        ".ttf": {
+          "path": "assets/data/font/fzcyj.ttf",
+          "header": "00010000001101000004001047535542"
+        },
+        ".xml": {
+          "path": "assets/data/inilist.xml",
+          "header": "3c3f786d6c2076657273696f6e3d2231"
+        },
+        ".xmap": {
+          "path": "assets/data/map/arena.xmap",
+          "header": "4d503a00e6f50b00653b03004ab9a9a4"
+        },
+        ".tga": {
+          "path": "assets/data/map/arena_grassmask.tga",
+          "header": "4d503a0012001000653b03004ab9d8e4"
+        },
+        ".bin": {
+          "path": "assets/data/map/arena_mist.bin",
+          "header": "4d503a0000000002653b03004ab9d9c4"
+        },
+        ".ccz": {
+          "path": "assets/data/map/water0.pvr.ccz",
+          "header": "4d503a0045b90000653b03004ab91163"
+        },
+        ".x2": {
+          "path": "assets/data/model/effect/common/biaoshi/dianjidimian/tx_c_biaoshi_dianji_01.x2",
+          "header": "4d503a007f440000653b03004ab9d8e2"
+        },
+        ".pkm": {
+          "path": "assets/data/model/effect/texture/dian/tx_dian_0001.pkm",
+          "header": "4d503a0010200000653b03004ab9d8fe"
+        },
+        ".lua": {
+          "path": "assets/data/script/achievement_ui.lua",
+          "header": "4d503a0084a40000653b03004ab9d804"
+        },
+        ".vs": {
+          "path": "assets/data/shader/billboard.vs",
+          "header": "4d503a00d6010000653b03004ab940a8"
+        },
+        ".ps": {
+          "path": "assets/data/shader/character.ps",
+          "header": "4d503a00f7010000653b03004ab9b0a9"
+        },
+        ".glsl": {
+          "path": "assets/data/shader/character_prestencil_ps.glsl",
+          "header": "4d503a006f000000653b03004ab966f7"
+        },
+        ".bank": {
+          "path": "assets/data/sound/mobile/101_1voice.bank",
+          "header": "4d503a0000c50800653b03004ab9d984"
+        },
+        ".png": {
+          "path": "assets/data/texture/bloodbar/bloodbar.png",
+          "header": "4d503a009e120000653b03004ab9506f"
+        }
+      }
+    },
+    "config": "eLoginType_Spark = 0\neLoginType_Ema = 1\n\ng_nLoginType = eLoginType_Ema\ng_bForceServerList = 0\ng_NeedTutorial = 1\n\ng_nClientServerIndex = 6\nIAP_HEAD_KOM = \"com.fengge.kingofmoba\"\n\n\nIAP_HEAD_PATH = IAP_HEAD_KOM\n\nProductID_IAP_0=IAP_HEAD_PATH..\"1.1000\"\nProductID_IAP_1=IAP_HEAD_PATH..\".1001\"\nProductID_IAP_2=IAP_HEAD_PATH..\".1002\"\nProductID_IAP_3=IAP_HEAD_PATH..\".1003\"\nProductID_IAP_4=IAP_HEAD_PATH..\".1004\"\nProductID_IAP_5=IAP_HEAD_PATH..\".1005\""
+  }
+]

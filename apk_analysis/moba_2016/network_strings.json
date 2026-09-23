@@ -1,0 +1,1079 @@
+[
+  {
+    "url": "http://101.231.114.217:8080/app/mobile/json",
+    "sources": [
+      "lib/armeabi/libentryexstd.so"
+    ]
+  },
+  {
+    "url": "http://101.231.114.217:8080/gateway/mobile/json",
+    "sources": [
+      "lib/armeabi/libentryexstd.so"
+    ]
+  },
+  {
+    "url": "http://101.231.114.224:11000/app/mobile/json",
+    "sources": [
+      "lib/armeabi/libentryexstd.so"
+    ]
+  },
+  {
+    "url": "http://101.231.114.224:11000/gateway/mobile/json",
+    "sources": [
+      "lib/armeabi/libentryexstd.so"
+    ]
+  },
+  {
+    "url": "http://101.231.114.238:5089/app/mobile/json",
+    "sources": [
+      "lib/armeabi/libentryexstd.so"
+    ]
+  },
+  {
+    "url": "http://101.231.204.80:16005/app/mobile/json",
+    "sources": [
+      "lib/armeabi/libentryexstd.so"
+    ]
+  },
+  {
+    "url": "http://119.75.220.29",
+    "sources": [
+      "classes.dex",
+      "lib/armeabi/libsapi_so_1.so"
+    ]
+  },
+  {
+    "url": "http://120.204.69.182:8080/gateway/mobile/json",
+    "sources": [
+      "lib/armeabi/libentryexstd.so"
+    ]
+  },
+  {
+    "url": "http://123.125.115.81",
+    "sources": [
+      "classes.dex",
+      "lib/armeabi/libsapi_so_1.so"
+    ]
+  },
+  {
+    "url": "http://127.0.0.1",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:7777/native",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://172.17.236.157:8082/app/mobile/json",
+    "sources": [
+      "lib/armeabi/libentryexstd.so"
+    ]
+  },
+  {
+    "url": "http://202.101.25.178:8080/gateway/mobile/json",
+    "sources": [
+      "lib/armeabi/libentryexstd.so"
+    ]
+  },
+  {
+    "url": "http://220.181.111.48",
+    "sources": [
+      "classes.dex",
+      "lib/armeabi/libsapi_so_1.so"
+    ]
+  },
+  {
+    "url": "http://amp.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api.m.duoku.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api.m.duoku.com/wap/?pageid=Eyx7ftys",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api.tuisong.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api0.tuisong.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api1.tuisong.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api2.tuisong.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api3.tuisong.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api4.tuisong.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api5.tuisong.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api6.tuisong.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api7.tuisong.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api8.tuisong.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://api9.tuisong.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://apitest.duoku.com:8082/unionsdk/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://bi.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://bs.baidu.com/lapp-runtime/picture/runtime_baidu.png",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://cf.gdatacube.net/config/update",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://co.baifubao.com/content/mywallet/h5/trans_guide.html",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://co.baifubao.com/content/resource/HTML5/eptos.html",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://config.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://curl.haxx.se/rfc/cookie_spec.html",
+    "sources": [
+      "lib/armeabi/libtombird.so"
+    ]
+  },
+  {
+    "url": "http://d.91.com/Search?key=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://db-infbk-online-17.db01.baidu.com:8080",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://dbl-dev-rd23.vm.baidu.com:8080",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://deeplink.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://developer.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://himg.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://himg.bdimg.com/sys/portrait/item/%s.jpg",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://himg.bdimg.com/sys/portrait/item/%s.jpg?%s",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://hmma.baidu.com/app.gif",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://html5.mail.10086.cn/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://inc.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://kom.cdn.emagroup.cn/Android/",
+    "sources": [
+      "assets/version.json"
+    ]
+  },
+  {
+    "url": "http://lbs.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://lbsonline.pushct.baidu.com/lbsupload",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://log.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://m.alipay.com/?action=h5quit",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://m.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://m.baidu.com/lightapp/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://m.baidu.com/lightapp/3345414?page=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://m.mail.sohu.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://mail.sina.com.cn/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://mcashier.stable.alipay.net/home/exterfaceAssign.htm?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://mcgw.alipay.com/gateway.do",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://mobileclientgw.stable.alipay.net/home/exterfaceAssign.htm?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://mpay.91.com/storemobile/SDKV3/PayPwd/reSet.shtml?AccessToken=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://nsclick.baidu.com/v.gif",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://passport.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://passport.qatest.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://passport.rdtest.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://passport.rdtest.baidu.com:8000",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://payment.ddmoba.com/emaredirect.html",
+    "sources": [
+      "assets/developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://payment.ddmoba.com/payordercreate.html?serviceCode=10010007&receivername=%s&amount=%d&orderSource=%s&gameGuid=%d&outsn=%s",
+    "sources": [
+      "lib/armeabi/libtombird.so"
+    ]
+  },
+  {
+    "url": "http://pv.sohu.com/cityjson?ie=utf-8",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://schemas.android.com/apk/res-auto",
+    "sources": [
+      "res/layout/bdp_paycenter_pay_body.xml",
+      "res/layout/bdp_paycenter_pay_body_bean_fix.xml",
+      "res/layout/bdp_paycenter_pay_body_bean_nofix.xml",
+      "res/layout/bdp_paycenter_pay_body_credit_landscape.xml",
+      "res/layout/bdp_paycenter_pay_body_game_card.xml",
+      "res/layout/bdp_paycenter_pay_body_game_card_landscape.xml",
+      "res/layout/bdp_paycenter_pay_body_game_card_smallcard.xml",
+      "res/layout/bdp_paycenter_pay_body_home.xml",
+      "res/layout/bdp_paycenter_pay_body_home_land.xml",
+      "res/layout/bdp_paycenter_pay_body_landscape.xml"
+    ]
+  },
+  {
+    "url": "http://schemas.android.com/apk/res/android",
+    "sources": [
+      "res/anim/dk_float_popwindow_in.xml",
+      "res/anim/dk_float_popwindow_out.xml",
+      "res/anim/dk_iamgeview_rotate.xml",
+      "res/anim/ebpay_slide_from_left.xml",
+      "res/anim/ebpay_slide_from_right.xml",
+      "res/anim/ebpay_slide_to_left.xml",
+      "res/anim/ebpay_slide_to_right.xml",
+      "res/anim/wallet_base_dismiss_dialog_anim.xml",
+      "res/anim/wallet_base_show_dialog_anim.xml",
+      "res/anim/wallet_base_slide_from_left.xml",
+      "res/anim/wallet_base_slide_from_right.xml",
+      "res/anim/wallet_base_slide_to_left.xml",
+      "res/anim/wallet_base_slide_to_right.xml",
+      "res/color/dk_suspension_text_color_selector.xml",
+      "res/color/dk_vpi_dark_theme.xml",
+      "res/color/dk_vpi_light_theme.xml",
+      "res/color/wallet_base_click_text_color.xml",
+      "res/color/wallet_base_dialog_btntext_color_selector.xml",
+      "res/layout/bd_dialog_errornotice.xml",
+      "res/layout/bd_dialog_errornotice_item.xml",
+      "res/layout/bd_dialog_errornotice_item_port.xml",
+      "res/layout/bd_dialog_errornotice_port.xml",
+      "res/layout/bd_wallet_sign_bank_info.xml",
+      "res/layout/bd_wallet_sign_channel_list.xml",
+      "res/layout/bd_wallet_sign_channel_page.xml",
+      "res/layout/bdp_adapter_account_email_item.xml",
+      "res/layout/bdp_adapter_account_history_list_item.xml",
+      "res/layout/bdp_adapter_pay_baidu_bean_detail.xml",
+      "res/layout/bdp_adapter_pay_order_detail.xml",
+      "res/layout/bdp_adapter_task_list_item_land.xml",
+      "res/layout/bdp_adapter_task_list_item_port.xml",
+      "res/layout/bdp_amazing_loading_view.xml",
+      "res/layout/bdp_blank.xml",
+      "res/layout/bdp_controller_account_login_91.xml",
+      "res/layout/bdp_controller_account_login_baidu.xml",
+      "res/layout/bdp_controller_account_login_dk.xml",
+      "res/layout/bdp_dialog_confirm.xml",
+      "res/layout/bdp_dialog_loading.xml",
+      "res/layout/bdp_dialog_pay_result_notify.xml",
+      "res/layout/bdp_dialog_suggestion_username.xml",
+      "res/layout/bdp_paycenter_blank.xml",
+      "res/layout/bdp_paycenter_bottom.xml",
+      "res/layout/bdp_paycenter_common_progress.xml",
+      "res/layout/bdp_paycenter_custom_progress.xml",
+      "res/layout/bdp_paycenter_item_game_amount.xml",
+      "res/layout/bdp_paycenter_item_game_card.xml",
+      "res/layout/bdp_paycenter_layout_accountinfo_fix.xml",
+      "res/layout/bdp_paycenter_layout_accountinfo_fix_landscape.xml",
+      "res/layout/bdp_paycenter_layout_accountinfo_nofix.xml",
+      "res/layout/bdp_paycenter_layout_accountinfo_nofix_landscape.xml",
+      "res/layout/bdp_paycenter_layout_activity_notices.xml",
+      "res/layout/bdp_paycenter_layout_channel.xml",
+      "res/layout/bdp_paycenter_layout_dialog_balance_can_pay.xml",
+      "res/layout/bdp_paycenter_layout_dialog_bank_card_manage.xml",
+      "res/layout/bdp_paycenter_layout_dialog_bank_card_support.xml",
+      "res/layout/bdp_paycenter_layout_dialog_bank_card_verify_phoneno.xml",
+      "res/layout/bdp_paycenter_layout_dialog_close.xml",
+      "res/layout/bdp_paycenter_layout_dialog_extend.xml",
+      "res/layout/bdp_paycenter_layout_dialog_verify_paypwd.xml",
+      "res/layout/bdp_paycenter_layout_goodsinfo.xml",
+      "res/layout/bdp_paycenter_layout_goodsinfo_landscape.xml",
+      "res/layout/bdp_paycenter_layout_paymode_cashcard.xml",
+      "res/layout/bdp_paycenter_layout_paymode_cashcard_land.xml",
+      "res/layout/bdp_paycenter_layout_paymode_credit.xml",
+      "res/layout/bdp_paycenter_layout_paymode_credit_bind.xml",
+      "res/layout/bdp_paycenter_layout_paymode_credit_land.xml",
+      "res/layout/bdp_paycenter_layout_paymode_czcard.xml",
+      "res/layout/bdp_paycenter_layout_paymode_czcard_land.xml",
+      "res/layout/bdp_paycenter_layout_paymode_game_card.xml",
+      "res/layout/bdp_paycenter_layout_paymode_game_card_land.xml",
+      "res/layout/bdp_paycenter_layout_paymode_name_other.xml",
+      "res/layout/bdp_paycenter_layout_paymode_name_other_land.xml",
+      "res/layout/bdp_paycenter_layout_paymode_paypwd_tips.xml",
+      "res/layout/bdp_paycenter_layout_webpay.xml",
+      "res/layout/bdp_paycenter_loading_view.xml",
+      "res/layout/bdp_paycenter_main_frame.xml",
+      "res/layout/bdp_paycenter_pay_body.xml",
+      "res/layout/bdp_paycenter_pay_body_bean_fix.xml",
+      "res/layout/bdp_paycenter_pay_body_bean_nofix.xml",
+      "res/layout/bdp_paycenter_pay_body_credit_landscape.xml",
+      "res/layout/bdp_paycenter_pay_body_game_card.xml",
+      "res/layout/bdp_paycenter_pay_body_game_card_landscape.xml",
+      "res/layout/bdp_paycenter_pay_body_game_card_smallcard.xml",
+      "res/layout/bdp_paycenter_pay_body_home.xml",
+      "res/layout/bdp_paycenter_pay_body_home_land.xml",
+      "res/layout/bdp_paycenter_pay_body_landscape.xml",
+      "res/layout/bdp_paycenter_pay_result_notify_account.xml",
+      "res/layout/bdp_paycenter_pay_result_notify_tip.xml",
+      "res/layout/bdp_paycenter_paycontent_card_cashcard_bind.xml",
+      "res/layout/bdp_paycenter_paycontent_card_cashcard_bind_land.xml",
+      "res/layout/bdp_paycenter_paycontent_card_chongzhi.xml",
+      "res/layout/bdp_paycenter_paycontent_card_credit_bind.xml",
+      "res/layout/bdp_paycenter_paycontent_card_credit_bind_land.xml",
+      "res/layout/bdp_paycenter_paycontent_card_game.xml",
+      "res/layout/bdp_paycenter_paycontent_card_other.xml",
+      "res/layout/bdp_paycenter_paycontent_cashcard_choose.xml",
+      "res/layout/bdp_paycenter_paycontent_credit_choose.xml",
+      "res/layout/bdp_paycenter_paycontent_kucoin_fix.xml",
+      "res/layout/bdp_paycenter_paycontent_kucoin_nofix.xml",
+      "res/layout/bdp_paycenter_paycontent_set_verify_baidubean_pwd.xml",
+      "res/layout/bdp_paycenter_paymode_item_card.xml",
+      "res/layout/bdp_paycenter_paymode_layout_first.xml",
+      "res/layout/bdp_paycenter_title.xml",
+      "res/layout/bdp_paycenter_title_land.xml",
+      "res/layout/bdp_paycenter_title_web.xml",
+      "res/layout/bdp_paycenter_view_bank_card_item.xml",
+      "res/layout/bdp_paycenter_view_bank_card_manage_item.xml",
+      "res/layout/bdp_paycenter_view_custom_pay.xml",
+      "res/layout/bdp_paycenter_view_enough_pay.xml",
+      "res/layout/bdp_paycenter_view_fix_account.xml",
+      "res/layout/bdp_paycenter_view_merge_pay.xml",
+      "res/layout/bdp_paycenter_view_voucher_item.xml",
+      "res/layout/bdp_paycenter_web_frame.xml",
+      "res/layout/bdp_tips_dialog.xml",
+      "res/layout/bdp_toast_account_welcome.xml",
+      "res/layout/bdp_view_controller_account_bind_phone.xml",
+      "res/layout/bdp_view_controller_account_bind_phone_check_mail.xml",
+      "res/layout/bdp_view_controller_account_bind_phone_check_phone.xml",
+      "res/layout/bdp_view_controller_account_login_91.xml",
+      "res/layout/bdp_view_controller_account_login_auto.xml",
+      "res/layout/bdp_view_controller_account_login_baidu.xml",
+      "res/layout/bdp_view_controller_account_login_dk.xml",
+      "res/layout/bdp_view_controller_account_modify_password.xml",
+      "res/layout/bdp_view_controller_account_register_baidu.xml",
+      "res/layout/bdp_view_controller_account_success_tip.xml",
+      "res/layout/bdp_view_controller_account_third_party_no_bind.xml",
+      "res/layout/bdp_view_controller_account_tip_baidu_login.xml",
+      "res/layout/bdp_view_controller_account_tip_upgrade_done.xml",
+      "res/layout/bdp_view_controller_account_visitor_bind.xml",
+      "res/layout/bdp_view_controller_pay_baidu_bean_detail.xml",
+      "res/layout/bdp_view_controller_pay_order_detail.xml",
+      "res/layout/bdp_view_controller_task_detail_land.xml",
+      "res/layout/bdp_view_controller_task_detail_port.xml",
+      "res/layout/bdp_view_controller_task_list.xml",
+      "res/layout/bdp_view_controller_task_prepare.xml",
+      "res/layout/bdp_view_controller_user_upgrade.xml",
+      "res/layout/bdp_widget_expandable_text_layout.xml",
+      "res/layout/dk_account_manager.xml",
+      "res/layout/dk_account_manager_landscape.xml",
+      "res/layout/dk_activity_landscape.xml",
+      "res/layout/dk_activity_lv_item_landscape.xml",
+      "res/layout/dk_activity_lv_item_portrait.xml",
+      "res/layout/dk_activity_portrait.xml",
+      "res/layout/dk_ad_layout.xml",
+      "res/layout/dk_common_progress.xml",
+      "res/layout/dk_common_progress_small.xml",
+      "res/layout/dk_container.xml",
+      "res/layout/dk_custom_progress.xml",
+      "res/layout/dk_dialog_actionnotice_land.xml",
+      "res/layout/dk_dialog_actionnotice_port.xml",
+      "res/layout/dk_draw_winner.xml",
+      "res/layout/dk_draw_winner_landscape.xml",
+      "res/layout/dk_floatview_custom_toast.xml",
+      "res/layout/dk_floatview_h5.xml",
+      "res/layout/dk_floatview_landscape_h5.xml",
+      "res/layout/dk_fragment_common_item_port.xml",
+      "res/layout/dk_fragment_common_item_title.xml",
+      "res/layout/dk_fragment_common_item_type.xml",
+      "res/layout/dk_fragment_common_landscape.xml",
+      "res/layout/dk_fragment_common_portrait.xml",
+      "res/layout/dk_fragment_private_item_title.xml",
+      "res/layout/dk_fragment_private_landscape.xml",
+      "res/layout/dk_fragment_private_portrait.xml",
+      "res/layout/dk_fragment_submit_landscape.xml",
+      "res/layout/dk_fragment_submit_portrait.xml",
+      "res/layout/dk_gifts_landscape.xml",
+      "res/layout/dk_gifts_lv_header.xml",
+      "res/layout/dk_gifts_lv_item_landscape.xml",
+      "res/layout/dk_gifts_lv_item_portrait.xml",
+      "res/layout/dk_gifts_portrait.xml",
+      "res/layout/dk_introduce_lv_item_land.xml",
+      "res/layout/dk_introduce_lv_item_port.xml",
+      "res/layout/dk_layout_account_view.xml",
+      "res/layout/dk_layout_account_view_land.xml",
+      "res/layout/dk_layout_content_base_view.xml",
+      "res/layout/dk_layout_content_base_view_land.xml",
+      "res/layout/dk_layout_content_introduce_view.xml",
+      "res/layout/dk_layout_content_mytools_view.xml",
+      "res/layout/dk_layout_content_mytools_view_land.xml",
+      "res/layout/dk_layout_content_numberbox_view.xml",
+      "res/layout/dk_layout_content_numberbox_view_land.xml",
+      "res/layout/dk_layout_content_point_view.xml",
+      "res/layout/dk_layout_content_point_view_land.xml",
+      "res/layout/dk_layout_content_upgrade_view.xml",
+      "res/layout/dk_layout_mytooldetailview.xml",
+      "res/layout/dk_layout_mytooldetailview_land.xml",
+      "res/layout/dk_layout_toast_view.xml",
+      "res/layout/dk_message_content_portrait.xml",
+      "res/layout/dk_message_landscape.xml",
+      "res/layout/dk_message_lv_item_landscape.xml",
+      "res/layout/dk_message_lv_item_port.xml",
+      "res/layout/dk_message_portrait.xml",
+      "res/layout/dk_message_refresh_footer.xml",
+      "res/layout/dk_numberbox_lv_item_land.xml",
+      "res/layout/dk_numberbox_lv_item_port.xml",
+      "res/layout/dk_pay_info_dialog.xml",
+      "res/layout/dk_pay_info_dialog_landscape.xml",
+      "res/layout/dk_payment_bottom.xml",
+      "res/layout/dk_payment_header.xml",
+      "res/layout/dk_payment_item_game_amount.xml",
+      "res/layout/dk_payment_item_game_card.xml",
+      "res/layout/dk_payment_layout_activity_hint.xml",
+      "res/layout/dk_payment_layout_debitcard.xml",
+      "res/layout/dk_payment_layout_dialog_landscape.xml",
+      "res/layout/dk_payment_layout_dialog_new_landscape.xml",
+      "res/layout/dk_payment_layout_dialog_new_portrait.xml",
+      "res/layout/dk_payment_layout_dialog_portrait.xml",
+      "res/layout/dk_point_land.xml",
+      "res/layout/dk_point_lv_item_land.xml",
+      "res/layout/dk_point_lv_item_port.xml",
+      "res/layout/dk_point_portrait.xml",
+      "res/layout/dk_suspension_window_view.xml",
+      "res/layout/dk_tool_lv_cashcard_land.xml",
+      "res/layout/dk_tool_lv_cashcard_port.xml",
+      "res/layout/dk_tool_lv_chargecard_land.xml",
+      "res/layout/dk_tool_lv_chargecard_port.xml",
+      "res/layout/dk_tool_lv_prizecard_land.xml",
+      "res/layout/dk_tool_lv_prizecard_port.xml",
+      "res/layout/dk_user_bottom_logo.xml",
+      "res/layout/dk_user_bottom_logo_portrait.xml",
+      "res/layout/dk_user_customer_center.xml",
+      "res/layout/dk_user_login_header.xml",
+      "res/layout/dk_user_login_lan_header.xml",
+      "res/layout/dk_user_login_shadow.xml",
+      "res/layout/dk_user_prefecture_web.xml",
+      "res/layout/dk_user_shadow.xml",
+      "res/layout/ebpay_activity_bind_sms.xml",
+      "res/layout/ebpay_activity_order_home.xml",
+      "res/layout/ebpay_activity_pay_result.xml",
+      "res/layout/ebpay_activity_welcome.xml",
+      "res/layout/ebpay_layout_abc_sms.xml",
+      "res/layout/ebpay_layout_base_bind.xml",
+      "res/layout/ebpay_layout_bind_card_detail.xml",
+      "res/layout/ebpay_layout_bind_card_no.xml",
+      "res/layout/ebpay_layout_bind_creditcard_detail.xml",
+      "res/layout/ebpay_layout_bond_card_view.xml",
+      "res/layout/ebpay_layout_dialog_image.xml",
+      "res/layout/ebpay_layout_discount_item.xml",
+      "res/layout/ebpay_layout_login.xml",
+      "res/layout/ebpay_layout_pay_result_benefit.xml",
+      "res/layout/ebpay_layout_pc_pass.xml",
+      "res/layout/ebpay_layout_sectips.xml",
+      "res/layout/ebpay_layout_set_pwd.xml",
+      "res/layout/ebpay_layout_setandconfirm_pwd.xml",
+      "res/layout/ebpay_layout_webview.xml",
+      "res/layout/ebpay_list_item_bond_card_select.xml",
+      "res/layout/ebpay_pwdpay_activity.xml",
+      "res/layout/ebpay_pwdpay_payment_select.xml",
+      "res/layout/ebpay_pwdpay_payment_select_item.xml",
+      "res/layout/ebpay_select_balance_dialog.xml",
+      "res/layout/ebpay_view_title_bar.xml",
+      "res/layout/ema_activate_dialog.xml",
+      "res/layout/getui_notification.xml",
+      "res/layout/increment_popup_dialog.xml",
+      "res/layout/notification_inc.xml",
+      "res/layout/wallet_base_action_bar.xml",
+      "res/layout/wallet_base_dialog_notitle.xml",
+      "res/layout/wallet_base_dialog_tip.xml",
+      "res/layout/wallet_base_layout_dialog_base.xml",
+      "res/layout/wallet_base_layout_loading_dialog.xml",
+      "res/layout/wallet_base_menu_item_view.xml",
+      "res/layout/wallet_base_one_key_pay.xml",
+      "res/layout/wallet_base_one_key_tip_layout.xml",
+      "res/layout/wallet_base_plugin.xml",
+      "res/layout/wallet_base_pluginl_detail.xml",
+      "res/layout/wallet_base_toast.xml",
+      "res/layout/wallet_base_update_layout_dialog_base.xml",
+      "res/layout/wallet_base_view_six_pwd.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.emagroup.cn/esdk_api/activation_code",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.emagroup.cn/esdk_api/check_activation",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.emagroup.cn/esdk_api/take_code",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.emagroup.cn/gather/info/jh_init",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.emagroup.cn/gather/info/jh_login",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.emagroup.cn/gather/info/jh_online",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.emagroup.cn/gather/info/jh_pay",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.emagroup.cn/pay/getorderid",
+    "sources": [
+      "assets/developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.emagroup.cn/pay/notice/baidugame",
+    "sources": [
+      "assets/developerInfo.xml"
+    ]
+  },
+  {
+    "url": "http://sdk.emagroup.cn/sys/version",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.open.amp.igexin.com/api.htm",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.open.inc2.igexin.com/api.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.open.lbs.igexin.com/api.htm",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.open.phone.igexin.com/api.php",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdk.open.phone.igexin.com/api.php?format=json&t=1",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://sdkapi.91.com/call.ashx",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://secclientgw.alipay.com/mobile/switch.xml",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://seccliprod.m5404.alipay.net/api/do.htm",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://smart.mail.126.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://stat.",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://statsonline.pushct.baidu.com/pushlog",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://testactivity.jumpwgame.com/activeusermanager.html?serviceCode=10010001&fromCid=10161&VerifyCodeStateKey=%s&VerifyCodeKey=%s&NormalAccount=%s&clientPwd=%s&userPwd=%s",
+    "sources": [
+      "lib/armeabi/libtombird.so"
+    ]
+  },
+  {
+    "url": "http://testactivity.jumpwgame.com/activeusermanager.html?serviceCode=30020001&codeId=%s&w=%d&h=%d",
+    "sources": [
+      "lib/armeabi/libtombird.so"
+    ]
+  },
+  {
+    "url": "http://twebmail.mail.163.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://unionsdk.m.baidu-mgame.com/unionsdk/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://useractionsdkapi.91.com/call.ashx",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://vip.126.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://vip.163.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://wappass.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://wappass.baidu.com/passport/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://wappass.baidu.com/v2/?bindingaccount",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://wappass.baidu.com/v2/?bindingret",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://wappass.baidu.com/wp/security?adapter=3&skin=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://wappass.baidu.com/wp/wappassword?adapter=3&skin=",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://wappass.bdimg.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://wappass.qatest.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://www.188.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://www.apple.com/DTDs/PropertyList-1.0.dtd",
+    "sources": [
+      "lib/armeabi/libtombird.so"
+    ]
+  },
+  {
+    "url": "http://www.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://www.baidu.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://www.baifubao.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://www.baifubao.com/wireless/0/config?cate[plugin]&_app=wallet",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://www.bjtime.cn",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "http://www.openssl.org/support/faq.html",
+    "sources": [
+      "lib/armeabi/libtombird.so"
+    ]
+  },
+  {
+    "url": "http://xmlpull.org/v1/doc/features.html#indent-output",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://accounts.google.com/ServiceLogin?service=mail",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://cp01-rdqa-dev404.cp01.baidu.com:8443/rest/2.0/zwifi/getzidwifiinfo",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://cp01-rdqa-dev404.cp01.baidu.com:8443/rest/2.0/zwifi/validate",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://mclient.alipay.com/home/exterfaceAssign.htm?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://mobiletestabc.alipaydev.com/mobileclientgw/stable/gateway.do",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://openapi.baidu.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://passport.baidu.com/channel/unicast",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://seccliprod.alipay.com/api/do.htm",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://w.mail.qq.com/",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://wappaygw.alipay.com/home/exterfaceAssign.htm?",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://www.baifubao.com",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://www.baifubao.com/content/mywallet/h5/com_problem.html",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://www.baifubao.com/content/mywallet/h5/query_bank_list.html",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://www.baifubao.com/content/mywallet/h5/query_bank_list.html?debit_only=1",
+    "sources": [
+      "classes.dex"
+    ]
+  },
+  {
+    "url": "https://www.baifubao.com/content/mywallet/h5/safe_tips.html",
+    "sources": [
+      "classes.dex"
+    ]
+  }
+]
