@@ -21,7 +21,7 @@ APK → ZIP 解包 → 识别 "MP:" 自定义封装 → 定位原生库中的密
 | 次元大作战（2017） | `com.emagroup.mbzw2.emagroup` | 2.16 / 201602 | 217.1 MiB | 6,185 | 165 | `apk_analysis/ciyuan_2017/` |
 | 300大作战（2018） | `com.jumpw.mobile300` | 1.33 / 1303 | 443.8 MiB | 19,283 | 546 | `apk_analysis/game300_2018/` |
 
-年份取自原始 APK 文件名，不是对发行日期的独立考证。三包同为 Cocos2d-x + Lua 5.1 / LuaJIT 2.0.1 + FMOD 架构，主入口类都是 `Tombird`，核心原生库为 `libtombird.so`（2016）与 `libgame.so`（2017 / 2018）。
+年份取自原始 APK 文件名，不是对发行日期的独立考证。三包同为 **Snake 自研 3D 引擎 + Cocos2d-x 2D/UI 层 + Lua 5.1 / LuaJIT 2.0.1 + FMOD** 架构（引擎身份见[引擎与平台身份](apk_analysis/引擎与平台身份.md)），主入口类都是 `Tombird`，核心原生库为 `libtombird.so`（2016）与 `libgame.so`（2017 / 2018）。
 
 ---
 
