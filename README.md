@@ -89,7 +89,9 @@ assert len(plain) == int.from_bytes(data[4:8], "little")
 | 4 | `decode_resources.py` | 从原生库动态定位密钥，复现 `MP:` 解密，全量还原 `assets/`，并做解密后跨包比对 | `decoded/`、`decoded_inventory.json`、`decoded_comparison.json` |
 | 5 | `inspect_decoded.py` | 在还原结果上解析 protobuf（英雄表 / 字符串表）、`version.json`、联网引用；合成图标预览图 | `heroes.json`、`localized_strings.json`、`decoded_network_references.json`、`decoded_findings.json` |
 | 6 | `inspect_proto_schema.py` | 从原生库的 `k*FieldNumber` 常量恢复 protobuf schema（字段号），并与 2018 的 `.proto` 交叉验证 | `proto_schema_recovered.json`、`proto_schema_crosscheck.json` |
-| 7 | `write_report.py` | 汇总上述 JSON 生成完整中文报告 | [`apk_analysis/分析报告.md`](apk_analysis/分析报告.md) |
+| 7 | `decode_config_tables.py` | 用恢复出的 schema 解码 `conf/*_c.dat` 配置表（元素消息名由表名归一化匹配推出） | 终端输出（可选导出 JSON/CSV） |
+| 8 | `analyze_attributes.py` | 从配置表中文标签恢复属性 ID 枚举；审计伤害公式字段的填充情况与战力权重 | `attribute_enum.json`、`damage_inputs.json` |
+| 9 | `write_report.py` | 汇总上述 JSON 生成完整中文报告 | [`apk_analysis/分析报告.md`](apk_analysis/分析报告.md) |
 
 ### 复现步骤
 
@@ -175,8 +177,24 @@ python apk_analysis/write_report.py
 - 客户端**本地移动先行 + 服务端校正**：`CRoleMoveCtrl::SendAndMove()` 发出意图的同时自己先走；`onMsgPlayerVerifyPos` 反汇编显示服务端下发的 **int16 定点坐标**被还原为浮点后交给 `CMoveCtrl::PushPlayerVerify` 推入本地移动控制器——帧同步下位置天然一致，无需校验。
 - **伤害 100% 在服务端算**：上行只有 `SSkillPreFire`（技能ID/等级/方向/目标），下行是 `SSkillReply`（含每目标 `NHurt`、`NCurHP`、伤害来源明细 `VPackDamageInfo`）。客户端原生库中**没有任何 `CalcDamage`/`CaluHurt` 函数**，只有攻速、移速、移动方向三类计算。
 - 技能配置表只有 `NFormulaID` + 伤害系数，**公式本体在服务端**；`SSkillReply.UFormulaBalanceCounts` 是公式的平衡版本号。
+  → **更正**：做完整还原尝试后确认，这些字段在客户端 schema 中存在但在随包数据里**出现 0 次**（`NFormulaID`/`NGodFormulaID`/三个 `NDamageCoefficient*` 在 2050 条技能记录中均为 0），因此**连公式的输入参数也不在客户端**。客户端的属性词汇表（24 个属性 ID）与全部属性数值倒是完整的（`hero_c` 35 条、`item_armour_c` 290 条、`skill_skilllevel_c` 2050 条等 41 张表已解码），缺的恰好是**减免曲线**与**技能系数**。
 
 因此：协议与数值配置可完整还原，**权威战斗模拟无法从客户端还原**。客户端连自己的位置都不完全信任，却从不计算自己造成了多少伤害。
+
+### 配置表解码与伤害公式的还原尝试
+
+`decode_config_tables.py` 用恢复出的 schema 解码 `conf/*.c.dat`：**55 张表中 41 张成功解码**（`hero_c`→`SHero`、`item_armour_c`→`SItem_Armour`、`skill_skilllevel_c`→`SSkill_SkillLevel` 2050 条、`monsterdata_c`→`SExcelMonster` 480 条等）。
+
+`analyze_attributes.py` 从 `SGrowUpGenius.SDescription`（"物理攻击+1"）与 `SRuneMapData.Stips`（"物理攻击"）两处中文标签交叉恢复了 **24 个属性 ID**（30=物理攻击、31=魔法强度、42/43=物理护甲、44/141=魔法抗性、95=自身造成的伤害提升、97/98=生命偷取/法术吸血、106~109=护甲/魔法穿透…），并审计了伤害公式字段的填充情况：
+
+| 字段 | schema 字段号 | 在 2050 条技能数据中出现 |
+|---|---:|---:|
+| `NFormulaID` / `NGodFormulaID` | 20 / 21 | **0** |
+| `NDamageCoefficientFirst` / `...Second` / `...S` | 54 / 55 / 81 | **0** |
+| `NAttackRate` / `NHitAddons` / `NIfKeepAttack` | 14 / 15 / 32 | **0** |
+| `NDamageType` | 82 | 2050 |
+
+序列化器**显式写入零值**（2050 条中 1674 条含值为 0 的 `NCostMP`），所以字段缺失等于数据里真的没有。全局表 `logic_c.dat`（117 条）全是经济/UI 参数、技能描述只有定性文案、`Script_GetSkillDamageInfo` 的五处引用全被注释——**伤害公式无法从客户端还原**。详见[战斗逻辑分析第四节](apk_analysis/ciyuan_2017/战斗逻辑分析.md)。
 
 ---
 

@@ -1,0 +1,158 @@
+
+_Z24Player_CaluAttackSpeedUpP10GamePlayerR17rawSkillLevelInfo vaddr=0x2c7f78 size=412
+002c7f78  push     {r3, r4, r5, r6, r7, r8, fp, lr} 
+002c7f7c  movw     r3, #0xbdc 
+002c7f80  ldrh     r3, [r0, r3] 
+002c7f84  add      fp, sp, #0x1c 
+002c7f88  ldr      r4, [pc, #0x170] 
+002c7f8c  mov      r5, r0 
+002c7f90  tst      r3, #0x40 
+002c7f94  mov      r6, r1 
+002c7f98  add      r4, pc, r4 
+002c7f9c  bne      #0x2c7fc4 
+002c7fa0  tst      r3, #0x10 
+002c7fa4  bne      #0x2c7fb4 
+002c7fa8  vmov.f32 s15, #1.000000e+00 
+002c7fac  vmov     r0, s15 
+002c7fb0  pop      {r3, r4, r5, r6, r7, r8, fp, pc} 
+002c7fb4  ldr      r3, [r0, #0xbe4] 
+002c7fb8  tst      r3, #0x20 
+002c7fbc  beq      #0x2c7fa8 
+002c7fc0  b        #0x2c801c 
+002c7fc4  ldr      r3, [pc, #0x138] 
+002c7fc8  ldr      r7, [r4, r3] 
+002c7fcc  ldr      r3, [r7] 
+002c7fd0  tst      r3, #1 
+002c7fd4  beq      #0x2c808c 
+002c7fd8  ldr      r3, [pc, #0x128] 
+002c7fdc  ldr      r8, [r4, r3] 
+002c7fe0  ldr      r3, [r6] 
+002c7fe4  mov      r0, r6 
+002c7fe8  ldr      r3, [r3] 
+002c7fec  blx      r3 
+002c7ff0  mov      r1, r0 
+002c7ff4  mov      r0, r8 
+002c7ff8  bl       #0x2e16dc _ZN13rawSkillTable12GetSkillBaseEj
+002c7ffc  ldr      r3, [r6] 
+002c8000  mov      r0, r6 
+002c8004  ldr      r3, [r3] 
+002c8008  blx      r3 
+002c800c  movw     r3, #0xbde 
+002c8010  ldrh     r3, [r5, r3] 
+002c8014  cmp      r0, r3 
+002c8018  bne      #0x2c7fa8 
+002c801c  mov      r3, #0xbe0 
+002c8020  vldr     s13, [pc, #0xd0] 
+002c8024  ldrh     r3, [r5, r3] 
+002c8028  vmov     s15, r3 
+002c802c  vcvt.f32.u32 s12, s15 
+002c8030  vldr     s15, [pc, #0xc4] 
+002c8034  add      r5, r5, #0xb80 
+002c8038  vldr     s14, [r5, #0xc] 
+002c803c  add      r5, r5, #0xc 
+002c8040  vdiv.f32 s15, s12, s15 
+002c8044  vmul.f32 s15, s15, s14 
+002c8048  vcmpe.f32 s15, s13 
+002c804c  vmrs     apsr_nzcv, fpscr 
+002c8050  vmovmi.f32 s15, s13 
+002c8054  bpl      #0x2c80d0 
+002c8058  vcvt.s32.f32 s13, s14 
+002c805c  vldr     d16, [pc, #0x8c] 
+002c8060  vmov     r3, s13 
+002c8064  cmp      r3, #0 
+002c8068  rsblt    r3, r3, #0 
+002c806c  vmov     s13, r3 
+002c8070  vcvt.f64.s32 d17, s13 
+002c8074  vcmpe.f64 d17, d16 
+002c8078  vmrs     apsr_nzcv, fpscr 
+002c807c  vdivgt.f32 s15, s15, s14 
+002c8080  ble      #0x2c7fa8 
+002c8084  vmov     r0, s15 
+002c8088  pop      {r3, r4, r5, r6, r7, r8, fp, pc} 
+002c808c  mov      r0, r7 
+002c8090  bl       #0x8c78b4 __cxa_guard_acquire
+002c8094  ldr      r3, [pc, #0x6c] 
+002c8098  ldr      r8, [r4, r3] 
+002c809c  cmp      r0, #0 
+002c80a0  beq      #0x2c7fe0 
+002c80a4  mov      r0, r8 
+002c80a8  bl       #0x2e1694 _ZN13rawSkillTableC2Ev
+002c80ac  mov      r0, r7 
+002c80b0  bl       #0x8c799c __cxa_guard_release
+002c80b4  ldr      r3, [pc, #0x50] 
+002c80b8  mov      r0, r8 
+002c80bc  ldr      r1, [r4, r3] 
+002c80c0  ldr      r3, [pc, #0x48] 
+002c80c4  ldr      r2, [r4, r3] 
+002c80c8  bl       #0x8c5ab4 
+002c80cc  b        #0x2c7fe0 
+002c80d0  vmov.f32 s13, #2.500000e+00 
+002c80d4  vcmpe.f32 s15, s13 
+002c80d8  vmrs     apsr_nzcv, fpscr 
+002c80dc  vmovpl.f32 s15, s13 
+002c80e0  b        #0x2c8058 
+002c80e4  mov      r0, r7 
+002c80e8  bl       #0x8c795c __cxa_guard_abort
+002c80ec  bl       #0x8c630c __cxa_end_cleanup
+002c80f0  ldmible  r7, {r0, r1, r3, r4, r5, r7, r8, sl, fp, ip, sp, pc} ^ 
+002c80f4  ldcllo   p12, c7, [fp, #0x37c] 
+002c80f8  cdplo    p12, #0xc, c12, c12, c13, #6 
+002c80fc  sbcmi    r0, r8, #0 
+002c8100  umulleq  fp, r4, r0, sb 
+
+_Z22Player_CaluAttackSpeedP10GamePlayerR17rawSkillLevelInfo vaddr=0x2c7e98 size=220
+002c7e98  movw     r3, #0xbdc 
+002c7e9c  ldrh     r3, [r0, r3] 
+002c7ea0  push     {r4, r5, fp, lr} 
+002c7ea4  tst      r3, #0x40 
+002c7ea8  add      fp, sp, #0xc 
+002c7eac  mov      r4, r0 
+002c7eb0  mov      r5, r1 
+002c7eb4  bne      #0x2c7f2c 
+002c7eb8  tst      r3, #0x10 
+002c7ebc  bne      #0x2c7ecc 
+002c7ec0  vmov.f32 s15, #1.000000e+00 
+002c7ec4  vmov     r0, s15 
+002c7ec8  pop      {r4, r5, fp, pc} 
+002c7ecc  ldr      r3, [r0, #0xbe4] 
+002c7ed0  tst      r3, #0x20 
+002c7ed4  beq      #0x2c7ec0 
+002c7ed8  mov      r3, #0xbe0 
+002c7edc  vldr     s14, [pc, #0x88] 
+002c7ee0  ldrh     r3, [r4, r3] 
+002c7ee4  vmov     s13, r3 
+002c7ee8  vcvt.f32.u32 s12, s13 
+002c7eec  vldr     s13, [pc, #0x7c] 
+002c7ef0  add      r4, r4, #0xb80 
+002c7ef4  vldr     s15, [r4, #0xc] 
+002c7ef8  add      r4, r4, #0xc 
+002c7efc  vdiv.f32 s13, s12, s13 
+002c7f00  vmul.f32 s15, s13, s15 
+002c7f04  vcmpe.f32 s15, s14 
+002c7f08  vmrs     apsr_nzcv, fpscr 
+002c7f0c  vmovmi.f32 s15, s14 
+002c7f10  bmi      #0x2c7ec4 
+002c7f14  vmov.f32 s14, #2.500000e+00 
+002c7f18  vcmpe.f32 s15, s14 
+002c7f1c  vmrs     apsr_nzcv, fpscr 
+002c7f20  vmovpl.f32 s15, s14 
+002c7f24  vmov     r0, s15 
+002c7f28  pop      {r4, r5, fp, pc} 
+002c7f2c  ldr      r3, [r1] 
+002c7f30  mov      r0, r1 
+002c7f34  ldr      r3, [r3] 
+002c7f38  blx      r3 
+002c7f3c  movw     r3, #0xbde 
+002c7f40  ldrh     r3, [r4, r3] 
+002c7f44  cmp      r0, r3 
+002c7f48  beq      #0x2c7ed8 
+002c7f4c  ldr      r3, [r5] 
+002c7f50  mov      r0, r5 
+002c7f54  ldr      r3, [r3] 
+002c7f58  blx      r3 
+002c7f5c  movw     r3, #0xb23 
+002c7f60  cmp      r0, r3 
+002c7f64  bne      #0x2c7ec0 
+002c7f68  b        #0x2c7ed8 
+002c7f6c  cdplo    p12, #0xc, c12, c12, c13, #6 
+002c7f70  sbcmi    r0, r8, #0 
