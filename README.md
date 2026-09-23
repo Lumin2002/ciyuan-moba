@@ -238,6 +238,8 @@ python apk_analysis/write_report.py
 
 另外确认了一个**机制性事实**：2017 的 `assets/data/script/tables/serverlist.lua` 只是 CSV 读取器，**包内不含任何服务器 IP**，服务器表由网关在运行期下发（客户端按 `config.lua` 的 `g_nClientServerIndex = 3` 筛选）。所以"从客户端恢复出目标服务器列表"在方法上不可行，而不是我们没找到。
 
+该源码作者的其余仓库也已全部核查（[作者仓库与框架脉络](apk_analysis/nick-yangzj仓库清单分析.md)）：**没有任何 EMA 服务端代码**，其中 4 个框架仓库均为未改动的 fork（含一处对本文档初版"框架作者"表述的更正）。核查过程另有一个收获——从恢复出的 protobuf schema 里读出了**目标包自己的服务端拓扑**：网络消息遵循 `S<源>2<目标><Req|Ack><动作>` 命名，出现 `c`(客户端) / `g`(游戏服) / `a`(账号发货服) 三种角色，登录必须由 `g` 中转（`c→g` `Sc2gReqClientLogin`、`g→a` `Sg2aReqClientLogin`、`a→g` `Sa2gAckClientLogin`、`g→c` `Sg2cAckClientLogin`+`Sg2cSecretKey`）。
+
 ---
 
 ## 已知限制

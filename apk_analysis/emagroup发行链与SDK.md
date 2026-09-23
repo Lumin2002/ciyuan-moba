@@ -36,7 +36,9 @@
 | Lua | ToLua 明文 Lua 在 `Assets/_Scripts/FrameWork/ToLua/Lua/`（cjson、protobuf、socket、math、system） |
 | 玩法 | 三消 PvP：`Fight/Card/{CrossBomb,SimpleChip,StoneChip,UltraColorBomb}.cs`、`Slot*`、`Block/*`、`Boss`、`Dragon`，外围 `Arena`/`Matching`/`RankChange`/`WinLose` |
 
-**作者**：`nick-yangzj` 是知名开源游戏服务器框架 **[Scut](https://github.com/nick-yangzj/Scut)** 与 **[ET](https://github.com/nick-yangzj/ET)** 的作者。`Scut` 支持 C#/Python/Lua 脚本与 Unity3d、Cocos2dx、FlashAir 客户端——这解释了他为什么会写一个「Unity 客户端 + C#/Lua 双端」的三消项目。
+> **更正**：本文件初版曾写「`nick-yangzj` 是 Scut 与 ET 的作者」，**这是错的**。GitHub API 显示 `nick-yangzj/Scut` 与 `nick-yangzj/ET` 均为 `fork=true`，分别 fork 自 [`ScutGame/Scut`](https://github.com/ScutGame/Scut)（1,340 star）与 [`egametang/ET`](https://github.com/egametang/ET)（9,916 star），且两个 fork 的 `pushed_at` 与父仓库当时的 HEAD 完全一致——**他从未提交自有改动，只是留了参考镜像**。详见 [作者仓库与框架脉络](nick-yangzj仓库清单分析.md)。
+
+顺带说明：他的仓库清单里**没有任何 EMA 游戏服务端代码**，MyMatch1 是本账号唯一与 EMA 相关的产物。
 
 > 因此 MyMatch1 是**个人练手项目**（`com.nickyangzj.sanxiao`、companyName 为个人名号 `Mius`、README 一行），而不是某个商业产品。但它被作者**按 EMA 渠道的实际形态**配置过——见 §2 的 `#if NEWEMA` 分支。
 
